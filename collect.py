@@ -14,6 +14,7 @@ import json
 import os
 import re
 import sys
+import time
 from datetime import datetime, timezone
 
 import requests
@@ -26,6 +27,7 @@ except Exception:
 
 SCHEDULE_URL = "http://www.38.co.kr/html/fund/index.htm?o=k"
 LISTING_URL = "http://www.38.co.kr/html/fund/index.htm?o=nw"
+DETAIL_URL = "http://www.38.co.kr/html/fund/?o=v&no={no}"
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; IPODiaryBot/1.0)"}
 OUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 
@@ -77,6 +79,13 @@ def parse_schedule(html):
             continue
         underwriters = [u.strip() for u in re.split(r"[,/]", cells[5].get_text())
                         if u.strip()]
+        # 상세 페이지 번호 (종목명 링크의 no= 파라미터)
+        detail_no = None
+        link = cells[0].find("a", href=True)
+        if link:
+            m = re.search(r"no=(\d+)", link["href"])
+            if m:
+                detail_no = m.group(1)
         records.append({
             "name": name,
             "subscription_period": period,
@@ -84,7 +93,56 @@ def parse_schedule(html):
             "band": _clean(cells[3].get_text()),
             "competition_rate": _clean(cells[4].get_text()),
             "underwriters": underwriters,
+            "detail_no": detail_no,
         })
+    return records
+
+
+def parse_detail(html):
+    """종목 상세 페이지에서 증거금율·납입/환불일 등 추출."""
+    text = BeautifulSoup(html, "html.parser").get_text(" ")
+    text = re.sub(r"\s+", " ", text)
+
+    def find(pat, group=1):
+        m = re.search(pat, text)
+        return m.group(group) if m else None
+
+    out = {}
+    market = find(r"시장구분\s*(코스닥|코스피|유가증권|코넥스)")
+    if market == "유가증권":
+        market = "코스피"
+    out["market"] = market
+    out["payment_date"] = find(r"납입일\s*(\d{4}\.\d{2}\.\d{2})")
+    out["refund_date"] = find(r"환불일\s*(\d{4}\.\d{2}\.\d{2})")
+    out["listing_date"] = find(r"상장일\s*(\d{4}\.\d{2}\.\d{2})")
+    out["par_value"] = _num(find(r"액면가\s*([\d,]+)\s*원"))
+    out["total_shares"] = _num(find(r"총공모주식수\s*([\d,]+)\s*주"))
+    out["mandatory_holding"] = find(r"의무보유확약\s*([\d.]+%)")
+    out["max_subscription"] = find(r"청약\s*최고한도\s*:?\s*([\d,~]+)\s*주")
+
+    # 일반청약자 증거금율: '청약 최고한도' 직전에 오는 비율 (기관은 별도)
+    rate = find(r"청약증거금율\s*:\s*([\d.]+)%\s*청약\s*최고한도")
+    if rate is None:
+        # 폴백: 마지막 증거금율 항목
+        all_rates = re.findall(r"청약증거금율\s*:\s*([\d.]+)%", text)
+        rate = all_rates[-1] if all_rates else None
+    out["deposit_rate"] = (float(rate) / 100) if rate else None
+
+    return {k: v for k, v in out.items() if v is not None}
+
+
+def enrich_with_details(records):
+    """각 종목의 상세 페이지를 조회해 필드 보강. 실패해도 목록 데이터는 유지."""
+    for rec in records:
+        no = rec.get("detail_no")
+        if not no:
+            continue
+        try:
+            detail = parse_detail(_fetch(DETAIL_URL.format(no=no)))
+            rec.update(detail)
+        except Exception as e:
+            print(f"[경고] 상세 실패 {rec['name']}: {type(e).__name__}")
+        time.sleep(0.4)  # 예의상 간격
     return records
 
 
@@ -132,6 +190,9 @@ def main():
 
     schedule = parse_schedule(_fetch(SCHEDULE_URL))
     print(f"[수집] 청약일정 {len(schedule)}종목")
+    schedule = enrich_with_details(schedule)
+    enriched = sum(1 for r in schedule if "deposit_rate" in r or "refund_date" in r)
+    print(f"[보강] 상세 정보 {enriched}/{len(schedule)}종목")
     listings = parse_listings(_fetch(LISTING_URL))
     print(f"[수집] 신규상장 {len(listings)}종목")
 
