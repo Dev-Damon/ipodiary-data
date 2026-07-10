@@ -1,0 +1,314 @@
+[
+ {
+  "name": "스카이랩스",
+  "subscription_period": "2026.08.13~08.14",
+  "confirmed_price": null,
+  "band": "13,000~16,000",
+  "competition_rate": null,
+  "underwriters": [
+   "한국투자증권"
+  ]
+ },
+ {
+  "name": "기도산업",
+  "subscription_period": "2026.08.11~08.12",
+  "confirmed_price": null,
+  "band": "24,800~28,400",
+  "competition_rate": null,
+  "underwriters": [
+   "미래에셋증권",
+   "삼성증권"
+  ]
+ },
+ {
+  "name": "해치텍",
+  "subscription_period": "2026.08.06~08.07",
+  "confirmed_price": null,
+  "band": "23,000~28,000",
+  "competition_rate": null,
+  "underwriters": [
+   "DB증권"
+  ]
+ },
+ {
+  "name": "빅웨이브로보틱스",
+  "subscription_period": "2026.08.05~08.06",
+  "confirmed_price": null,
+  "band": "20,000~24,000",
+  "competition_rate": null,
+  "underwriters": [
+   "유진투자증권",
+   "미래에셋증권"
+  ]
+ },
+ {
+  "name": "니어스랩",
+  "subscription_period": "2026.08.05~08.06",
+  "confirmed_price": null,
+  "band": "30,000~41,200",
+  "competition_rate": null,
+  "underwriters": [
+   "삼성증권"
+  ]
+ },
+ {
+  "name": "케이앤에스아이앤씨",
+  "subscription_period": "2026.08.04~08.05",
+  "confirmed_price": null,
+  "band": "9,000~9,000",
+  "competition_rate": null,
+  "underwriters": [
+   "IBK투자증권"
+  ]
+ },
+ {
+  "name": "딜리셔스",
+  "subscription_period": "2026.08.03~08.04",
+  "confirmed_price": null,
+  "band": "5,000~7,000",
+  "competition_rate": null,
+  "underwriters": [
+   "한국투자증권"
+  ]
+ },
+ {
+  "name": "인제니아테라퓨틱스",
+  "subscription_period": "2026.07.23~07.24",
+  "confirmed_price": null,
+  "band": "12,000~14,500",
+  "competition_rate": null,
+  "underwriters": [
+   "삼성증권"
+  ]
+ },
+ {
+  "name": "에이치엘지노믹스",
+  "subscription_period": "2026.07.13~07.14",
+  "confirmed_price": 21500,
+  "band": "18,500~21,500",
+  "competition_rate": null,
+  "underwriters": [
+   "KB증권",
+   "IBK투자증권"
+  ]
+ },
+ {
+  "name": "레메디",
+  "subscription_period": "2026.07.01~07.02",
+  "confirmed_price": 20700,
+  "band": "17,800~20,700",
+  "competition_rate": "1706.71:1",
+  "underwriters": [
+   "KB증권"
+  ]
+ },
+ {
+  "name": "레몬헬스케어",
+  "subscription_period": "2026.06.24~06.25",
+  "confirmed_price": 10000,
+  "band": "7,500~10,000",
+  "competition_rate": "1510.57:1",
+  "underwriters": [
+   "KB증권"
+  ]
+ },
+ {
+  "name": "매드업",
+  "subscription_period": "2026.06.23~06.24",
+  "confirmed_price": 8000,
+  "band": "7,000~8,000",
+  "competition_rate": "3304.76:1",
+  "underwriters": [
+   "미래에셋증권"
+  ]
+ },
+ {
+  "name": "한국스팩16호",
+  "subscription_period": "2026.06.22~06.23",
+  "confirmed_price": 2000,
+  "band": "2,000~2,000",
+  "competition_rate": "1274.77:1",
+  "underwriters": [
+   "한국투자증권"
+  ]
+ },
+ {
+  "name": "스트라드비젼",
+  "subscription_period": "2026.06.18~06.19",
+  "confirmed_price": 12000,
+  "band": "12,000~14,000",
+  "competition_rate": "45.83:1",
+  "underwriters": [
+   "KB증권"
+  ]
+ },
+ {
+  "name": "져스텍",
+  "subscription_period": "2026.06.18~06.19",
+  "confirmed_price": 12500,
+  "band": "10,500~12,500",
+  "competition_rate": "2,783.89:1",
+  "underwriters": [
+   "삼성증권"
+  ]
+ },
+ {
+  "name": "메리츠스팩2호",
+  "subscription_period": "2026.06.09~06.10",
+  "confirmed_price": 2000,
+  "band": "2,000~2,000",
+  "competition_rate": "1388.66:1",
+  "underwriters": [
+   "메리츠증권"
+  ]
+ },
+ {
+  "name": "피스피스스튜디오",
+  "subscription_period": "2026.05.26~05.27",
+  "confirmed_price": 21500,
+  "band": "19,000~21,500",
+  "competition_rate": "1194.94:1",
+  "underwriters": [
+   "NH투자증권",
+   "미래에셋증권"
+  ]
+ },
+ {
+  "name": "대신밸런스스팩20호",
+  "subscription_period": "2026.05.22~05.26",
+  "confirmed_price": 2000,
+  "band": "2,000~2,000",
+  "competition_rate": "1468.88:1",
+  "underwriters": [
+   "대신증권"
+  ]
+ },
+ {
+  "name": "마키나락스",
+  "subscription_period": "2026.05.11~05.12",
+  "confirmed_price": 15000,
+  "band": "12,500~15,000",
+  "competition_rate": "2807.8:1",
+  "underwriters": [
+   "미래에셋증권",
+   "현대차증권"
+  ]
+ },
+ {
+  "name": "폴레드",
+  "subscription_period": "2026.05.04~05.06",
+  "confirmed_price": 5000,
+  "band": "4,100~5,000",
+  "competition_rate": "3169.86:1",
+  "underwriters": [
+   "NH투자증권"
+  ]
+ },
+ {
+  "name": "코스모로보틱스(구.엑소아틀레트아시아)",
+  "subscription_period": "2026.04.27~04.28",
+  "confirmed_price": 6000,
+  "band": "5,300~6,000",
+  "competition_rate": "2013:1",
+  "underwriters": [
+   "유진투자증권",
+   "NH투자증권",
+   "유안타증권"
+  ]
+ },
+ {
+  "name": "채비(구.대영채비)",
+  "subscription_period": "2026.04.20~04.21",
+  "confirmed_price": 12300,
+  "band": "12,300~15,300",
+  "competition_rate": "302:1",
+  "underwriters": [
+   "KB증권",
+   "삼성증권",
+   "대신증권",
+   "하나증권"
+  ]
+ },
+ {
+  "name": "신한스팩18호",
+  "subscription_period": "2026.04.20~04.21",
+  "confirmed_price": 2000,
+  "band": "2,000~2,000",
+  "competition_rate": "1601.36:1",
+  "underwriters": [
+   "신한투자증권"
+  ]
+ },
+ {
+  "name": "키움히어로스팩2호",
+  "subscription_period": "2026.04.14~04.15",
+  "confirmed_price": 2000,
+  "band": "2,000~2,000",
+  "competition_rate": "1727.59:1",
+  "underwriters": [
+   "키움증권"
+  ]
+ },
+ {
+  "name": "인벤테라",
+  "subscription_period": "2026.03.23~03.24",
+  "confirmed_price": 16600,
+  "band": "12,100~16,600",
+  "competition_rate": "1913:1",
+  "underwriters": [
+   "NH투자증권",
+   "유진투자증권"
+  ]
+ },
+ {
+  "name": "교보스팩20호",
+  "subscription_period": "2026.03.23~03.24",
+  "confirmed_price": 2000,
+  "band": "2,000~2,000",
+  "competition_rate": "747:1",
+  "underwriters": [
+   "교보증권"
+  ]
+ },
+ {
+  "name": "리센스메디컬",
+  "subscription_period": "2026.03.19~03.20",
+  "confirmed_price": 11000,
+  "band": "9,000~11,000",
+  "competition_rate": "2097.68:1",
+  "underwriters": [
+   "한국투자증권",
+   "KB증권"
+  ]
+ },
+ {
+  "name": "신한스팩17호",
+  "subscription_period": "2026.03.19~03.20",
+  "confirmed_price": 2000,
+  "band": "2,000~2,000",
+  "competition_rate": "1403.74:1",
+  "underwriters": [
+   "신한투자증권"
+  ]
+ },
+ {
+  "name": "NH스팩33호",
+  "subscription_period": "2026.03.17~03.18",
+  "confirmed_price": 2000,
+  "band": "2,000~2,000",
+  "competition_rate": "569.27:1",
+  "underwriters": [
+   "NH투자증권"
+  ]
+ },
+ {
+  "name": "메쥬",
+  "subscription_period": "2026.03.16~03.17",
+  "confirmed_price": 21600,
+  "band": "16,700~21,600",
+  "competition_rate": "2428.25:1",
+  "underwriters": [
+   "신한투자증권"
+  ]
+ }
+]

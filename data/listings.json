@@ -1,0 +1,182 @@
+[
+ {
+  "name": "에이치엘지노믹스",
+  "listing_date": "2026.07.24",
+  "current_price": null,
+  "offer_price": 21500,
+  "opening_price": null,
+  "opening_vs_offer": "%",
+  "first_day_close": null
+ },
+ {
+  "name": "레메디",
+  "listing_date": "2026.07.13",
+  "current_price": 36950,
+  "offer_price": 20700,
+  "opening_price": null,
+  "opening_vs_offer": "%",
+  "first_day_close": null
+ },
+ {
+  "name": "레몬헬스케어",
+  "listing_date": "2026.07.06",
+  "current_price": 9800,
+  "offer_price": 10000,
+  "opening_price": 16560,
+  "opening_vs_offer": "65.6%",
+  "first_day_close": 9850
+ },
+ {
+  "name": "매드업",
+  "listing_date": "2026.07.01",
+  "current_price": 8020,
+  "offer_price": 8000,
+  "opening_price": 22250,
+  "opening_vs_offer": "178.13%",
+  "first_day_close": 10080
+ },
+ {
+  "name": "한국스팩16호",
+  "listing_date": "2026.06.30",
+  "current_price": 1955,
+  "offer_price": 2000,
+  "opening_price": 4090,
+  "opening_vs_offer": "104.5%",
+  "first_day_close": 1941
+ },
+ {
+  "name": "스트라드비젼",
+  "listing_date": "2026.06.30",
+  "current_price": 4485,
+  "offer_price": 12000,
+  "opening_price": 11020,
+  "opening_vs_offer": "-8.17%",
+  "first_day_close": 7200
+ },
+ {
+  "name": "져스텍",
+  "listing_date": "2026.06.29",
+  "current_price": 12190,
+  "offer_price": 12500,
+  "opening_price": 35350,
+  "opening_vs_offer": "182.8%",
+  "first_day_close": 17530
+ },
+ {
+  "name": "메리츠스팩2호",
+  "listing_date": "2026.06.19",
+  "current_price": 1951,
+  "offer_price": 2000,
+  "opening_price": 3905,
+  "opening_vs_offer": "95.25%",
+  "first_day_close": 1970
+ },
+ {
+  "name": "피스피스스튜디오",
+  "listing_date": "2026.06.08",
+  "current_price": 4850,
+  "offer_price": 21500,
+  "opening_price": 32000,
+  "opening_vs_offer": "48.84%",
+  "first_day_close": 13730
+ },
+ {
+  "name": "대신밸런스스팩20호",
+  "listing_date": "2026.06.05",
+  "current_price": 1980,
+  "offer_price": 2000,
+  "opening_price": 6200,
+  "opening_vs_offer": "210%",
+  "first_day_close": 1984
+ },
+ {
+  "name": "마키나락스",
+  "listing_date": "2026.05.20",
+  "current_price": 29600,
+  "offer_price": 15000,
+  "opening_price": 60000,
+  "opening_vs_offer": "300%",
+  "first_day_close": 60000
+ },
+ {
+  "name": "폴레드",
+  "listing_date": "2026.05.14",
+  "current_price": 3490,
+  "offer_price": 5000,
+  "opening_price": 20000,
+  "opening_vs_offer": "300%",
+  "first_day_close": 20000
+ },
+ {
+  "name": "코스모로보틱스(구.엑소아틀레트아시아)",
+  "listing_date": "2026.05.11",
+  "current_price": 12830,
+  "offer_price": 6000,
+  "opening_price": 23500,
+  "opening_vs_offer": "291.67%",
+  "first_day_close": 24000
+ },
+ {
+  "name": "신한스팩18호",
+  "listing_date": "2026.04.30",
+  "current_price": 1991,
+  "offer_price": 2000,
+  "opening_price": 6070,
+  "opening_vs_offer": "203.5%",
+  "first_day_close": 2355
+ },
+ {
+  "name": "채비(구.대영채비)",
+  "listing_date": "2026.04.29",
+  "current_price": 5900,
+  "offer_price": 12300,
+  "opening_price": 15250,
+  "opening_vs_offer": "23.98%",
+  "first_day_close": 22550
+ },
+ {
+  "name": "키움히어로스팩2호",
+  "listing_date": "2026.04.23",
+  "current_price": 1980,
+  "offer_price": 2000,
+  "opening_price": 4790,
+  "opening_vs_offer": "139.5%",
+  "first_day_close": 2735
+ },
+ {
+  "name": "인벤테라",
+  "listing_date": "2026.04.02",
+  "current_price": 8340,
+  "offer_price": 16600,
+  "opening_price": 39150,
+  "opening_vs_offer": "135.84%",
+  "first_day_close": 35250
+ },
+ {
+  "name": "교보스팩20호",
+  "listing_date": "2026.04.02",
+  "current_price": 1989,
+  "offer_price": 2000,
+  "opening_price": 4900,
+  "opening_vs_offer": "145%",
+  "first_day_close": 2020
+ },
+ {
+  "name": "신한스팩17호",
+  "listing_date": "2026.04.01",
+  "current_price": 1991,
+  "offer_price": 2000,
+  "opening_price": 5760,
+  "opening_vs_offer": "188%",
+  "first_day_close": 2045
+ },
+ {
+  "name": "리센스메디컬",
+  "listing_date": "2026.03.31",
+  "current_price": 14220,
+  "offer_price": 11000,
+  "opening_price": 37600,
+  "opening_vs_offer": "241.82%",
+  "first_day_close": 18450
+ }
+]
