@@ -169,6 +169,7 @@
   "total_shares": 2565000,
   "mandatory_holding": "1.91%",
   "max_subscription": "19,000~22,500",
+  "institutional_rate": 714.52,
   "deposit_rate": 0.5
  },
  {
@@ -189,6 +190,7 @@
   "total_shares": 1200000,
   "mandatory_holding": "17.93%",
   "max_subscription": "10,000~12,000",
+  "institutional_rate": 1146.41,
   "deposit_rate": 0.5
  },
  {
@@ -209,6 +211,7 @@
   "total_shares": 2000000,
   "mandatory_holding": "6.92%",
   "max_subscription": "16,000~20,000",
+  "institutional_rate": 1238.0,
   "deposit_rate": 0.5
  },
  {
@@ -229,6 +232,7 @@
   "total_shares": 2000000,
   "mandatory_holding": "27.39%",
   "max_subscription": "25,000~30,000",
+  "institutional_rate": 1396.29,
   "deposit_rate": 0.5
  },
  {
@@ -249,6 +253,7 @@
   "total_shares": 5500000,
   "mandatory_holding": "0.00%",
   "max_subscription": "22,500~27,500",
+  "institutional_rate": 1364.09,
   "deposit_rate": 1.0
  },
  {
@@ -269,6 +274,7 @@
   "total_shares": 7000000,
   "mandatory_holding": "2.77%",
   "max_subscription": "55,000~70,000",
+  "institutional_rate": 381.3,
   "deposit_rate": 0.5
  },
  {
@@ -289,6 +295,7 @@
   "total_shares": 1600000,
   "mandatory_holding": "47.20%",
   "max_subscription": "20,000~24,000",
+  "institutional_rate": 1294.99,
   "deposit_rate": 0.5
  },
  {
@@ -309,6 +316,7 @@
   "total_shares": 7000000,
   "mandatory_holding": "0.00%",
   "max_subscription": "175,000~210,000",
+  "institutional_rate": 1087.58,
   "deposit_rate": 1.0
  },
  {
@@ -329,6 +337,7 @@
   "par_value": 100,
   "total_shares": 2272637,
   "mandatory_holding": "5.68%",
+  "institutional_rate": 847.76,
   "deposit_rate": 0.5
  },
  {
@@ -349,6 +358,7 @@
   "total_shares": 6500000,
   "mandatory_holding": "0.00%",
   "max_subscription": "162,500~195,000",
+  "institutional_rate": 1327.13,
   "deposit_rate": 1.0
  },
  {
@@ -369,6 +379,7 @@
   "par_value": 500,
   "total_shares": 2635000,
   "mandatory_holding": "78.17%",
+  "institutional_rate": 1196.08,
   "deposit_rate": 0.5
  },
  {
@@ -389,6 +400,7 @@
   "total_shares": 2600000,
   "mandatory_holding": "67.24%",
   "max_subscription": "21,600~26,000",
+  "institutional_rate": 1486.66,
   "deposit_rate": 0.5
  },
  {
@@ -410,6 +422,7 @@
   "par_value": 500,
   "total_shares": 4170000,
   "mandatory_holding": "73.03%",
+  "institutional_rate": 1140.11,
   "deposit_rate": 0.5
  },
  {
@@ -432,6 +445,7 @@
   "par_value": 500,
   "total_shares": 9000000,
   "mandatory_holding": "6.49%",
+  "institutional_rate": 55.23,
   "deposit_rate": 0.5
  },
  {
@@ -452,6 +466,7 @@
   "total_shares": 5000000,
   "mandatory_holding": "0.00%",
   "max_subscription": "40,000~50,000",
+  "institutional_rate": 1388.6,
   "deposit_rate": 1.0
  },
  {
@@ -472,6 +487,7 @@
   "total_shares": 6000000,
   "mandatory_holding": "0.00%",
   "max_subscription": "100,000~120,000",
+  "institutional_rate": 1271.12,
   "deposit_rate": 1.0
  },
  {
@@ -492,6 +508,7 @@
   "par_value": 500,
   "total_shares": 1180000,
   "mandatory_holding": "43.06%",
+  "institutional_rate": 1328.82,
   "deposit_rate": 0.5
  },
  {
@@ -512,6 +529,7 @@
   "total_shares": 5400000,
   "mandatory_holding": "0.00%",
   "max_subscription": "66,000~80,000",
+  "institutional_rate": 1196.99,
   "deposit_rate": 1.0
  },
  {
@@ -532,6 +550,7 @@
   "par_value": 500,
   "total_shares": 1400000,
   "mandatory_holding": "63.92%",
+  "institutional_rate": 1352.63,
   "deposit_rate": 0.5
  },
  {
@@ -552,6 +571,7 @@
   "total_shares": 5000000,
   "mandatory_holding": "0.00%",
   "max_subscription": "40,000~50,000",
+  "institutional_rate": 1343.8,
   "deposit_rate": 1.0
  },
  {
@@ -572,6 +592,7 @@
   "total_shares": 6350000,
   "mandatory_holding": "0.00%",
   "max_subscription": "158,750~190,500",
+  "institutional_rate": 1228.71,
   "deposit_rate": 1.0
  },
  {
@@ -592,6 +613,7 @@
   "total_shares": 1345000,
   "mandatory_holding": "75.40%",
   "max_subscription": "11,000~13,000",
+  "institutional_rate": 1108.93,
   "deposit_rate": 0.5
  }
 ]

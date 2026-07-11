@@ -119,6 +119,13 @@ def parse_detail(html):
     out["total_shares"] = _num(find(r"총공모주식수\s*([\d,]+)\s*주"))
     out["mandatory_holding"] = find(r"의무보유확약\s*([\d.]+%)")
     out["max_subscription"] = find(r"청약\s*최고한도\s*:?\s*([\d,~]+)\s*주")
+    # 수요예측 기관경쟁률 (예: "기관경쟁률 714.52") — 확정공모가 전에는 없음
+    rate_s = find(r"기관경쟁률\s*:?\s*([\d,]+(?:\.\d+)?)")
+    if rate_s:
+        try:
+            out["institutional_rate"] = float(rate_s.replace(",", ""))
+        except ValueError:
+            pass
 
     # 일반청약자 증거금율: '청약 최고한도' 직전에 오는 비율 (기관은 별도)
     rate = find(r"청약증거금율\s*:\s*([\d.]+)%\s*청약\s*최고한도")
