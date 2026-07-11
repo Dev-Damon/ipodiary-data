@@ -16,7 +16,13 @@
   "total_shares": 2000000,
   "mandatory_holding": "0.00%",
   "max_subscription": "8,000~10,000",
-  "deposit_rate": 0.5
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "한국투자증권",
+    "fee": 2000
+   }
+  ]
  },
  {
   "name": "기도산업",
@@ -35,7 +41,25 @@
   "par_value": 500,
   "total_shares": 17000000,
   "mandatory_holding": "0.00%",
-  "deposit_rate": 0.5
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "미래에셋증권",
+    "allocation": 364500,
+    "limit": 22500,
+    "role": null,
+    "allocation_pct": 90.0,
+    "fee": 2000
+   },
+   {
+    "broker": "삼성증권",
+    "allocation": 40500,
+    "limit": 2500,
+    "role": "인수",
+    "allocation_pct": 10.0,
+    "fee": 2000
+   }
+  ]
  },
  {
   "name": "해치텍",
@@ -54,7 +78,13 @@
   "total_shares": 1000000,
   "mandatory_holding": "0.00%",
   "max_subscription": "25,000~30,000",
-  "deposit_rate": 0.5
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "DB증권",
+    "fee": 1500
+   }
+  ]
  },
  {
   "name": "빅웨이브로보틱스",
@@ -73,7 +103,25 @@
   "par_value": 100,
   "total_shares": 2000000,
   "mandatory_holding": "0.00%",
-  "deposit_rate": 0.5
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "유진투자증권",
+    "allocation": 290700,
+    "limit": 30000,
+    "role": null,
+    "allocation_pct": 51.0,
+    "fee": 2000
+   },
+   {
+    "broker": "미래에셋증권",
+    "allocation": 279300,
+    "limit": 14700,
+    "role": null,
+    "allocation_pct": 49.0,
+    "fee": 2000
+   }
+  ]
  },
  {
   "name": "니어스랩",
@@ -92,7 +140,13 @@
   "total_shares": 910000,
   "mandatory_holding": "0.00%",
   "max_subscription": "11,000~13,000",
-  "deposit_rate": 0.5
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "삼성증권",
+    "fee": 2000
+   }
+  ]
  },
  {
   "name": "케이앤에스아이앤씨",
@@ -111,7 +165,13 @@
   "total_shares": 2400000,
   "mandatory_holding": "0.00%",
   "max_subscription": "30,000~36,000",
-  "deposit_rate": 0.5
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "IBK투자증권",
+    "fee": 1500
+   }
+  ]
  },
  {
   "name": "딜리셔스",
@@ -130,7 +190,13 @@
   "total_shares": 2200000,
   "mandatory_holding": "0.00%",
   "max_subscription": "9,000~11,000",
-  "deposit_rate": 0.5
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "한국투자증권",
+    "fee": 2000
+   }
+  ]
  },
  {
   "name": "인제니아테라퓨틱스",
@@ -148,7 +214,13 @@
   "total_shares": 5000000,
   "mandatory_holding": "0.00%",
   "max_subscription": "60,000~75,000",
-  "deposit_rate": 0.5
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "삼성증권",
+    "fee": 2000
+   }
+  ]
  },
  {
   "name": "에이치엘지노믹스",
@@ -170,7 +242,25 @@
   "mandatory_holding": "1.91%",
   "max_subscription": "19,000~22,500",
   "institutional_rate": 714.52,
-  "deposit_rate": 0.5
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "KB증권",
+    "allocation": 461700,
+    "limit": null,
+    "role": "대표",
+    "allocation_pct": 90.0,
+    "fee": 1500
+   },
+   {
+    "broker": "IBK투자증권",
+    "allocation": 51300,
+    "limit": null,
+    "role": "공동",
+    "allocation_pct": 10.0,
+    "fee": 1500
+   }
+  ]
  },
  {
   "name": "레메디",
@@ -191,7 +281,13 @@
   "mandatory_holding": "17.93%",
   "max_subscription": "10,000~12,000",
   "institutional_rate": 1146.41,
-  "deposit_rate": 0.5
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "KB증권",
+    "fee": 1500
+   }
+  ]
  },
  {
   "name": "레몬헬스케어",
@@ -212,7 +308,13 @@
   "mandatory_holding": "6.92%",
   "max_subscription": "16,000~20,000",
   "institutional_rate": 1238.0,
-  "deposit_rate": 0.5
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "KB증권",
+    "fee": 1500
+   }
+  ]
  },
  {
   "name": "매드업",
@@ -233,7 +335,13 @@
   "mandatory_holding": "27.39%",
   "max_subscription": "25,000~30,000",
   "institutional_rate": 1396.29,
-  "deposit_rate": 0.5
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "미래에셋증권",
+    "fee": 2000
+   }
+  ]
  },
  {
   "name": "한국스팩16호",
@@ -254,7 +362,13 @@
   "mandatory_holding": "0.00%",
   "max_subscription": "22,500~27,500",
   "institutional_rate": 1364.09,
-  "deposit_rate": 1.0
+  "deposit_rate": 1.0,
+  "broker_conditions": [
+   {
+    "broker": "한국투자증권",
+    "fee": 2000
+   }
+  ]
  },
  {
   "name": "스트라드비젼",
@@ -275,7 +389,13 @@
   "mandatory_holding": "2.77%",
   "max_subscription": "55,000~70,000",
   "institutional_rate": 381.3,
-  "deposit_rate": 0.5
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "KB증권",
+    "fee": 1500
+   }
+  ]
  },
  {
   "name": "져스텍",
@@ -296,7 +416,13 @@
   "mandatory_holding": "47.20%",
   "max_subscription": "20,000~24,000",
   "institutional_rate": 1294.99,
-  "deposit_rate": 0.5
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "삼성증권",
+    "fee": 2000
+   }
+  ]
  },
  {
   "name": "메리츠스팩2호",
@@ -317,7 +443,13 @@
   "mandatory_holding": "0.00%",
   "max_subscription": "175,000~210,000",
   "institutional_rate": 1087.58,
-  "deposit_rate": 1.0
+  "deposit_rate": 1.0,
+  "broker_conditions": [
+   {
+    "broker": "메리츠증권",
+    "fee": 2000
+   }
+  ]
  },
  {
   "name": "피스피스스튜디오",
@@ -338,7 +470,25 @@
   "total_shares": 2272637,
   "mandatory_holding": "5.68%",
   "institutional_rate": 847.76,
-  "deposit_rate": 0.5
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "NH투자증권",
+    "allocation": 262500,
+    "limit": 11000,
+    "role": null,
+    "allocation_pct": 50.0,
+    "fee": 2000
+   },
+   {
+    "broker": "미래에셋증권",
+    "allocation": 262500,
+    "limit": 17000,
+    "role": null,
+    "allocation_pct": 50.0,
+    "fee": 2000
+   }
+  ]
  },
  {
   "name": "대신밸런스스팩20호",
@@ -359,7 +509,13 @@
   "mandatory_holding": "0.00%",
   "max_subscription": "162,500~195,000",
   "institutional_rate": 1327.13,
-  "deposit_rate": 1.0
+  "deposit_rate": 1.0,
+  "broker_conditions": [
+   {
+    "broker": "대신증권",
+    "fee": 2000
+   }
+  ]
  },
  {
   "name": "마키나락스",
@@ -380,7 +536,25 @@
   "total_shares": 2635000,
   "mandatory_holding": "78.17%",
   "institutional_rate": 1196.08,
-  "deposit_rate": 0.5
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "미래에셋증권",
+    "allocation": 671920,
+    "limit": 33500,
+    "role": null,
+    "allocation_pct": 85.0,
+    "fee": 2000
+   },
+   {
+    "broker": "현대차증권",
+    "allocation": 118580,
+    "limit": 5500,
+    "role": "인수",
+    "allocation_pct": 15.0,
+    "fee": 2000
+   }
+  ]
  },
  {
   "name": "폴레드",
@@ -401,7 +575,13 @@
   "mandatory_holding": "67.24%",
   "max_subscription": "21,600~26,000",
   "institutional_rate": 1486.66,
-  "deposit_rate": 0.5
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "NH투자증권",
+    "fee": 2000
+   }
+  ]
  },
  {
   "name": "코스모로보틱스(구.엑소아틀레트아시아)",
@@ -423,7 +603,33 @@
   "total_shares": 4170000,
   "mandatory_holding": "73.03%",
   "institutional_rate": 1140.11,
-  "deposit_rate": 0.5
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "유진투자증권",
+    "allocation": 417000,
+    "limit": 52000,
+    "role": null,
+    "allocation_pct": 40.0,
+    "fee": 2000
+   },
+   {
+    "broker": "NH투자증권",
+    "allocation": 417000,
+    "limit": 17000,
+    "role": null,
+    "allocation_pct": 40.0,
+    "fee": 2000
+   },
+   {
+    "broker": "유안타증권",
+    "allocation": 208500,
+    "limit": 10000,
+    "role": "인수",
+    "allocation_pct": 20.0,
+    "fee": 2000
+   }
+  ]
  },
  {
   "name": "채비(구.대영채비)",
@@ -446,7 +652,41 @@
   "total_shares": 9000000,
   "mandatory_holding": "6.49%",
   "institutional_rate": 55.23,
-  "deposit_rate": 0.5
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "KB증권",
+    "allocation": 843750,
+    "limit": 35000,
+    "role": null,
+    "allocation_pct": 37.5,
+    "fee": 1500
+   },
+   {
+    "broker": "삼성증권",
+    "allocation": 843750,
+    "limit": 35000,
+    "role": null,
+    "allocation_pct": 37.5,
+    "fee": 2000
+   },
+   {
+    "broker": "대신증권",
+    "allocation": 281250,
+    "limit": 12000,
+    "role": null,
+    "allocation_pct": 12.5,
+    "fee": 2000
+   },
+   {
+    "broker": "하나증권",
+    "allocation": 281250,
+    "limit": 18000,
+    "role": null,
+    "allocation_pct": 12.5,
+    "fee": 2000
+   }
+  ]
  },
  {
   "name": "신한스팩18호",
@@ -467,7 +707,13 @@
   "mandatory_holding": "0.00%",
   "max_subscription": "40,000~50,000",
   "institutional_rate": 1388.6,
-  "deposit_rate": 1.0
+  "deposit_rate": 1.0,
+  "broker_conditions": [
+   {
+    "broker": "신한투자증권",
+    "fee": 2000
+   }
+  ]
  },
  {
   "name": "키움히어로스팩2호",
@@ -488,7 +734,13 @@
   "mandatory_holding": "0.00%",
   "max_subscription": "100,000~120,000",
   "institutional_rate": 1271.12,
-  "deposit_rate": 1.0
+  "deposit_rate": 1.0,
+  "broker_conditions": [
+   {
+    "broker": "키움증권",
+    "fee": 2000
+   }
+  ]
  },
  {
   "name": "인벤테라",
@@ -509,7 +761,25 @@
   "total_shares": 1180000,
   "mandatory_holding": "43.06%",
   "institutional_rate": 1328.82,
-  "deposit_rate": 0.5
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "NH투자증권",
+    "allocation": 206500,
+    "limit": 8000,
+    "role": "대표",
+    "allocation_pct": 70.0,
+    "fee": 2000
+   },
+   {
+    "broker": "유진투자증권",
+    "allocation": 88500,
+    "limit": 10000,
+    "role": "공동",
+    "allocation_pct": 30.0,
+    "fee": 2000
+   }
+  ]
  },
  {
   "name": "교보스팩20호",
@@ -530,7 +800,13 @@
   "mandatory_holding": "0.00%",
   "max_subscription": "66,000~80,000",
   "institutional_rate": 1196.99,
-  "deposit_rate": 1.0
+  "deposit_rate": 1.0,
+  "broker_conditions": [
+   {
+    "broker": "교보증권",
+    "fee": 2000
+   }
+  ]
  },
  {
   "name": "리센스메디컬",
@@ -551,7 +827,25 @@
   "total_shares": 1400000,
   "mandatory_holding": "63.92%",
   "institutional_rate": 1352.63,
-  "deposit_rate": 0.5
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "한국투자증권",
+    "allocation": 175000,
+    "limit": 3500,
+    "role": null,
+    "allocation_pct": 50.0,
+    "fee": 2000
+   },
+   {
+    "broker": "KB증권",
+    "allocation": 175000,
+    "limit": 7000,
+    "role": null,
+    "allocation_pct": 50.0,
+    "fee": 1500
+   }
+  ]
  },
  {
   "name": "신한스팩17호",
@@ -572,7 +866,13 @@
   "mandatory_holding": "0.00%",
   "max_subscription": "40,000~50,000",
   "institutional_rate": 1343.8,
-  "deposit_rate": 1.0
+  "deposit_rate": 1.0,
+  "broker_conditions": [
+   {
+    "broker": "신한투자증권",
+    "fee": 2000
+   }
+  ]
  },
  {
   "name": "NH스팩33호",
@@ -593,7 +893,13 @@
   "mandatory_holding": "0.00%",
   "max_subscription": "158,750~190,500",
   "institutional_rate": 1228.71,
-  "deposit_rate": 1.0
+  "deposit_rate": 1.0,
+  "broker_conditions": [
+   {
+    "broker": "NH투자증권",
+    "fee": 2000
+   }
+  ]
  },
  {
   "name": "메쥬",
@@ -614,6 +920,12 @@
   "mandatory_holding": "75.40%",
   "max_subscription": "11,000~13,000",
   "institutional_rate": 1108.93,
-  "deposit_rate": 0.5
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "신한투자증권",
+    "fee": 2000
+   }
+  ]
  }
 ]

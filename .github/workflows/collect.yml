@@ -2,7 +2,9 @@ name: collect-ipo-data
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # 6시간마다 (UTC)
+    - cron: '0 */6 * * *' # 6시간마다 (UTC) — 기본
+    # 평일 장중(KST 09~17시) 매시 — 청약 진행일 통합 경쟁률 준실시간 반영용
+    - cron: '0 0-8 * * 1-5'
   workflow_dispatch: {} # 수동 실행
 
 permissions:

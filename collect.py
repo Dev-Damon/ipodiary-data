@@ -98,9 +98,73 @@ def parse_schedule(html):
     return records
 
 
+def parse_underwriter_table(soup):
+    """인수회사 표 파싱: 증권사별 배정 물량·역할(대표/공동)·청약한도.
+
+    예: 인수회사 | 주식수              | 청약한도 | 기타
+        KB증권   | 384,750 ~ 461,700 주 | - 주    | 대표
+    """
+    # 38커뮤는 중첩 레이아웃 테이블 구조 → 두 키워드를 모두 포함하는
+    # 가장 안쪽(텍스트가 가장 짧은) 테이블이 실제 인수회사 표
+    candidates = [
+        t for t in soup.find_all("table")
+        if "인수회사" in t.get_text() and "주식수" in t.get_text()
+    ]
+    if not candidates:
+        return []
+    target = min(candidates, key=lambda t: len(t.get_text()))
+
+    def upper_num(s):
+        """'384,750 ~ 461,700 주' → 461700 (범위면 상단)."""
+        nums = re.findall(r"[\d,]{2,}", s or "")
+        if not nums:
+            return None
+        return int(nums[-1].replace(",", ""))
+
+    conds = []
+    for tr in target.find_all("tr"):
+        cells = [c.get_text(" ", strip=True) for c in tr.find_all("td")]
+        if len(cells) < 2 or "인수회사" in cells[0]:
+            continue
+        broker = cells[0].strip()
+        # 증권사명만: 짧은 텍스트 + '증권' 포함 (본문 텍스트 블록 배제)
+        if not broker or "증권" not in broker or len(broker) > 20:
+            continue
+        shares = upper_num(cells[1]) if len(cells) > 1 else None
+        limit = upper_num(cells[2]) if len(cells) > 2 else None
+        role = None
+        if len(cells) > 3 and cells[3].strip() in ("대표", "공동", "인수", "주간"):
+            role = cells[3].strip()
+        conds.append({
+            "broker": broker,
+            "allocation": shares,
+            "limit": limit,
+            "role": role,
+        })
+
+    # 배정 비중(%) 계산
+    total = sum(c["allocation"] or 0 for c in conds)
+    if total > 0:
+        for c in conds:
+            if c["allocation"]:
+                c["allocation_pct"] = round(c["allocation"] / total * 100, 1)
+    return conds
+
+
+def load_broker_fees():
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                        "broker_fees.json")
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {"default": 2000}
+
+
 def parse_detail(html):
-    """종목 상세 페이지에서 증거금율·납입/환불일 등 추출."""
-    text = BeautifulSoup(html, "html.parser").get_text(" ")
+    """종목 상세 페이지에서 증거금율·납입/환불일·인수회사별 물량 등 추출."""
+    soup = BeautifulSoup(html, "html.parser")
+    text = soup.get_text(" ")
     text = re.sub(r"\s+", " ", text)
 
     def find(pat, group=1):
@@ -135,11 +199,18 @@ def parse_detail(html):
         rate = all_rates[-1] if all_rates else None
     out["deposit_rate"] = (float(rate) / 100) if rate else None
 
+    # 인수회사별 배정 물량 (공동주관 유불리 판단용)
+    conds = parse_underwriter_table(soup)
+    if conds:
+        out["broker_conditions"] = conds
+
     return {k: v for k, v in out.items() if v is not None}
 
 
 def enrich_with_details(records):
     """각 종목의 상세 페이지를 조회해 필드 보강. 실패해도 목록 데이터는 유지."""
+    fees = load_broker_fees()
+    default_fee = fees.get("default", 2000)
     for rec in records:
         no = rec.get("detail_no")
         if not no:
@@ -149,6 +220,14 @@ def enrich_with_details(records):
             rec.update(detail)
         except Exception as e:
             print(f"[경고] 상세 실패 {rec['name']}: {type(e).__name__}")
+        # 인수회사 표가 없으면 주간사 목록으로라도 골격 생성
+        if "broker_conditions" not in rec and rec.get("underwriters"):
+            rec["broker_conditions"] = [
+                {"broker": u} for u in rec["underwriters"]
+            ]
+        # 증권사별 수수료 merge (수동 큐레이션 테이블)
+        for c in rec.get("broker_conditions", []):
+            c["fee"] = fees.get(c["broker"], default_fee)
         time.sleep(0.4)  # 예의상 간격
     return records
 
