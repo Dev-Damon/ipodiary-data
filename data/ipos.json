@@ -1,5 +1,30 @@
 [
  {
+  "name": "브릴스",
+  "subscription_period": "2026.08.25~08.26",
+  "confirmed_price": null,
+  "band": "16,500~19,500",
+  "competition_rate": null,
+  "underwriters": [
+   "IBK투자증권"
+  ],
+  "detail_no": "2307",
+  "market": "코스닥",
+  "payment_date": "2026.08.28",
+  "refund_date": "2026.08.28",
+  "par_value": 500,
+  "total_shares": 1200000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "15,000~18,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "IBK투자증권",
+    "fee": 1500
+   }
+  ]
+ },
+ {
   "name": "스카이랩스",
   "subscription_period": "2026.08.13~08.14",
   "confirmed_price": null,
@@ -897,33 +922,6 @@
   "broker_conditions": [
    {
     "broker": "NH투자증권",
-    "fee": 2000
-   }
-  ]
- },
- {
-  "name": "메쥬",
-  "subscription_period": "2026.03.16~03.17",
-  "confirmed_price": 21600,
-  "band": "16,700~21,600",
-  "competition_rate": "2428.25:1",
-  "underwriters": [
-   "신한투자증권"
-  ],
-  "detail_no": "2274",
-  "market": "코스닥",
-  "payment_date": "2026.03.19",
-  "refund_date": "2026.03.19",
-  "listing_date": "2026.03.26",
-  "par_value": 500,
-  "total_shares": 1345000,
-  "mandatory_holding": "75.40%",
-  "max_subscription": "11,000~13,000",
-  "institutional_rate": 1108.93,
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "신한투자증권",
     "fee": 2000
    }
   ]
