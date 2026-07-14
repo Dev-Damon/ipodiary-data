@@ -252,7 +252,7 @@
   "subscription_period": "2026.07.13~07.14",
   "confirmed_price": 21500,
   "band": "18,500~21,500",
-  "competition_rate": null,
+  "competition_rate": "667.23:1",
   "underwriters": [
    "KB증권",
    "IBK투자증권"
