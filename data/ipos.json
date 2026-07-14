@@ -50,6 +50,31 @@
   ]
  },
  {
+  "name": "니어스랩",
+  "subscription_period": "2026.08.12~08.13",
+  "confirmed_price": null,
+  "band": "30,000~41,200",
+  "competition_rate": null,
+  "underwriters": [
+   "삼성증권"
+  ],
+  "detail_no": "2303",
+  "market": "코스닥",
+  "payment_date": "2026.08.18",
+  "refund_date": "2026.08.18",
+  "par_value": 100,
+  "total_shares": 910000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "11,000~13,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "삼성증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "기도산업",
   "subscription_period": "2026.08.11~08.12",
   "confirmed_price": null,
@@ -64,7 +89,7 @@
   "payment_date": "2026.08.14",
   "refund_date": "2026.08.14",
   "par_value": 500,
-  "total_shares": 17000000,
+  "total_shares": 1700000,
   "mandatory_holding": "0.00%",
   "deposit_rate": 0.5,
   "broker_conditions": [
@@ -149,31 +174,6 @@
   ]
  },
  {
-  "name": "니어스랩",
-  "subscription_period": "2026.08.05~08.06",
-  "confirmed_price": null,
-  "band": "30,000~41,200",
-  "competition_rate": null,
-  "underwriters": [
-   "삼성증권"
-  ],
-  "detail_no": "2303",
-  "market": "코스닥",
-  "payment_date": "2026.08.10",
-  "refund_date": "2026.08.10",
-  "par_value": 100,
-  "total_shares": 910000,
-  "mandatory_holding": "0.00%",
-  "max_subscription": "11,000~13,000",
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "삼성증권",
-    "fee": 2000
-   }
-  ]
- },
- {
   "name": "케이앤에스아이앤씨",
   "subscription_period": "2026.08.04~08.05",
   "confirmed_price": null,
@@ -252,7 +252,7 @@
   "subscription_period": "2026.07.13~07.14",
   "confirmed_price": 21500,
   "band": "18,500~21,500",
-  "competition_rate": "667.23:1",
+  "competition_rate": "666.78:1",
   "underwriters": [
    "KB증권",
    "IBK투자증권"
