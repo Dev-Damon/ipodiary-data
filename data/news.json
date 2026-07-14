@@ -1,0 +1,46 @@
+{
+ "ipo_news": [
+  {
+   "title": "자본잠식 변수 넘은 네오사피엔스, IPO 속",
+   "date": "07/13",
+   "url": "http://www.38.co.kr/html/news/?o=v&m=nostock&no=1988031&files=2026071314351164092"
+  },
+  {
+   "title": "에이치엘지노믹스, 공모가 2만1500원 확정",
+   "date": "07/10",
+   "url": "http://www.38.co.kr/html/news/?o=v&m=nostock&no=1986960&files=2026071014262774314"
+  },
+  {
+   "title": "스카이랩스, 증권신고서 제출…코스닥 상장",
+   "date": "07/07",
+   "url": "http://www.38.co.kr/html/news/?o=v&m=nostock&no=1984973&files=2026070717554913931"
+  }
+ ],
+ "richboost": [
+  {
+   "title": "2026-07-14 경제시황: 호르무즈 봉쇄에 유가 9% 급등, 코스피는 서킷브레이커",
+   "date": "Tue, 14 Jul 2026 00:00:00 GMT",
+   "url": "https://richboost.stonesoft.co.kr/posts/news-2026-07-14/"
+  },
+  {
+   "title": "2026-07-13 경제시황: 뉴욕 3대 지수 동반 상승, 이번 주 CPI·워시 청문회가 분수령",
+   "date": "Mon, 13 Jul 2026 00:00:00 GMT",
+   "url": "https://richboost.stonesoft.co.kr/posts/news-2026-07-13/"
+  },
+  {
+   "title": "2026-07-12 경제시황: 중동 리스크 속 뉴욕 강세, 코스피 7,475 반등",
+   "date": "Sun, 12 Jul 2026 00:00:00 GMT",
+   "url": "https://richboost.stonesoft.co.kr/posts/news-2026-07-12/"
+  },
+  {
+   "title": "2026-07-11 경제시황: SK하이닉스 나스닥 데뷔에 코스피 7,400선 급등",
+   "date": "Sat, 11 Jul 2026 00:00:00 GMT",
+   "url": "https://richboost.stonesoft.co.kr/posts/news-2026-07-11/"
+  },
+  {
+   "title": "2026-07-10 ARK Invest 매매: 스페이스X·코인베이스 집중 매수, AMD·ROKU 줄이기",
+   "date": "Fri, 10 Jul 2026 00:00:00 GMT",
+   "url": "https://richboost.stonesoft.co.kr/posts/ark-2026-07-10/"
+  }
+ ]
+}

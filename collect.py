@@ -264,6 +264,58 @@ def parse_listings(html):
     return records
 
 
+RICHBOOST_RSS = "https://richboost.stonesoft.co.kr/rss.xml"
+
+
+def parse_ipo_news(html):
+    """38커뮤 페이지의 [공모뉴스] 헤드라인 링크 수집 (제목+외부링크)."""
+    soup = BeautifulSoup(html, "html.parser")
+    items, seen = [], set()
+    for a in soup.find_all("a", href=True):
+        href = a["href"]
+        if "/html/news/" not in href or "no=" not in href:
+            continue
+        title = a.get_text(" ", strip=True)
+        if not title or len(title) < 8:
+            continue
+        url = href if href.startswith("http") else f"http://www.38.co.kr{href}"
+        if url in seen:
+            continue
+        seen.add(url)
+        # 주변 텍스트에서 [07/07] 형식 날짜 추출 (있으면)
+        date = None
+        parent_text = a.parent.get_text(" ", strip=True) if a.parent else ""
+        m = re.search(r"\[(\d{2}/\d{2})\]", parent_text)
+        if m:
+            date = m.group(1)
+        items.append({"title": title, "date": date, "url": url})
+        if len(items) >= 6:
+            break
+    return items
+
+
+def parse_richboost():
+    """리치부스트(자체 블로그) RSS → 최신 글 목록."""
+    import xml.etree.ElementTree as ET
+    try:
+        r = requests.get(RICHBOOST_RSS, timeout=20)
+        r.raise_for_status()
+        root = ET.fromstring(r.content)
+        items = []
+        for item in root.iter("item"):
+            title = (item.findtext("title") or "").strip()
+            link = (item.findtext("link") or "").strip()
+            pub = (item.findtext("pubDate") or "").strip()
+            if title and link:
+                items.append({"title": title, "date": pub, "url": link})
+            if len(items) >= 5:
+                break
+        return items
+    except Exception as e:
+        print(f"[경고] 리치부스트 RSS 실패: {type(e).__name__}")
+        return []
+
+
 def save(name, obj):
     path = os.path.join(OUT_DIR, name)
     with open(path, "w", encoding="utf-8") as f:
@@ -274,8 +326,16 @@ def save(name, obj):
 def main():
     os.makedirs(OUT_DIR, exist_ok=True)
 
-    schedule = parse_schedule(_fetch(SCHEDULE_URL))
+    schedule_html = _fetch(SCHEDULE_URL)
+    schedule = parse_schedule(schedule_html)
     print(f"[수집] 청약일정 {len(schedule)}종목")
+
+    # 뉴스: 38 공모뉴스 헤드라인 + 리치부스트 최신 글
+    news = {
+        "ipo_news": parse_ipo_news(schedule_html),
+        "richboost": parse_richboost(),
+    }
+    print(f"[수집] 뉴스 {len(news['ipo_news'])}건 / 리치부스트 {len(news['richboost'])}건")
     schedule = enrich_with_details(schedule)
     enriched = sum(1 for r in schedule if "deposit_rate" in r or "refund_date" in r)
     print(f"[보강] 상세 정보 {enriched}/{len(schedule)}종목")
@@ -289,6 +349,7 @@ def main():
 
     save("ipos.json", schedule)
     save("listings.json", listings)
+    save("news.json", news)
     save("meta.json", {
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "source": "38communication",
