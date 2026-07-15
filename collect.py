@@ -265,33 +265,65 @@ def parse_listings(html):
 
 
 RICHBOOST_RSS = "https://richboost.stonesoft.co.kr/rss.xml"
+GOOGLE_NEWS_RSS = "https://news.google.com/rss/search?q={q}&hl=ko&gl=KR&ceid=KR:ko"
 
 
-def parse_ipo_news(html):
-    """38커뮤 페이지의 [공모뉴스] 헤드라인 링크 수집 (제목+외부링크)."""
-    soup = BeautifulSoup(html, "html.parser")
-    items, seen = [], set()
-    for a in soup.find_all("a", href=True):
-        href = a["href"]
-        if "/html/news/" not in href or "no=" not in href:
-            continue
-        title = a.get_text(" ", strip=True)
-        if not title or len(title) < 8:
-            continue
-        url = href if href.startswith("http") else f"http://www.38.co.kr{href}"
-        if url in seen:
-            continue
-        seen.add(url)
-        # 주변 텍스트에서 [07/07] 형식 날짜 추출 (있으면)
-        date = None
-        parent_text = a.parent.get_text(" ", strip=True) if a.parent else ""
-        m = re.search(r"\[(\d{2}/\d{2})\]", parent_text)
-        if m:
-            date = m.group(1)
-        items.append({"title": title, "date": date, "url": url})
-        if len(items) >= 6:
+def _rss_items(query, limit):
+    """구글 뉴스 RSS 검색 → [{title, date, url}] (링크는 원 언론사 기사)."""
+    import xml.etree.ElementTree as ET
+    from urllib.parse import quote
+    r = requests.get(GOOGLE_NEWS_RSS.format(q=quote(query)),
+                     headers=HEADERS, timeout=20)
+    r.raise_for_status()
+    root = ET.fromstring(r.content)
+    out = []
+    for item in root.iter("item"):
+        title = (item.findtext("title") or "").strip()
+        link = (item.findtext("link") or "").strip()
+        pub = (item.findtext("pubDate") or "").strip()
+        if title and link:
+            out.append({"title": title, "date": pub, "url": link})
+        if len(out) >= limit:
             break
-    return items
+    return out
+
+
+def collect_ipo_news(schedule):
+    """청약 임박(진행중~D-7) 종목명으로 구글 뉴스 검색 → 관련 기사 링크."""
+    today = datetime.now()
+    targets = []
+    for rec in schedule:
+        m = re.match(r"(\d{4})\.(\d{2})\.(\d{2})",
+                     rec.get("subscription_period", ""))
+        if not m:
+            continue
+        start = datetime(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+        dd = (start - today).days
+        if -2 <= dd <= 7:  # 청약 진행중 ~ D-7
+            targets.append(rec["name"])
+
+    items, seen = [], set()
+    for name in targets[:5]:
+        try:
+            for it in _rss_items(f'"{name}" 공모주', 2):
+                if it["url"] in seen:
+                    continue
+                seen.add(it["url"])
+                items.append(it)
+        except Exception as e:
+            print(f"[경고] 뉴스 검색 실패 {name}: {type(e).__name__}")
+        time.sleep(0.3)
+
+    # 임박 종목이 적으면 일반 공모주 뉴스로 보충
+    if len(items) < 3:
+        try:
+            for it in _rss_items("공모주 청약", 4):
+                if it["url"] not in seen:
+                    seen.add(it["url"])
+                    items.append(it)
+        except Exception:
+            pass
+    return items[:8]
 
 
 def parse_richboost():
@@ -330,9 +362,9 @@ def main():
     schedule = parse_schedule(schedule_html)
     print(f"[수집] 청약일정 {len(schedule)}종목")
 
-    # 뉴스: 38 공모뉴스 헤드라인 + 리치부스트 최신 글
+    # 뉴스: 청약 임박 종목 구글 뉴스 검색 + 리치부스트 최신 글
     news = {
-        "ipo_news": parse_ipo_news(schedule_html),
+        "ipo_news": collect_ipo_news(schedule),
         "richboost": parse_richboost(),
     }
     print(f"[수집] 뉴스 {len(news['ipo_news'])}건 / 리치부스트 {len(news['richboost'])}건")
