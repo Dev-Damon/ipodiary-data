@@ -317,7 +317,7 @@ def collect_ipo_news(schedule):
     items, seen = [], set()
     for _, name in targets:
         try:
-            for it in _rss_items(f'"{name}" 공모주', 1):
+            for it in _rss_items(f'"{name}" 공모주', 3):  # 종목당 최대 3건
                 if it["url"] in seen:
                     continue
                 seen.add(it["url"])
@@ -338,7 +338,7 @@ def collect_ipo_news(schedule):
                     items.append(it)
         except Exception:
             pass
-    return items[:6]
+    return items[:15]
 
 
 def parse_richboost():
