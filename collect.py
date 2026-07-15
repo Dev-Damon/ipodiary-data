@@ -289,41 +289,56 @@ def _rss_items(query, limit):
 
 
 def collect_ipo_news(schedule):
-    """청약 임박(진행중~D-7) 종목명으로 구글 뉴스 검색 → 관련 기사 링크."""
+    """가장 임박한 청약 종목 3개 × 기사 1개씩 (구글 뉴스 검색).
+
+    - 정렬: 청약 시작일 임박순 → 같은 날이면 기관경쟁률 높은 순
+    - 같은 날 시작 종목이 3번째와 겹치면 모두 포함 (상한 5)
+    - 기사 없는 종목은 스킵, 3건 미만이면 일반 공모주 뉴스로 보충
+    """
     today = datetime.now()
-    targets = []
+    cands = []
     for rec in schedule:
         m = re.match(r"(\d{4})\.(\d{2})\.(\d{2})",
                      rec.get("subscription_period", ""))
         if not m:
             continue
         start = datetime(int(m.group(1)), int(m.group(2)), int(m.group(3)))
-        dd = (start - today).days
-        if -2 <= dd <= 7:  # 청약 진행중 ~ D-7
-            targets.append(rec["name"])
+        if (start - today).days > 14 or (today - start).days > 2:
+            continue  # 너무 멀거나 이미 마감 지난 종목 제외
+        cands.append((start, -(rec.get("institutional_rate") or 0), rec["name"]))
+
+    cands.sort()
+    # 기본 3개 + 3번째와 같은 날 시작하는 종목은 포함 (상한 5)
+    targets = []
+    for i, (start, _, name) in enumerate(cands):
+        if i < 3 or (len(targets) < 5 and start == cands[2][0]):
+            targets.append((start, name))
 
     items, seen = [], set()
-    for name in targets[:5]:
+    for _, name in targets:
         try:
-            for it in _rss_items(f'"{name}" 공모주', 2):
+            for it in _rss_items(f'"{name}" 공모주', 1):
                 if it["url"] in seen:
                     continue
                 seen.add(it["url"])
+                it["ipo"] = name  # 종목 연결 (상세 화면 '관련 기사'용)
                 items.append(it)
         except Exception as e:
             print(f"[경고] 뉴스 검색 실패 {name}: {type(e).__name__}")
         time.sleep(0.3)
 
-    # 임박 종목이 적으면 일반 공모주 뉴스로 보충
+    # 종목 기사가 부족하면 일반 공모주 뉴스로 3건까지 보충
     if len(items) < 3:
         try:
             for it in _rss_items("공모주 청약", 4):
+                if len(items) >= 3:
+                    break
                 if it["url"] not in seen:
                     seen.add(it["url"])
                     items.append(it)
         except Exception:
             pass
-    return items[:8]
+    return items[:6]
 
 
 def parse_richboost():
