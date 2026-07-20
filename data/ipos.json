@@ -186,6 +186,7 @@
   "market": "코스닥",
   "payment_date": "2026.08.07",
   "refund_date": "2026.08.07",
+  "listing_date": "2026.08.14",
   "par_value": 100,
   "total_shares": 2400000,
   "mandatory_holding": "0.00%",
