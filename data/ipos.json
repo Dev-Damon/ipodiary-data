@@ -25,6 +25,43 @@
   ]
  },
  {
+  "name": "빅웨이브로보틱스",
+  "subscription_period": "2026.08.13~08.14",
+  "confirmed_price": null,
+  "band": "20,000~24,000",
+  "competition_rate": null,
+  "underwriters": [
+   "유진투자증권",
+   "미래에셋증권"
+  ],
+  "detail_no": "2294",
+  "market": "코스닥",
+  "payment_date": "2026.08.19",
+  "refund_date": "2026.08.19",
+  "par_value": 100,
+  "total_shares": 2000000,
+  "mandatory_holding": "0.00%",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "유진투자증권",
+    "allocation": 290700,
+    "limit": 30000,
+    "role": null,
+    "allocation_pct": 51.0,
+    "fee": 2000
+   },
+   {
+    "broker": "미래에셋증권",
+    "allocation": 279300,
+    "limit": 14000,
+    "role": null,
+    "allocation_pct": 49.0,
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "스카이랩스",
   "subscription_period": "2026.08.13~08.14",
   "confirmed_price": null,
@@ -132,43 +169,6 @@
     "limit": 2500,
     "role": "인수",
     "allocation_pct": 10.0,
-    "fee": 2000
-   }
-  ]
- },
- {
-  "name": "빅웨이브로보틱스",
-  "subscription_period": "2026.08.05~08.06",
-  "confirmed_price": null,
-  "band": "20,000~24,000",
-  "competition_rate": null,
-  "underwriters": [
-   "유진투자증권",
-   "미래에셋증권"
-  ],
-  "detail_no": "2294",
-  "market": "코스닥",
-  "payment_date": "2026.08.10",
-  "refund_date": "2026.08.10",
-  "par_value": 100,
-  "total_shares": 2000000,
-  "mandatory_holding": "0.00%",
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "유진투자증권",
-    "allocation": 290700,
-    "limit": 30000,
-    "role": null,
-    "allocation_pct": 51.0,
-    "fee": 2000
-   },
-   {
-    "broker": "미래에셋증권",
-    "allocation": 279300,
-    "limit": 14700,
-    "role": null,
-    "allocation_pct": 49.0,
     "fee": 2000
    }
   ]
