@@ -1,5 +1,30 @@
 [
  {
+  "name": "네오사피엔스",
+  "subscription_period": "2026.09.08~09.09",
+  "confirmed_price": null,
+  "band": "13,800~15,800",
+  "competition_rate": null,
+  "underwriters": [
+   "대신증권"
+  ],
+  "detail_no": "2308",
+  "market": "코스닥",
+  "payment_date": "2026.09.11",
+  "refund_date": "2026.09.11",
+  "par_value": 500,
+  "total_shares": 2000000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "16,000~20,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "대신증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "브릴스",
   "subscription_period": "2026.08.25~08.26",
   "confirmed_price": null,
@@ -896,33 +921,6 @@
   "broker_conditions": [
    {
     "broker": "신한투자증권",
-    "fee": 2000
-   }
-  ]
- },
- {
-  "name": "NH스팩33호",
-  "subscription_period": "2026.03.17~03.18",
-  "confirmed_price": 2000,
-  "band": "2,000~2,000",
-  "competition_rate": "569.27:1",
-  "underwriters": [
-   "NH투자증권"
-  ],
-  "detail_no": "2277",
-  "market": "코스닥",
-  "payment_date": "2026.03.20",
-  "refund_date": "2026.03.20",
-  "listing_date": "2026.03.27",
-  "par_value": 100,
-  "total_shares": 6350000,
-  "mandatory_holding": "0.00%",
-  "max_subscription": "158,750~190,500",
-  "institutional_rate": 1228.71,
-  "deposit_rate": 1.0,
-  "broker_conditions": [
-   {
-    "broker": "NH투자증권",
     "fee": 2000
    }
   ]
