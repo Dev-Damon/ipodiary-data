@@ -279,7 +279,7 @@
  {
   "name": "인제니아테라퓨틱스",
   "subscription_period": "2026.07.30~07.31",
-  "confirmed_price": null,
+  "confirmed_price": 12000,
   "band": "12,000~14,500",
   "competition_rate": null,
   "underwriters": [
@@ -291,8 +291,9 @@
   "refund_date": "2026.08.04",
   "listing_date": "2026.08.18",
   "total_shares": 5000000,
-  "mandatory_holding": "0.00%",
+  "mandatory_holding": "2.23%",
   "max_subscription": "60,000~75,000",
+  "institutional_rate": 50.4,
   "deposit_rate": 0.5,
   "broker_conditions": [
    {
