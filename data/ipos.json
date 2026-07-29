@@ -50,6 +50,31 @@
   ]
  },
  {
+  "name": "와이즈플래닛컴퍼니",
+  "subscription_period": "2026.09.14~09.15",
+  "confirmed_price": null,
+  "band": "10,000~12,000",
+  "competition_rate": null,
+  "underwriters": [
+   "대신증권"
+  ],
+  "detail_no": "2311",
+  "market": "코스닥",
+  "payment_date": "2026.09.17",
+  "refund_date": "2026.09.17",
+  "par_value": 100,
+  "total_shares": 1600000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "13,000~16,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "대신증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "네오사피엔스",
   "subscription_period": "2026.09.08~09.09",
   "confirmed_price": null,
@@ -882,33 +907,6 @@
     "limit": 10000,
     "role": "공동",
     "allocation_pct": 30.0,
-    "fee": 2000
-   }
-  ]
- },
- {
-  "name": "교보스팩20호",
-  "subscription_period": "2026.03.23~03.24",
-  "confirmed_price": 2000,
-  "band": "2,000~2,000",
-  "competition_rate": "747:1",
-  "underwriters": [
-   "교보증권"
-  ],
-  "detail_no": "2279",
-  "market": "코스닥",
-  "payment_date": "2026.03.26",
-  "refund_date": "2026.03.26",
-  "listing_date": "2026.04.02",
-  "par_value": 100,
-  "total_shares": 5400000,
-  "mandatory_holding": "0.00%",
-  "max_subscription": "66,000~80,000",
-  "institutional_rate": 1196.99,
-  "deposit_rate": 1.0,
-  "broker_conditions": [
-   {
-    "broker": "교보증권",
     "fee": 2000
    }
   ]
