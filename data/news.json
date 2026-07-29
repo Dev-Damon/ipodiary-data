@@ -1,9 +1,9 @@
 {
  "ipo_news": [
   {
-   "title": "이번 주 인제니아테라퓨틱스 공모주 청약 예정…수요예측은 3곳 | - 연합인포맥스",
-   "date": "Sun, 26 Jul 2026 04:05:23 GMT",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5GZHphRGpWYnZUcmNWVHdmbjRXVjY3S01TVFo5bk00dXBJZE9hM3ppOExIaGQ4WF80M2YxSzZtbUFBQkM1dThBYjIwWmhYaVpoZ0hiUzNVa3VzYzNnQlVCQktkVm5ReERNWnd1aDdDdzR2YThz?oc=5",
+   "title": "이번 주 인제니아테라퓨틱스 공모주 청약 예정…수요예측은 3곳 - KB Think",
+   "date": "Sun, 26 Jul 2026 04:00:01 GMT",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9FcE1POGhyb2ZhZ0dmN0oxdHpNZGFnTEhtSmhoVzFKZmRlQzR4a2Q3TC0tMHRDUXZrS2gwZDdJRzNEeHBMRXB2bDdlZkRIQkJFNXlCTkdESVhuUElxTU5UTGFKMi1UX2pKeTI3OTB2QTAtdw?oc=5",
    "ipo": "인제니아테라퓨틱스"
   },
   {
@@ -23,15 +23,14 @@
    "date": "Sun, 26 Jul 2026 15:12:00 GMT",
    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ncjFvMEJ0N1dwVm1MRGQxd0Vlb0xKQkxCVGlTYUI1UktIT0JTYktMZWltZ3RJRDVPOHhfOU1HNFU1alFpTXlEdTJlY01kMHdKdVptUEZOSE5RZUpJT21QTGVtbkU4bUVCNXBDbU1B?oc=5",
    "ipo": "케이앤에스아이앤씨"
-  },
-  {
-   "title": "7월엔 용돈 벌자…확정된 코스닥 '공모주' 4곳 청약 핵심 요약 - 위키트리",
-   "date": "Wed, 01 Jul 2026 07:00:00 GMT",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DbkFNVHBPWlVTWDZOZnBJMEdiT0JvdERDc29JMUViVXRTUUh0dXJxT0YzdmRudy1uZVpuOFBhcDcwb2c3YWs3RVhjYjFMVy1fNkJUT2FR?oc=5",
-   "ipo": "케이앤에스아이앤씨"
   }
  ],
  "richboost": [
+  {
+   "title": "2026-07-29 경제시황: 코스피 10.8% 폭락, 중국 CXMT 쇼크에 반도체 패닉",
+   "date": "Wed, 29 Jul 2026 00:00:00 GMT",
+   "url": "https://richboost.stonesoft.co.kr/posts/news-2026-07-29/"
+  },
   {
    "title": "2026-07-28 경제시황: 유가 8% 급락에 다우 반등, 나스닥은 엔비디아가 발목",
    "date": "Tue, 28 Jul 2026 00:00:00 GMT",
@@ -43,19 +42,14 @@
    "url": "https://richboost.stonesoft.co.kr/posts/13dg-jpmorgan-am-3m-co-2026-07-27/"
   },
   {
-   "title": "JP모건 자산운용, 뉴로크린 바이오 5%+ 보유 13G/A 정정신고",
-   "date": "Mon, 27 Jul 2026 00:00:00 GMT",
-   "url": "https://richboost.stonesoft.co.kr/posts/13dg-jpmorgan-am-neurocrine-biosciences-inc-2026-07-27/"
-  },
-  {
-   "title": "JP모건 자산운용, NXP 세미컨덕터스 13G/A 정정신고 — 5% 이상 보유",
-   "date": "Mon, 27 Jul 2026 00:00:00 GMT",
-   "url": "https://richboost.stonesoft.co.kr/posts/13dg-jpmorgan-am-nxp-semiconductors-n-v-2026-07-27/"
-  },
-  {
    "title": "JP모건 자산운용, AI보험사 Lemonade 지분 5% 이상 정정신고",
    "date": "Mon, 27 Jul 2026 00:00:00 GMT",
    "url": "https://richboost.stonesoft.co.kr/posts/13dg-jpmorgan-am-lemonade-inc-2026-07-27/"
+  },
+  {
+   "title": "JP모건 자산운용, 뉴로크린 바이오 5%+ 보유 13G/A 정정신고",
+   "date": "Mon, 27 Jul 2026 00:00:00 GMT",
+   "url": "https://richboost.stonesoft.co.kr/posts/13dg-jpmorgan-am-neurocrine-biosciences-inc-2026-07-27/"
   }
  ]
 }
