@@ -25,6 +25,31 @@
   ]
  },
  {
+  "name": "글로벌테크놀로지",
+  "subscription_period": "2026.09.16~09.17",
+  "confirmed_price": null,
+  "band": "13,000~15,000",
+  "competition_rate": null,
+  "underwriters": [
+   "한국투자증권"
+  ],
+  "detail_no": "2310",
+  "market": "코스닥",
+  "payment_date": "2026.09.21",
+  "refund_date": "2026.09.21",
+  "par_value": 500,
+  "total_shares": 4000000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "15,000~20,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "한국투자증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "네오사피엔스",
   "subscription_period": "2026.09.08~09.09",
   "confirmed_price": null,
@@ -885,45 +910,6 @@
    {
     "broker": "교보증권",
     "fee": 2000
-   }
-  ]
- },
- {
-  "name": "리센스메디컬",
-  "subscription_period": "2026.03.19~03.20",
-  "confirmed_price": 11000,
-  "band": "9,000~11,000",
-  "competition_rate": "2097.68:1",
-  "underwriters": [
-   "한국투자증권",
-   "KB증권"
-  ],
-  "detail_no": "2270",
-  "market": "코스닥",
-  "payment_date": "2026.03.24",
-  "refund_date": "2026.03.24",
-  "listing_date": "2026.03.31",
-  "par_value": 500,
-  "total_shares": 1400000,
-  "mandatory_holding": "63.92%",
-  "institutional_rate": 1352.63,
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "한국투자증권",
-    "allocation": 175000,
-    "limit": 3500,
-    "role": null,
-    "allocation_pct": 50.0,
-    "fee": 2000
-   },
-   {
-    "broker": "KB증권",
-    "allocation": 175000,
-    "limit": 7000,
-    "role": null,
-    "allocation_pct": 50.0,
-    "fee": 1500
    }
   ]
  }
