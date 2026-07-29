@@ -100,6 +100,31 @@
   ]
  },
  {
+  "name": "NH스팩34호",
+  "subscription_period": "2026.09.01~09.02",
+  "confirmed_price": null,
+  "band": "2,000~2,000",
+  "competition_rate": null,
+  "underwriters": [
+   "NH투자증권"
+  ],
+  "detail_no": "2312",
+  "market": "코스닥",
+  "payment_date": "2026.09.04",
+  "refund_date": "2026.09.04",
+  "par_value": 100,
+  "total_shares": 8500000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "210,000~255,000",
+  "deposit_rate": 1.0,
+  "broker_conditions": [
+   {
+    "broker": "NH투자증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "브릴스",
   "subscription_period": "2026.08.25~08.26",
   "confirmed_price": null,
@@ -868,45 +893,6 @@
   "broker_conditions": [
    {
     "broker": "키움증권",
-    "fee": 2000
-   }
-  ]
- },
- {
-  "name": "인벤테라",
-  "subscription_period": "2026.03.23~03.24",
-  "confirmed_price": 16600,
-  "band": "12,100~16,600",
-  "competition_rate": "1913:1",
-  "underwriters": [
-   "NH투자증권",
-   "유진투자증권"
-  ],
-  "detail_no": "2275",
-  "market": "코스닥",
-  "payment_date": "2026.03.26",
-  "refund_date": "2026.03.26",
-  "listing_date": "2026.04.02",
-  "par_value": 500,
-  "total_shares": 1180000,
-  "mandatory_holding": "43.06%",
-  "institutional_rate": 1328.82,
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "NH투자증권",
-    "allocation": 206500,
-    "limit": 8000,
-    "role": "대표",
-    "allocation_pct": 70.0,
-    "fee": 2000
-   },
-   {
-    "broker": "유진투자증권",
-    "allocation": 88500,
-    "limit": 10000,
-    "role": "공동",
-    "allocation_pct": 30.0,
     "fee": 2000
    }
   ]
