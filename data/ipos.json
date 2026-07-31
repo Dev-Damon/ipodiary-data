@@ -328,7 +328,7 @@
  {
   "name": "딜리셔스",
   "subscription_period": "2026.08.03~08.04",
-  "confirmed_price": null,
+  "confirmed_price": 7000,
   "band": "5,000~7,000",
   "competition_rate": null,
   "underwriters": [
@@ -341,7 +341,7 @@
   "listing_date": "2026.08.12",
   "par_value": 500,
   "total_shares": 2200000,
-  "mandatory_holding": "0.00%",
+  "mandatory_holding": "0.10%",
   "max_subscription": "9,000~11,000",
   "deposit_rate": 0.5,
   "broker_conditions": [
@@ -356,7 +356,7 @@
   "subscription_period": "2026.07.30~07.31",
   "confirmed_price": 12000,
   "band": "12,000~14,500",
-  "competition_rate": null,
+  "competition_rate": "3.09:1",
   "underwriters": [
    "삼성증권"
   ],
