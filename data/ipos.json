@@ -302,7 +302,7 @@
  {
   "name": "케이앤에스아이앤씨",
   "subscription_period": "2026.08.04~08.05",
-  "confirmed_price": null,
+  "confirmed_price": 11000,
   "band": "9,000~11,000",
   "competition_rate": null,
   "underwriters": [
@@ -315,7 +315,7 @@
   "listing_date": "2026.08.14",
   "par_value": 100,
   "total_shares": 2400000,
-  "mandatory_holding": "0.00%",
+  "mandatory_holding": "0.78%",
   "max_subscription": "30,000~36,000",
   "deposit_rate": 0.5,
   "broker_conditions": [
