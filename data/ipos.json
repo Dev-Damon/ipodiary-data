@@ -1,5 +1,42 @@
 [
  {
+  "name": "빅웨이브로보틱스",
+  "subscription_period": "2026.09.16~09.17",
+  "confirmed_price": null,
+  "band": "20,000~24,000",
+  "competition_rate": null,
+  "underwriters": [
+   "유진투자증권",
+   "미래에셋증권"
+  ],
+  "detail_no": "2294",
+  "market": "코스닥",
+  "payment_date": "2026.09.21",
+  "refund_date": "2026.09.21",
+  "par_value": 100,
+  "total_shares": 2000000,
+  "mandatory_holding": "0.00%",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "유진투자증권",
+    "allocation": 290700,
+    "limit": 30000,
+    "role": null,
+    "allocation_pct": 51.0,
+    "fee": 2000
+   },
+   {
+    "broker": "미래에셋증권",
+    "allocation": 279300,
+    "limit": 14000,
+    "role": null,
+    "allocation_pct": 49.0,
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "덕산넵코어스(구.넵코어스)",
   "subscription_period": "2026.09.16~09.17",
   "confirmed_price": null,
@@ -175,43 +212,6 @@
   ]
  },
  {
-  "name": "빅웨이브로보틱스",
-  "subscription_period": "2026.08.13~08.14",
-  "confirmed_price": null,
-  "band": "20,000~24,000",
-  "competition_rate": null,
-  "underwriters": [
-   "유진투자증권",
-   "미래에셋증권"
-  ],
-  "detail_no": "2294",
-  "market": "코스닥",
-  "payment_date": "2026.08.19",
-  "refund_date": "2026.08.19",
-  "par_value": 100,
-  "total_shares": 2000000,
-  "mandatory_holding": "0.00%",
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "유진투자증권",
-    "allocation": 290700,
-    "limit": 30000,
-    "role": null,
-    "allocation_pct": 51.0,
-    "fee": 2000
-   },
-   {
-    "broker": "미래에셋증권",
-    "allocation": 279300,
-    "limit": 14000,
-    "role": null,
-    "allocation_pct": 49.0,
-    "fee": 2000
-   }
-  ]
- },
- {
   "name": "니어스랩",
   "subscription_period": "2026.08.12~08.13",
   "confirmed_price": null,
@@ -317,6 +317,7 @@
   "total_shares": 2400000,
   "mandatory_holding": "0.78%",
   "max_subscription": "30,000~36,000",
+  "institutional_rate": 938.24,
   "deposit_rate": 0.5,
   "broker_conditions": [
    {
@@ -343,6 +344,7 @@
   "total_shares": 2200000,
   "mandatory_holding": "0.10%",
   "max_subscription": "9,000~11,000",
+  "institutional_rate": 184.06,
   "deposit_rate": 0.5,
   "broker_conditions": [
    {
