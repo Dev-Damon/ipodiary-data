@@ -112,6 +112,31 @@
   ]
  },
  {
+  "name": "브릴스",
+  "subscription_period": "2026.09.08~09.09",
+  "confirmed_price": null,
+  "band": "16,500~19,500",
+  "competition_rate": null,
+  "underwriters": [
+   "IBK투자증권"
+  ],
+  "detail_no": "2307",
+  "market": "코스닥",
+  "payment_date": "2026.09.11",
+  "refund_date": "2026.09.11",
+  "par_value": 500,
+  "total_shares": 1200000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "15,000~18,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "IBK투자증권",
+    "fee": 1500
+   }
+  ]
+ },
+ {
   "name": "네오사피엔스",
   "subscription_period": "2026.09.08~09.09",
   "confirmed_price": null,
@@ -183,31 +208,6 @@
    {
     "broker": "한국투자증권",
     "fee": 2000
-   }
-  ]
- },
- {
-  "name": "브릴스",
-  "subscription_period": "2026.08.25~08.26",
-  "confirmed_price": null,
-  "band": "16,500~19,500",
-  "competition_rate": null,
-  "underwriters": [
-   "IBK투자증권"
-  ],
-  "detail_no": "2307",
-  "market": "코스닥",
-  "payment_date": "2026.08.28",
-  "refund_date": "2026.08.28",
-  "par_value": 500,
-  "total_shares": 1200000,
-  "mandatory_holding": "0.00%",
-  "max_subscription": "15,000~18,000",
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "IBK투자증권",
-    "fee": 1500
    }
   ]
  },
@@ -331,7 +331,7 @@
   "subscription_period": "2026.08.03~08.04",
   "confirmed_price": 7000,
   "band": "5,000~7,000",
-  "competition_rate": null,
+  "competition_rate": "10.29:1",
   "underwriters": [
    "한국투자증권"
   ],
