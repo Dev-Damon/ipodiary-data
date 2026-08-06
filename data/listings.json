@@ -1,7 +1,25 @@
 [
  {
+  "name": "해치텍",
+  "listing_date": "2026.08.25",
+  "current_price": null,
+  "offer_price": null,
+  "opening_price": null,
+  "opening_vs_offer": "%",
+  "first_day_close": null
+ },
+ {
   "name": "니어스랩",
   "listing_date": "2026.08.24",
+  "current_price": null,
+  "offer_price": null,
+  "opening_price": null,
+  "opening_vs_offer": "%",
+  "first_day_close": null
+ },
+ {
+  "name": "기도산업",
+  "listing_date": "2026.08.21",
   "current_price": null,
   "offer_price": null,
   "opening_price": null,
@@ -160,23 +178,5 @@
   "opening_price": 6070,
   "opening_vs_offer": "203.5%",
   "first_day_close": 2355
- },
- {
-  "name": "채비(구.대영채비)",
-  "listing_date": "2026.04.29",
-  "current_price": 4850,
-  "offer_price": 12300,
-  "opening_price": 15250,
-  "opening_vs_offer": "23.98%",
-  "first_day_close": 22550
- },
- {
-  "name": "키움히어로스팩2호",
-  "listing_date": "2026.04.23",
-  "current_price": 1965,
-  "offer_price": 2000,
-  "opening_price": 4790,
-  "opening_vs_offer": "139.5%",
-  "first_day_close": 2735
  }
 ]
