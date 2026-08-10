@@ -240,7 +240,7 @@
  {
   "name": "해치텍",
   "subscription_period": "2026.08.12~08.13",
-  "confirmed_price": null,
+  "confirmed_price": 23000,
   "band": "23,000~28,000",
   "competition_rate": null,
   "underwriters": [
@@ -253,8 +253,9 @@
   "listing_date": "2026.08.25",
   "par_value": 500,
   "total_shares": 1000000,
-  "mandatory_holding": "0.00%",
+  "mandatory_holding": "15.08%",
   "max_subscription": "25,000~30,000",
+  "institutional_rate": 101.91,
   "deposit_rate": 0.5,
   "broker_conditions": [
    {
@@ -266,7 +267,7 @@
  {
   "name": "기도산업",
   "subscription_period": "2026.08.11~08.12",
-  "confirmed_price": null,
+  "confirmed_price": 28400,
   "band": "24,800~28,400",
   "competition_rate": null,
   "underwriters": [
@@ -281,6 +282,7 @@
   "par_value": 500,
   "total_shares": 1700000,
   "mandatory_holding": "0.00%",
+  "institutional_rate": 213.31,
   "deposit_rate": 0.5,
   "broker_conditions": [
    {
