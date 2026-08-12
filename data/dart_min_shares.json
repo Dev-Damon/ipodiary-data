@@ -1,0 +1,70 @@
+{
+ "니어스랩": {
+  "min_shares": 20,
+  "price": 41200
+ },
+ "해치텍": {
+  "min_shares": 20,
+  "price": 23000
+ },
+ "기도산업": {
+  "min_shares": 20,
+  "price": 28400
+ },
+ "케이앤에스아이앤씨": {
+  "min_shares": 10,
+  "price": 11000
+ },
+ "딜리셔스": {
+  "min_shares": 20,
+  "price": 7000
+ },
+ "인제니아테라퓨틱스": {
+  "min_shares": null,
+  "price": 12000
+ },
+ "에이치엘지노믹스": {
+  "min_shares": 10,
+  "price": 21500
+ },
+ "레메디": {
+  "min_shares": null,
+  "price": 20700
+ },
+ "레몬헬스케어": {
+  "min_shares": null,
+  "price": 10000
+ },
+ "매드업": {
+  "min_shares": null,
+  "price": 8000
+ },
+ "스트라드비젼": {
+  "min_shares": null,
+  "price": 12000
+ },
+ "져스텍": {
+  "min_shares": null,
+  "price": 12500
+ },
+ "피스피스스튜디오": {
+  "min_shares": null,
+  "price": 21500
+ },
+ "마키나락스": {
+  "min_shares": null,
+  "price": 15000
+ },
+ "폴레드": {
+  "min_shares": null,
+  "price": 5000
+ },
+ "코스모로보틱스(구.엑소아틀레트아시아)": {
+  "min_shares": null,
+  "price": 6000
+ },
+ "채비(구.대영채비)": {
+  "min_shares": null,
+  "price": 12300
+ }
+}

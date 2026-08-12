@@ -10,15 +10,19 @@ data/ipos.json, data/listings.json, data/meta.json 으로 저장한다.
 주의: 38커뮤는 HTTPS 핸드셰이크가 실패하므로 HTTP만 사용, 인코딩은 EUC-KR.
 """
 
+import io
 import json
 import os
 import re
 import sys
 import time
-from datetime import datetime, timezone
+import zipfile
+from datetime import datetime, timedelta, timezone
 
 import requests
 from bs4 import BeautifulSoup
+
+DART_KEY = os.environ.get("DART_API_KEY", "").strip()
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")
@@ -149,6 +153,90 @@ def parse_underwriter_table(soup):
             if c["allocation"]:
                 c["allocation_pct"] = round(c["allocation"] / total * 100, 1)
     return conds
+
+
+def dart_min_shares(name):
+    """DART 발행조건확정에서 일반청약자 최소 청약수량 추출.
+
+    '청약단위 20주 이상 ~ 100주 이하 10주' 표에서 'N주 이상 ~ M주 이하'의
+    최소 N을 취한다. (38커뮤에는 없는 정보 — 청약 예상금액 정확도의 핵심)
+    """
+    if not DART_KEY:
+        return None
+    end = datetime.now()
+    bgn = end - timedelta(days=90)
+    try:
+        r = requests.get(
+            "https://opendart.fss.or.kr/api/list.json",
+            params={
+                "crtfc_key": DART_KEY,
+                "bgn_de": bgn.strftime("%Y%m%d"),
+                "end_de": end.strftime("%Y%m%d"),
+                "pblntf_detail_ty": "C001",
+                "page_count": 100,
+            },
+            timeout=20,
+        ).json()
+    except Exception:
+        return None
+    if r.get("status") != "000":
+        return None
+    rows = [
+        x for x in r.get("list", [])
+        if x["corp_name"] == name and "발행조건확정" in x["report_nm"]
+    ]
+    if not rows:
+        return None
+    try:
+        d = requests.get(
+            "https://opendart.fss.or.kr/api/document.xml",
+            params={"crtfc_key": DART_KEY, "rcept_no": rows[0]["rcept_no"]},
+            timeout=25,
+        )
+        z = zipfile.ZipFile(io.BytesIO(d.content))
+        html = z.read(z.namelist()[0]).decode("utf-8")
+    except Exception:
+        return None
+    text = re.sub(r"\s+", " ", BeautifulSoup(html, "html.parser").get_text(" "))
+    mins = [
+        int(m) for m in re.findall(r"(\d+)\s*주\s*이상\s*~\s*[\d,]+\s*주\s*이하", text)
+    ]
+    return min(mins) if mins else None
+
+
+def add_min_shares(schedule):
+    """확정공모가 종목의 최소 청약수량을 DART에서 보강 (캐시 사용)."""
+    cache_path = os.path.join(OUT_DIR, "dart_min_shares.json")
+    cache = {}
+    try:
+        with open(cache_path, encoding="utf-8") as f:
+            cache = json.load(f)
+    except Exception:
+        pass
+
+    found = 0
+    for rec in schedule:
+        name = rec["name"]
+        price = rec.get("confirmed_price")
+        if not price or "스팩" in name:
+            continue
+        c = cache.get(name)
+        if c and c.get("price") == price:
+            if c.get("min_shares"):
+                rec["min_shares"] = c["min_shares"]
+                found += 1
+            continue  # 이미 조회함 (없으면 없는 대로 캐시)
+        ms = dart_min_shares(name)
+        cache[name] = {"min_shares": ms, "price": price}
+        if ms:
+            rec["min_shares"] = ms
+            found += 1
+        time.sleep(0.3)  # DART 예의상 간격
+
+    with open(cache_path, "w", encoding="utf-8") as f:
+        json.dump(cache, f, ensure_ascii=False, indent=1)
+    print(f"[보강] 최소청약수량(DART) {found}종목")
+    return schedule
 
 
 def load_broker_fees():
@@ -386,6 +474,7 @@ def main():
     schedule = enrich_with_details(schedule)
     enriched = sum(1 for r in schedule if "deposit_rate" in r or "refund_date" in r)
     print(f"[보강] 상세 정보 {enriched}/{len(schedule)}종목")
+    schedule = add_min_shares(schedule)  # 최소청약수량 (DART)
     listings = parse_listings(_fetch(LISTING_URL))
     print(f"[수집] 신규상장 {len(listings)}종목")
 
