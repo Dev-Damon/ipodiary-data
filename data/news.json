@@ -1,48 +1,5 @@
 {
- "ipo_news": [
-  {
-   "title": "기도산업, 일반청약 경쟁률 5.5대 1…증거금 330억 - 뉴스톱",
-   "date": "Thu, 13 Aug 2026 00:44:28 GMT",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5mZEYtU0FqWUljV3NGcWRveFlzYnBocThzTGc4ZEZrSnJ3RGowS0FHMUthbVlOcm5nRzdFZUtEQVBTdXQ3dVV2SDlpMUdDUmlvTmQyWkN0NnBBZ2xuQnB6dG9MVTJxSWRnbDJ2Y3hGZw?oc=5",
-   "ipo": "기도산업"
-  },
-  {
-   "title": "기도산업·니어스랩·해치텍 공모주 청약···공모주 투심 회복 ‘가늠자’ - 시사저널e",
-   "date": "Wed, 12 Aug 2026 06:37:38 GMT",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zLTZXUkVfLWw2dWZnTV93UFNrOWFBQkE5N0F3UXk5SFBNWkdRWTZvbW5GcHdsYmV1Z241RTA4T24wc2pCaVU3UlNHTW5QRGFKMEd5WDBfX1FfOVRMWDFkQ2lfa3piNEZQVzBsM0xtXzl3V3NHTXfSAXZBVV95cUxPcy02V1JFXy1sNnVmZ01fd1BTazlhQUJBOTdBd1F5OUhQTVpHUVk2b21uRnB3bGJldWduNUUwOE9uMHNqQmlVN1JTR01uUERhSjBHeVgwX19RXzlUTFgxZENpX2t6YjRGUFcwbDNMbV85d1dzR013?oc=5",
-   "ipo": "기도산업"
-  },
-  {
-   "title": "[장외시황] 기도산업, 공모주 청약 시작 - 이투데이",
-   "date": "Tue, 11 Aug 2026 07:42:00 GMT",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB4dzZndEUxNHpEbGxpMDdhSnBPUWloTklwXzcwRTRrUGlGX0NqUDBHVVNNOEdYRGhUTWduWEFaUWc0QXlYVDNsd1pGRFhXZFMteHl0TQ?oc=5",
-   "ipo": "기도산업"
-  },
-  {
-   "title": "[공모주 투데이] 니어스랩 공모주 청약 2일차…균등배정 몇 주 받을까, 최종 경쟁률 주목 - CBC뉴스",
-   "date": "Thu, 13 Aug 2026 02:03:23 GMT",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1kTVhaMloyVDZVS29nclRFc2JkVnpteDQtOWJtcEF5QmFHZjlVX3J3RnloTjV2YWZzWnh1WU0wQ2J2ME56ckRIUFBOLWp5cndxMGpaaVd2V0lXQ3JWM1E1X0ZZYVd0X2RI?oc=5",
-   "ipo": "니어스랩"
-  },
-  {
-   "title": "기도산업·니어스랩·해치텍 공모주 청약···공모주 투심 회복 ‘가늠자’ - 시사저널e",
-   "date": "Wed, 12 Aug 2026 06:07:14 GMT",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBsSENJVDRpZnFIdUZhQnBxYnpScVRFbzRoY0FaTFBNLUVuSnlQb0JaZFpOd1FidXEzdml4LVVZbC1yMUNUb0tPNkRLQk5nZXNTS0hQU2lEV18zUlZHV3VNbnZBY3FjMEhXOVhBOFdBenJBUdIBdkFVX3lxTE9zLTZXUkVfLWw2dWZnTV93UFNrOWFBQkE5N0F3UXk5SFBNWkdRWTZvbW5GcHdsYmV1Z241RTA4T24wc2pCaVU3UlNHTW5QRGFKMEd5WDBfX1FfOVRMWDFkQ2lfa3piNEZQVzBsM0xtXzl3V3NHTXc?oc=5",
-   "ipo": "니어스랩"
-  },
-  {
-   "title": "[장외시황] 니어스랩ㆍ해치텍, 공모주 청약시작 - v.daum.net",
-   "date": "Wed, 12 Aug 2026 06:41:08 GMT",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBJbjhKWkkyeWYtdXNrVi05VmNZVm9CX2pvSmdQbnZSUEdKT21ocnd2R1NDTWJMUDB2T3lTMFVkUTBmcFphVnc?oc=5",
-   "ipo": "니어스랩"
-  },
-  {
-   "title": "[공모주 현황] 해치텍, 공모주 청약 이틀째…균등 추이는? - CBC뉴스",
-   "date": "Thu, 13 Aug 2026 02:02:13 GMT",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE51cGFXYllxQjhzUXRwamxTOUFOWXRaNG9fWk9YLW50LUdQWi1FcTg5QzNpanVaUlhIMjFqWTkyR0g3QjI0NVlpbFJXYUt0eW9sNG1XdmppNTFCRml3dXUzeHB5cDdXRG9X?oc=5",
-   "ipo": "해치텍"
-  }
- ],
+ "ipo_news": [],
  "richboost": [
   {
    "title": "케빈 워시의 데뷔 무대, 2026 잭슨홀 관전 포인트",
