@@ -112,6 +112,31 @@
   ]
  },
  {
+  "name": "KB스팩34호",
+  "subscription_period": "2026.09.10~09.11",
+  "confirmed_price": null,
+  "band": "2,000~2,000",
+  "competition_rate": null,
+  "underwriters": [
+   "KB증권"
+  ],
+  "detail_no": "2313",
+  "market": "코스닥",
+  "payment_date": "2026.09.15",
+  "refund_date": "2026.09.15",
+  "par_value": 100,
+  "total_shares": 7000000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "50,000",
+  "deposit_rate": 1.0,
+  "broker_conditions": [
+   {
+    "broker": "KB증권",
+    "fee": 1500
+   }
+  ]
+ },
+ {
   "name": "브릴스",
   "subscription_period": "2026.09.08~09.09",
   "confirmed_price": null,
@@ -216,7 +241,7 @@
   "subscription_period": "2026.08.12~08.13",
   "confirmed_price": 41200,
   "band": "30,000~41,200",
-  "competition_rate": null,
+  "competition_rate": "522.99:1",
   "underwriters": [
    "삼성증권"
   ],
@@ -244,7 +269,7 @@
   "subscription_period": "2026.08.12~08.13",
   "confirmed_price": 23000,
   "band": "23,000~28,000",
-  "competition_rate": null,
+  "competition_rate": "25.73:1",
   "underwriters": [
    "DB증권"
   ],
@@ -879,33 +904,6 @@
   "broker_conditions": [
    {
     "broker": "신한투자증권",
-    "fee": 2000
-   }
-  ]
- },
- {
-  "name": "키움히어로스팩2호",
-  "subscription_period": "2026.04.14~04.15",
-  "confirmed_price": 2000,
-  "band": "2,000~2,000",
-  "competition_rate": "1727.59:1",
-  "underwriters": [
-   "키움증권"
-  ],
-  "detail_no": "2282",
-  "market": "코스닥",
-  "payment_date": "2026.04.17",
-  "refund_date": "2026.04.17",
-  "listing_date": "2026.04.23",
-  "par_value": 100,
-  "total_shares": 6000000,
-  "mandatory_holding": "0.00%",
-  "max_subscription": "100,000~120,000",
-  "institutional_rate": 1271.12,
-  "deposit_rate": 1.0,
-  "broker_conditions": [
-   {
-    "broker": "키움증권",
     "fee": 2000
    }
   ]
