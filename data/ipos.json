@@ -112,6 +112,31 @@
   ]
  },
  {
+  "name": "네오사피엔스",
+  "subscription_period": "2026.09.10~09.11",
+  "confirmed_price": null,
+  "band": "13,800~15,800",
+  "competition_rate": null,
+  "underwriters": [
+   "대신증권"
+  ],
+  "detail_no": "2308",
+  "market": "코스닥",
+  "payment_date": "2026.09.15",
+  "refund_date": "2026.09.15",
+  "par_value": 500,
+  "total_shares": 2000000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "16,000~20,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "대신증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "KB스팩34호",
   "subscription_period": "2026.09.10~09.11",
   "confirmed_price": null,
@@ -158,31 +183,6 @@
    {
     "broker": "IBK투자증권",
     "fee": 1500
-   }
-  ]
- },
- {
-  "name": "네오사피엔스",
-  "subscription_period": "2026.09.08~09.09",
-  "confirmed_price": null,
-  "band": "13,800~15,800",
-  "competition_rate": null,
-  "underwriters": [
-   "대신증권"
-  ],
-  "detail_no": "2308",
-  "market": "코스닥",
-  "payment_date": "2026.09.11",
-  "refund_date": "2026.09.11",
-  "par_value": 500,
-  "total_shares": 2000000,
-  "mandatory_holding": "0.00%",
-  "max_subscription": "16,000~20,000",
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "대신증권",
-    "fee": 2000
    }
   ]
  },
