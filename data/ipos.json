@@ -162,6 +162,31 @@
   ]
  },
  {
+  "name": "한국스팩17호",
+  "subscription_period": "2026.09.10~09.11",
+  "confirmed_price": null,
+  "band": "2,000~2,000",
+  "competition_rate": null,
+  "underwriters": [
+   "한국투자증권"
+  ],
+  "detail_no": "2314",
+  "market": "코스닥",
+  "payment_date": "2026.09.15",
+  "refund_date": "2026.09.15",
+  "par_value": 100,
+  "total_shares": 7000000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "25,000~35,000",
+  "deposit_rate": 1.0,
+  "broker_conditions": [
+   {
+    "broker": "한국투자증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "브릴스",
   "subscription_period": "2026.09.08~09.09",
   "confirmed_price": null,
@@ -877,33 +902,6 @@
     "limit": 18000,
     "role": null,
     "allocation_pct": 12.5,
-    "fee": 2000
-   }
-  ]
- },
- {
-  "name": "신한스팩18호",
-  "subscription_period": "2026.04.20~04.21",
-  "confirmed_price": 2000,
-  "band": "2,000~2,000",
-  "competition_rate": "1601.36:1",
-  "underwriters": [
-   "신한투자증권"
-  ],
-  "detail_no": "2284",
-  "market": "코스닥",
-  "payment_date": "2026.04.23",
-  "refund_date": "2026.04.23",
-  "listing_date": "2026.04.30",
-  "par_value": 100,
-  "total_shares": 5000000,
-  "mandatory_holding": "0.00%",
-  "max_subscription": "40,000~50,000",
-  "institutional_rate": 1388.6,
-  "deposit_rate": 1.0,
-  "broker_conditions": [
-   {
-    "broker": "신한투자증권",
     "fee": 2000
    }
   ]
