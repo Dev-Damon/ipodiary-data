@@ -25,43 +25,6 @@
   ]
  },
  {
-  "name": "빅웨이브로보틱스",
-  "subscription_period": "2026.09.16~09.17",
-  "confirmed_price": null,
-  "band": "20,000~24,000",
-  "competition_rate": null,
-  "underwriters": [
-   "유진투자증권",
-   "미래에셋증권"
-  ],
-  "detail_no": "2294",
-  "market": "코스닥",
-  "payment_date": "2026.09.21",
-  "refund_date": "2026.09.21",
-  "par_value": 100,
-  "total_shares": 2000000,
-  "mandatory_holding": "0.00%",
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "유진투자증권",
-    "allocation": 290700,
-    "limit": 30000,
-    "role": null,
-    "allocation_pct": 51.0,
-    "fee": 2000
-   },
-   {
-    "broker": "미래에셋증권",
-    "allocation": 279300,
-    "limit": 14000,
-    "role": null,
-    "allocation_pct": 49.0,
-    "fee": 2000
-   }
-  ]
- },
- {
   "name": "덕산넵코어스(구.넵코어스)",
   "subscription_period": "2026.09.16~09.17",
   "confirmed_price": null,
@@ -107,6 +70,43 @@
   "broker_conditions": [
    {
     "broker": "한국투자증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "빅웨이브로보틱스",
+  "subscription_period": "2026.09.15~09.16",
+  "confirmed_price": null,
+  "band": "20,000~24,000",
+  "competition_rate": null,
+  "underwriters": [
+   "유진투자증권",
+   "미래에셋증권"
+  ],
+  "detail_no": "2294",
+  "market": "코스닥",
+  "payment_date": "2026.09.18",
+  "refund_date": "2026.09.18",
+  "par_value": 100,
+  "total_shares": 1600000,
+  "mandatory_holding": "0.00%",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "유진투자증권",
+    "allocation": 232560,
+    "limit": 30000,
+    "role": null,
+    "allocation_pct": 51.0,
+    "fee": 2000
+   },
+   {
+    "broker": "미래에셋증권",
+    "allocation": 223440,
+    "limit": 14000,
+    "role": null,
+    "allocation_pct": 49.0,
     "fee": 2000
    }
   ]
