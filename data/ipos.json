@@ -1,5 +1,30 @@
 [
  {
+  "name": "멜콘(구.에스앤에프솔루션)",
+  "subscription_period": "2026.10.01~10.02",
+  "confirmed_price": null,
+  "band": "10,700~12,300",
+  "competition_rate": null,
+  "underwriters": [
+   "대신증권"
+  ],
+  "detail_no": "2315",
+  "market": "코스닥",
+  "payment_date": "2026.10.07",
+  "refund_date": "2026.10.07",
+  "par_value": 500,
+  "total_shares": 2500000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "20,000~25,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "대신증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "빅웨이브로보틱스",
   "subscription_period": "2026.09.16~09.17",
   "confirmed_price": null,
@@ -845,63 +870,6 @@
     "limit": 10000,
     "role": "인수",
     "allocation_pct": 20.0,
-    "fee": 2000
-   }
-  ]
- },
- {
-  "name": "채비(구.대영채비)",
-  "subscription_period": "2026.04.20~04.21",
-  "confirmed_price": 12300,
-  "band": "12,300~15,300",
-  "competition_rate": "302:1",
-  "underwriters": [
-   "KB증권",
-   "삼성증권",
-   "대신증권",
-   "하나증권"
-  ],
-  "detail_no": "2281",
-  "market": "코스닥",
-  "payment_date": "2026.04.23",
-  "refund_date": "2026.04.23",
-  "listing_date": "2026.04.29",
-  "par_value": 500,
-  "total_shares": 9000000,
-  "mandatory_holding": "6.49%",
-  "institutional_rate": 55.23,
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "KB증권",
-    "allocation": 843750,
-    "limit": 35000,
-    "role": null,
-    "allocation_pct": 37.5,
-    "fee": 1500
-   },
-   {
-    "broker": "삼성증권",
-    "allocation": 843750,
-    "limit": 35000,
-    "role": null,
-    "allocation_pct": 37.5,
-    "fee": 2000
-   },
-   {
-    "broker": "대신증권",
-    "allocation": 281250,
-    "limit": 12000,
-    "role": null,
-    "allocation_pct": 12.5,
-    "fee": 2000
-   },
-   {
-    "broker": "하나증권",
-    "allocation": 281250,
-    "limit": 18000,
-    "role": null,
-    "allocation_pct": 12.5,
     "fee": 2000
    }
   ]
