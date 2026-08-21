@@ -22,8 +22,8 @@
   "listing_date": "2026.08.21",
   "current_price": null,
   "offer_price": 28400,
-  "opening_price": null,
-  "opening_vs_offer": "%",
+  "opening_price": 28000,
+  "opening_vs_offer": "-1.41%",
   "first_day_close": null
  },
  {
