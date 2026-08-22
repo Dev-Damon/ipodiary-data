@@ -1,6 +1,12 @@
 {
  "ipo_news": [
   {
+   "title": "[주간 IPO] 니어스랩·해치텍 코스닥 입성…스카이랩스 청약 - 이투데이",
+   "date": "Sat, 22 Aug 2026 00:00:00 GMT",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBzbFN6T0tmRWNjMUdyZWxrYVBnUG5KYkdvemZiNzJjUTNZM0hiWXNYakROLTh5MVBaZkd1NEpJUEIybk8yM3lST2lFWmVSNHVBWWhYaA?oc=5",
+   "ipo": "스카이랩스"
+  },
+  {
    "title": "스카이랩스 공모주 수요예측 21일까지…상장일 9월4일 - 비건뉴스",
    "date": "Wed, 19 Aug 2026 06:21:55 GMT",
    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1TelF3RThOSmNZazFkb0doZW1fcDZXRFpnNnU1bG1Yc1RPY3hSM2VFYXFWQkVNTEdrcThRa2FBRlR2QWVLRUlKdnAzeWlvZWJySUl0M0xYMTU5Snp3SkJQLXJxd2dCZw?oc=5",
@@ -13,12 +19,6 @@
    "ipo": "스카이랩스"
   },
   {
-   "title": "[8월 공모주] 스카이랩스, 기술·의료·사업 전문가 포진 - 프리스탁뉴스",
-   "date": "Tue, 18 Aug 2026 05:42:23 GMT",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBMYjJnMDRZTW9DMlQxWVNqODd0bFVfaUhaOHhJTEF2WERwTFdTd3FPa3FnOGxyVi1uZEc3ZW1TUDVmR3BuNGtVVnFYLWJtS0RWLUhTTXdyaDl3em4yTXIxc04yS1NGMnh4VERRZFdkRQ?oc=5",
-   "ipo": "스카이랩스"
-  },
-  {
    "title": "\"첫날에 팔았어야\"…7월 공모주, 수요예측 '후끈' vs 주가 '냉랭’ - 프라임경제",
    "date": "Mon, 03 Aug 2026 07:00:00 GMT",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE54MVFpY0ZONURyRUkwWl9JdjU3bXdGVVN5SWVsLVMycktwNXV5Vlc0NGR3WWFCMnUzUmdTYnFydmR2SUhINHE3YWItUFJXaXp3X1FxUkJtdkdZbW44SzBoYjMydjRYNHlrQ282bWxNeldOUQ?oc=5",
@@ -26,6 +26,11 @@
   }
  ],
  "richboost": [
+  {
+   "title": "2026-08-22 경제시황: 채권 혼란 속 반등 마감…비트코인 주간 22% 급등",
+   "date": "Sat, 22 Aug 2026 00:00:00 GMT",
+   "url": "https://richboost.stonesoft.co.kr/posts/news-2026-08-22/"
+  },
   {
    "title": "2026-08-21 경제시황: 월마트 쇼크에 뉴욕 하락, 코스피는 반도체 급등에 사이드카",
    "date": "Fri, 21 Aug 2026 00:00:00 GMT",
@@ -45,11 +50,6 @@
    "title": "피델리티, 자사 크레딧 펀드 지분 52.2% 보유 — 13D/A 정정신고",
    "date": "Wed, 19 Aug 2026 00:00:00 GMT",
    "url": "https://richboost.stonesoft.co.kr/posts/13dg-fidelity-fidelity-multi-strategy-credit-fund-2026-08-19/"
-  },
-  {
-   "title": "ARK 매매일지(8/19): AMD 줄이고 브로드컴·세레브라스로 — AI 반도체 갈아타기",
-   "date": "Wed, 19 Aug 2026 00:00:00 GMT",
-   "url": "https://richboost.stonesoft.co.kr/posts/ark-2026-08-19/"
   }
  ]
 }
