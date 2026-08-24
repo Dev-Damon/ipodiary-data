@@ -25,6 +25,43 @@
   ]
  },
  {
+  "name": "엘리스그룹",
+  "subscription_period": "2026.09.18~09.21",
+  "confirmed_price": null,
+  "band": "70,400~90,500",
+  "competition_rate": null,
+  "underwriters": [
+   "미래에셋증권",
+   "삼성증권"
+  ],
+  "detail_no": "2316",
+  "market": "코스닥",
+  "payment_date": "2026.09.23",
+  "refund_date": "2026.09.23",
+  "par_value": 500,
+  "total_shares": 2222000,
+  "mandatory_holding": "0.00%",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "미래에셋증권",
+    "allocation": 533280,
+    "limit": 26500,
+    "role": "대표",
+    "allocation_pct": 80.0,
+    "fee": 2000
+   },
+   {
+    "broker": "삼성증권",
+    "allocation": 133320,
+    "limit": 6000,
+    "role": "공동",
+    "allocation_pct": 20.0,
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "덕산넵코어스(구.넵코어스)",
   "subscription_period": "2026.09.16~09.17",
   "confirmed_price": null,
@@ -822,54 +859,6 @@
   "broker_conditions": [
    {
     "broker": "NH투자증권",
-    "fee": 2000
-   }
-  ]
- },
- {
-  "name": "코스모로보틱스(구.엑소아틀레트아시아)",
-  "subscription_period": "2026.04.27~04.28",
-  "confirmed_price": 6000,
-  "band": "5,300~6,000",
-  "competition_rate": "2013:1",
-  "underwriters": [
-   "유진투자증권",
-   "NH투자증권",
-   "유안타증권"
-  ],
-  "detail_no": "2278",
-  "market": "코스닥",
-  "payment_date": "2026.04.30",
-  "refund_date": "2026.04.30",
-  "listing_date": "2026.05.11",
-  "par_value": 500,
-  "total_shares": 4170000,
-  "mandatory_holding": "73.03%",
-  "institutional_rate": 1140.11,
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "유진투자증권",
-    "allocation": 417000,
-    "limit": 52000,
-    "role": null,
-    "allocation_pct": 40.0,
-    "fee": 2000
-   },
-   {
-    "broker": "NH투자증권",
-    "allocation": 417000,
-    "limit": 17000,
-    "role": null,
-    "allocation_pct": 40.0,
-    "fee": 2000
-   },
-   {
-    "broker": "유안타증권",
-    "allocation": 208500,
-    "limit": 10000,
-    "role": "인수",
-    "allocation_pct": 20.0,
     "fee": 2000
    }
   ]
