@@ -1,5 +1,23 @@
 [
  {
+  "name": "NH스팩34호",
+  "listing_date": "2026.09.11",
+  "current_price": null,
+  "offer_price": null,
+  "opening_price": null,
+  "opening_vs_offer": "%",
+  "first_day_close": null
+ },
+ {
+  "name": "스카이랩스",
+  "listing_date": "2026.09.04",
+  "current_price": null,
+  "offer_price": null,
+  "opening_price": null,
+  "opening_vs_offer": "%",
+  "first_day_close": null
+ },
+ {
   "name": "해치텍",
   "listing_date": "2026.08.25",
   "current_price": null,
@@ -160,23 +178,5 @@
   "opening_price": 20000,
   "opening_vs_offer": "300%",
   "first_day_close": 20000
- },
- {
-  "name": "코스모로보틱스(구.엑소아틀레트아시아)",
-  "listing_date": "2026.05.11",
-  "current_price": 13050,
-  "offer_price": 6000,
-  "opening_price": 23500,
-  "opening_vs_offer": "291.67%",
-  "first_day_close": 24000
- },
- {
-  "name": "신한스팩18호",
-  "listing_date": "2026.04.30",
-  "current_price": 1972,
-  "offer_price": 2000,
-  "opening_price": 6070,
-  "opening_vs_offer": "203.5%",
-  "first_day_close": 2355
  }
 ]
