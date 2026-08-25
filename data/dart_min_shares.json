@@ -66,5 +66,9 @@
  "채비(구.대영채비)": {
   "min_shares": null,
   "price": 12300
+ },
+ "스카이랩스": {
+  "min_shares": 10,
+  "price": 10000
  }
 }

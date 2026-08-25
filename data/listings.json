@@ -12,7 +12,7 @@
   "name": "스카이랩스",
   "listing_date": "2026.09.04",
   "current_price": null,
-  "offer_price": null,
+  "offer_price": 10000,
   "opening_price": null,
   "opening_vs_offer": "%",
   "first_day_close": null
