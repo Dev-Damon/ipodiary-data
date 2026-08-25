@@ -1,5 +1,30 @@
 [
  {
+  "name": "래블업",
+  "subscription_period": "2026.10.12~10.13",
+  "confirmed_price": null,
+  "band": "20,000~23,000",
+  "competition_rate": null,
+  "underwriters": [
+   "NH투자증권"
+  ],
+  "detail_no": "2318",
+  "market": "코스닥",
+  "payment_date": "2026.10.15",
+  "refund_date": "2026.10.15",
+  "par_value": 500,
+  "total_shares": 2180000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "18,000~21,800",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "NH투자증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "멜콘(구.에스앤에프솔루션)",
   "subscription_period": "2026.10.01~10.02",
   "confirmed_price": null,
@@ -834,33 +859,6 @@
     "limit": 5500,
     "role": "인수",
     "allocation_pct": 15.0,
-    "fee": 2000
-   }
-  ]
- },
- {
-  "name": "폴레드",
-  "subscription_period": "2026.05.04~05.06",
-  "confirmed_price": 5000,
-  "band": "4,100~5,000",
-  "competition_rate": "3169.86:1",
-  "underwriters": [
-   "NH투자증권"
-  ],
-  "detail_no": "2286",
-  "market": "코스닥",
-  "payment_date": "2026.05.08",
-  "refund_date": "2026.05.08",
-  "listing_date": "2026.05.14",
-  "par_value": 100,
-  "total_shares": 2600000,
-  "mandatory_holding": "67.24%",
-  "max_subscription": "21,600~26,000",
-  "institutional_rate": 1486.66,
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "NH투자증권",
     "fee": 2000
    }
   ]
