@@ -1,5 +1,29 @@
 [
  {
+  "name": "SK증권스팩14호",
+  "subscription_period": "2026.10.15~10.16",
+  "confirmed_price": null,
+  "band": "2,000~2,000",
+  "competition_rate": null,
+  "underwriters": [
+   "SK증권"
+  ],
+  "detail_no": "2319",
+  "market": "코스닥",
+  "payment_date": "2026.10.20",
+  "refund_date": "2026.10.20",
+  "par_value": 100,
+  "total_shares": 6500000,
+  "mandatory_holding": "0.00%",
+  "deposit_rate": 1.0,
+  "broker_conditions": [
+   {
+    "broker": "SK증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "래블업",
   "subscription_period": "2026.10.12~10.13",
   "confirmed_price": null,
@@ -822,45 +846,6 @@
   "broker_conditions": [
    {
     "broker": "대신증권",
-    "fee": 2000
-   }
-  ]
- },
- {
-  "name": "마키나락스",
-  "subscription_period": "2026.05.11~05.12",
-  "confirmed_price": 15000,
-  "band": "12,500~15,000",
-  "competition_rate": "2807.8:1",
-  "underwriters": [
-   "미래에셋증권",
-   "현대차증권"
-  ],
-  "detail_no": "2285",
-  "market": "코스닥",
-  "payment_date": "2026.05.14",
-  "refund_date": "2026.05.14",
-  "listing_date": "2026.05.20",
-  "par_value": 500,
-  "total_shares": 2635000,
-  "mandatory_holding": "78.17%",
-  "institutional_rate": 1196.08,
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "미래에셋증권",
-    "allocation": 671920,
-    "limit": 33500,
-    "role": null,
-    "allocation_pct": 85.0,
-    "fee": 2000
-   },
-   {
-    "broker": "현대차증권",
-    "allocation": 118580,
-    "limit": 5500,
-    "role": "인수",
-    "allocation_pct": 15.0,
     "fee": 2000
    }
   ]
