@@ -353,7 +353,7 @@
   "subscription_period": "2026.08.26~08.27",
   "confirmed_price": 10000,
   "band": "13,000~16,000",
-  "competition_rate": null,
+  "competition_rate": "2.85:1",
   "underwriters": [
    "한국투자증권"
   ],
