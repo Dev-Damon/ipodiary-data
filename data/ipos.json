@@ -49,6 +49,31 @@
   ]
  },
  {
+  "name": "진코스텍",
+  "subscription_period": "2026.10.02~10.06",
+  "confirmed_price": null,
+  "band": "19,500~23,500",
+  "competition_rate": null,
+  "underwriters": [
+   "하나증권"
+  ],
+  "detail_no": "2320",
+  "market": "코스닥",
+  "payment_date": "2026.10.08",
+  "refund_date": "2026.10.08",
+  "par_value": 500,
+  "total_shares": 852000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "10,000~12,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "하나증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "멜콘(구.에스앤에프솔루션)",
   "subscription_period": "2026.10.01~10.02",
   "confirmed_price": null,
@@ -325,7 +350,7 @@
  {
   "name": "NH스팩34호",
   "subscription_period": "2026.09.01~09.02",
-  "confirmed_price": null,
+  "confirmed_price": 2000,
   "band": "2,000~2,000",
   "competition_rate": null,
   "underwriters": [
@@ -340,6 +365,7 @@
   "total_shares": 8500000,
   "mandatory_holding": "0.00%",
   "max_subscription": "210,000~255,000",
+  "institutional_rate": 1160.7,
   "deposit_rate": 1.0,
   "broker_conditions": [
    {
@@ -819,33 +845,6 @@
     "limit": 17000,
     "role": null,
     "allocation_pct": 50.0,
-    "fee": 2000
-   }
-  ]
- },
- {
-  "name": "대신밸런스스팩20호",
-  "subscription_period": "2026.05.22~05.26",
-  "confirmed_price": 2000,
-  "band": "2,000~2,000",
-  "competition_rate": "1468.88:1",
-  "underwriters": [
-   "대신증권"
-  ],
-  "detail_no": "2288",
-  "market": "코스닥",
-  "payment_date": "2026.05.28",
-  "refund_date": "2026.05.28",
-  "listing_date": "2026.06.05",
-  "par_value": 100,
-  "total_shares": 6500000,
-  "mandatory_holding": "0.00%",
-  "max_subscription": "162,500~195,000",
-  "institutional_rate": 1327.13,
-  "deposit_rate": 1.0,
-  "broker_conditions": [
-   {
-    "broker": "대신증권",
     "fee": 2000
    }
   ]
