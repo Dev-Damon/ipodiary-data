@@ -49,6 +49,31 @@
   ]
  },
  {
+  "name": "엠비디",
+  "subscription_period": "2026.10.06~10.07",
+  "confirmed_price": null,
+  "band": "9,400~11,500",
+  "competition_rate": null,
+  "underwriters": [
+   "하나증권"
+  ],
+  "detail_no": "2321",
+  "market": "코스닥",
+  "payment_date": "2026.10.12",
+  "refund_date": "2026.10.12",
+  "par_value": 500,
+  "total_shares": 2000000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "25,000~30,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "하나증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "진코스텍",
   "subscription_period": "2026.10.02~10.06",
   "confirmed_price": null,
@@ -806,45 +831,6 @@
   "broker_conditions": [
    {
     "broker": "메리츠증권",
-    "fee": 2000
-   }
-  ]
- },
- {
-  "name": "피스피스스튜디오",
-  "subscription_period": "2026.05.26~05.27",
-  "confirmed_price": 21500,
-  "band": "19,000~21,500",
-  "competition_rate": "1194.94:1",
-  "underwriters": [
-   "NH투자증권",
-   "미래에셋증권"
-  ],
-  "detail_no": "2287",
-  "market": "코스닥",
-  "payment_date": "2026.05.29",
-  "refund_date": "2026.05.29",
-  "listing_date": "2026.06.08",
-  "par_value": 100,
-  "total_shares": 2272637,
-  "mandatory_holding": "5.68%",
-  "institutional_rate": 847.76,
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "NH투자증권",
-    "allocation": 262500,
-    "limit": 11000,
-    "role": null,
-    "allocation_pct": 50.0,
-    "fee": 2000
-   },
-   {
-    "broker": "미래에셋증권",
-    "allocation": 262500,
-    "limit": 17000,
-    "role": null,
-    "allocation_pct": 50.0,
     "fee": 2000
    }
   ]
