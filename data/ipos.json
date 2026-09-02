@@ -377,7 +377,7 @@
   "subscription_period": "2026.09.01~09.02",
   "confirmed_price": 2000,
   "band": "2,000~2,000",
-  "competition_rate": null,
+  "competition_rate": "356.99:1",
   "underwriters": [
    "NH투자증권"
   ],
