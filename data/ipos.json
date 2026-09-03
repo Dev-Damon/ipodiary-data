@@ -1,5 +1,30 @@
 [
  {
+  "name": "티앤이코리아",
+  "subscription_period": "2026.10.20~10.21",
+  "confirmed_price": null,
+  "band": "12,600~15,300",
+  "competition_rate": null,
+  "underwriters": [
+   "신한투자증권"
+  ],
+  "detail_no": "2322",
+  "market": "코스닥",
+  "payment_date": "2026.10.23",
+  "refund_date": "2026.10.23",
+  "par_value": 500,
+  "total_shares": 2400000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "20,000~24,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "신한투자증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "SK증권스팩14호",
   "subscription_period": "2026.10.15~10.16",
   "confirmed_price": null,
@@ -804,33 +829,6 @@
   "broker_conditions": [
    {
     "broker": "삼성증권",
-    "fee": 2000
-   }
-  ]
- },
- {
-  "name": "메리츠스팩2호",
-  "subscription_period": "2026.06.09~06.10",
-  "confirmed_price": 2000,
-  "band": "2,000~2,000",
-  "competition_rate": "1388.66:1",
-  "underwriters": [
-   "메리츠증권"
-  ],
-  "detail_no": "2295",
-  "market": "코스닥",
-  "payment_date": "2026.06.12",
-  "refund_date": "2026.06.12",
-  "listing_date": "2026.06.19",
-  "par_value": 100,
-  "total_shares": 7000000,
-  "mandatory_holding": "0.00%",
-  "max_subscription": "175,000~210,000",
-  "institutional_rate": 1087.58,
-  "deposit_rate": 1.0,
-  "broker_conditions": [
-   {
-    "broker": "메리츠증권",
     "fee": 2000
    }
   ]
