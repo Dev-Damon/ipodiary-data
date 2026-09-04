@@ -25,6 +25,31 @@
   ]
  },
  {
+  "name": "크리에이츠",
+  "subscription_period": "2026.10.20~10.21",
+  "confirmed_price": null,
+  "band": "15,000~18,000",
+  "competition_rate": null,
+  "underwriters": [
+   "삼성증권"
+  ],
+  "detail_no": "2323",
+  "market": "코스닥",
+  "payment_date": "2026.10.23",
+  "refund_date": "2026.10.23",
+  "par_value": 200,
+  "total_shares": 1400000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "16,000~20,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "삼성증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "SK증권스팩14호",
   "subscription_period": "2026.10.15~10.16",
   "confirmed_price": null,
@@ -803,33 +828,6 @@
    {
     "broker": "KB증권",
     "fee": 1500
-   }
-  ]
- },
- {
-  "name": "져스텍",
-  "subscription_period": "2026.06.18~06.19",
-  "confirmed_price": 12500,
-  "band": "10,500~12,500",
-  "competition_rate": "2,783.89:1",
-  "underwriters": [
-   "삼성증권"
-  ],
-  "detail_no": "2291",
-  "market": "코스닥",
-  "payment_date": "2026.06.23",
-  "refund_date": "2026.06.23",
-  "listing_date": "2026.06.29",
-  "par_value": 500,
-  "total_shares": 1600000,
-  "mandatory_holding": "47.20%",
-  "max_subscription": "20,000~24,000",
-  "institutional_rate": 1294.99,
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "삼성증권",
-    "fee": 2000
    }
   ]
  }
