@@ -99,6 +99,43 @@
   ]
  },
  {
+  "name": "엘리스그룹",
+  "subscription_period": "2026.10.07~10.08",
+  "confirmed_price": null,
+  "band": "70,400~90,500",
+  "competition_rate": null,
+  "underwriters": [
+   "미래에셋증권",
+   "삼성증권"
+  ],
+  "detail_no": "2316",
+  "market": "코스닥",
+  "payment_date": "2026.10.13",
+  "refund_date": "2026.10.13",
+  "par_value": 500,
+  "total_shares": 2222000,
+  "mandatory_holding": "0.00%",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "미래에셋증권",
+    "allocation": 533280,
+    "limit": 26500,
+    "role": "대표",
+    "allocation_pct": 80.0,
+    "fee": 2000
+   },
+   {
+    "broker": "삼성증권",
+    "allocation": 133320,
+    "limit": 6000,
+    "role": "공동",
+    "allocation_pct": 20.0,
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "엠비디",
   "subscription_period": "2026.10.06~10.07",
   "confirmed_price": null,
@@ -169,43 +206,6 @@
   "broker_conditions": [
    {
     "broker": "대신증권",
-    "fee": 2000
-   }
-  ]
- },
- {
-  "name": "엘리스그룹",
-  "subscription_period": "2026.09.18~09.21",
-  "confirmed_price": null,
-  "band": "70,400~90,500",
-  "competition_rate": null,
-  "underwriters": [
-   "미래에셋증권",
-   "삼성증권"
-  ],
-  "detail_no": "2316",
-  "market": "코스닥",
-  "payment_date": "2026.09.23",
-  "refund_date": "2026.09.23",
-  "par_value": 500,
-  "total_shares": 2222000,
-  "mandatory_holding": "0.00%",
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "미래에셋증권",
-    "allocation": 533280,
-    "limit": 26500,
-    "role": "대표",
-    "allocation_pct": 80.0,
-    "fee": 2000
-   },
-   {
-    "broker": "삼성증권",
-    "allocation": 133320,
-    "limit": 6000,
-    "role": "공동",
-    "allocation_pct": 20.0,
     "fee": 2000
    }
   ]
@@ -289,7 +289,7 @@
   "name": "빅웨이브로보틱스",
   "subscription_period": "2026.09.15~09.16",
   "confirmed_price": null,
-  "band": "20,000~24,000",
+  "band": "15,000~18,000",
   "competition_rate": null,
   "underwriters": [
    "유진투자증권",
@@ -307,7 +307,7 @@
    {
     "broker": "유진투자증권",
     "allocation": 232560,
-    "limit": 30000,
+    "limit": 24000,
     "role": null,
     "allocation_pct": 51.0,
     "fee": 2000
@@ -315,7 +315,7 @@
    {
     "broker": "미래에셋증권",
     "allocation": 223440,
-    "limit": 14000,
+    "limit": 11000,
     "role": null,
     "allocation_pct": 49.0,
     "fee": 2000

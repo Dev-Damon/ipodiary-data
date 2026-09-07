@@ -11,7 +11,7 @@
  {
   "name": "스카이랩스",
   "listing_date": "2026.09.04",
-  "current_price": null,
+  "current_price": 30550,
   "offer_price": 10000,
   "opening_price": 8500,
   "opening_vs_offer": "-15%",
@@ -20,7 +20,7 @@
  {
   "name": "해치텍",
   "listing_date": "2026.08.25",
-  "current_price": 12560,
+  "current_price": 14650,
   "offer_price": 23000,
   "opening_price": 20500,
   "opening_vs_offer": "-10.87%",
@@ -29,7 +29,7 @@
  {
   "name": "니어스랩",
   "listing_date": "2026.08.24",
-  "current_price": 31450,
+  "current_price": 31050,
   "offer_price": 41200,
   "opening_price": 40500,
   "opening_vs_offer": "-1.7%",
@@ -38,7 +38,7 @@
  {
   "name": "기도산업",
   "listing_date": "2026.08.21",
-  "current_price": 13300,
+  "current_price": 13350,
   "offer_price": 28400,
   "opening_price": 28000,
   "opening_vs_offer": "-1.41%",
@@ -56,7 +56,7 @@
  {
   "name": "케이앤에스아이앤씨",
   "listing_date": "2026.08.13",
-  "current_price": 7470,
+  "current_price": 8030,
   "offer_price": 11000,
   "opening_price": 21000,
   "opening_vs_offer": "90.91%",
@@ -65,7 +65,7 @@
  {
   "name": "딜리셔스",
   "listing_date": "2026.08.12",
-  "current_price": 2900,
+  "current_price": 3045,
   "offer_price": 7000,
   "opening_price": 6000,
   "opening_vs_offer": "-14.29%",
@@ -74,7 +74,7 @@
  {
   "name": "에이치엘지노믹스",
   "listing_date": "2026.07.24",
-  "current_price": 8900,
+  "current_price": 9200,
   "offer_price": 21500,
   "opening_price": 21500,
   "opening_vs_offer": "0%",
@@ -83,7 +83,7 @@
  {
   "name": "레메디",
   "listing_date": "2026.07.13",
-  "current_price": 15750,
+  "current_price": 18140,
   "offer_price": 20700,
   "opening_price": 30750,
   "opening_vs_offer": "48.55%",
@@ -92,7 +92,7 @@
  {
   "name": "레몬헬스케어",
   "listing_date": "2026.07.06",
-  "current_price": 4465,
+  "current_price": 4645,
   "offer_price": 10000,
   "opening_price": 16560,
   "opening_vs_offer": "65.6%",
@@ -101,7 +101,7 @@
  {
   "name": "매드업",
   "listing_date": "2026.07.01",
-  "current_price": 8180,
+  "current_price": 9340,
   "offer_price": 8000,
   "opening_price": 22250,
   "opening_vs_offer": "178.13%",
@@ -110,7 +110,7 @@
  {
   "name": "한국스팩16호",
   "listing_date": "2026.06.30",
-  "current_price": 1953,
+  "current_price": 1956,
   "offer_price": 2000,
   "opening_price": 4090,
   "opening_vs_offer": "104.5%",
@@ -128,7 +128,7 @@
  {
   "name": "져스텍",
   "listing_date": "2026.06.29",
-  "current_price": 10910,
+  "current_price": 11620,
   "offer_price": 12500,
   "opening_price": 35350,
   "opening_vs_offer": "182.8%",
@@ -146,7 +146,7 @@
  {
   "name": "피스피스스튜디오",
   "listing_date": "2026.06.08",
-  "current_price": 5640,
+  "current_price": 5480,
   "offer_price": 21500,
   "opening_price": 32000,
   "opening_vs_offer": "48.84%",
@@ -155,7 +155,7 @@
  {
   "name": "대신밸런스스팩20호",
   "listing_date": "2026.06.05",
-  "current_price": 1973,
+  "current_price": 1979,
   "offer_price": 2000,
   "opening_price": 6200,
   "opening_vs_offer": "210%",
@@ -164,7 +164,7 @@
  {
   "name": "마키나락스",
   "listing_date": "2026.05.20",
-  "current_price": 23300,
+  "current_price": 23450,
   "offer_price": 15000,
   "opening_price": 60000,
   "opening_vs_offer": "300%",
