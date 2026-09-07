@@ -1,31 +1,11 @@
 {
- "ipo_news": [
-  {
-   "title": "[공모주달력]빅웨이브로보틱스 몸값 낮춰 재도전…공모주 '슈퍼위크' - v.daum.net",
-   "date": "Sat, 05 Sep 2026 23:01:09 GMT",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFAxcGlPbEtTZi1Cc1ZWU0ZOUzJWSFRGNlBsdTlPSC1fUVNZbzlMWURsRjZzRWFiUzY3bENtMEJXa0ZYU3djNnc?oc=5",
-   "ipo": "KB스팩34호"
-  },
-  {
-   "title": "위축된 IPO 투심 속…‘공모가 하단 밑’ 스카이랩스, 코스닥 상장 [이번주 증시 캘린더] - 서울경제",
-   "date": "Sun, 30 Aug 2026 21:00:00 GMT",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8taUQwcXVLdlpTcGNKYkZ2UUN2bHJERVZPSHRYb0d5OXBEdjhkLVZXNno2MGwwYU5lalRlMjFfTG5ycGxNcFRkdEgybG1LN1NiWlHSAVNBVV95cUxPWEhDWFR2cWhNNnJWR3dfOGNpLWZxTHp4T1AwX0w1OFk2cDljOVRPLUNpRkdCXzZMV3RZOEFNcm9INUpSRkRhM2FMNm9Rb21fbi1oRQ?oc=5",
-   "ipo": "KB스팩34호"
-  },
-  {
-   "title": "[공모주 분석] '타입캐스트' 네오사피엔스, AI 음성 넘어 '대화형 AI'로 코스닥 도전 - 한국경제",
-   "date": "Fri, 04 Sep 2026 07:00:00 GMT",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1nRXIxWjItOW41VW5WOHlLZXk5alMwdi1YZk92RHNMSl9IV21nM0VYX1haaFVxQjJoZmV3M0xxa1JHazRCVmxpWkpYaGFBZHlMQ19za0NneFM0Zw?oc=5",
-   "ipo": "네오사피엔스"
-  },
-  {
-   "title": "[상장 기대주 점검] 2028년 순익 끌어 공모가 산정한 네오사피엔스, 적자 탈출할까 - 뉴스톱",
-   "date": "Fri, 04 Sep 2026 07:00:00 GMT",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1oclZrN29sTTZ2d0U0ZThDZm4xZE1RVzlPUmR6WVI5dlprTGU0Q1NBd3FTUnBBUUFvaXFPYWFRVDVNMmxSSmN6dzhjVDk4QUNoYUljcXBDVDJ2YVUzUVkyeHgwNFh2SG9fRW14bVVHVQ?oc=5",
-   "ipo": "네오사피엔스"
-  }
- ],
+ "ipo_news": [],
  "richboost": [
+  {
+   "title": "2026-09-07 경제시황: 8월 고용 깜짝 호조에 연준 9월 인상 확률 58%…뉴욕 3대 지수 하락",
+   "date": "Mon, 07 Sep 2026 00:00:00 GMT",
+   "url": "https://richboost.stonesoft.co.kr/posts/news-2026-09-07/"
+  },
   {
    "title": "2026-09-06 경제시황: 고용 서프라이즈에 금리 인상 공포 재점화, 코스피는 6,680선 회복",
    "date": "Sun, 06 Sep 2026 00:00:00 GMT",
@@ -45,11 +25,6 @@
    "title": "2026-09-04 경제시황: 월러 '동결' 발언에 뉴욕 3대 지수 1%대 반등, 코스피는 급락 후 숨고르기",
    "date": "Fri, 04 Sep 2026 00:00:00 GMT",
    "url": "https://richboost.stonesoft.co.kr/posts/news-2026-09-04/"
-  },
-  {
-   "title": "뱅가드, 벨링브랜즈 지분 5% 이상 보유 정정신고",
-   "date": "Thu, 03 Sep 2026 00:00:00 GMT",
-   "url": "https://richboost.stonesoft.co.kr/posts/13dg-vanguard-bellring-brands-inc-2026-09-03/"
   }
  ]
 }
