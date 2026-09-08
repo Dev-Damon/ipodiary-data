@@ -99,6 +99,31 @@
   ]
  },
  {
+  "name": "엠에스바이오",
+  "subscription_period": "2026.10.12~10.13",
+  "confirmed_price": null,
+  "band": "6,800~7,800",
+  "competition_rate": null,
+  "underwriters": [
+   "KB증권"
+  ],
+  "detail_no": "2324",
+  "market": "코스닥",
+  "payment_date": "2026.10.15",
+  "refund_date": "2026.10.15",
+  "par_value": 100,
+  "total_shares": 4000000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "33,000~40,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "KB증권",
+    "fee": 1500
+   }
+  ]
+ },
+ {
   "name": "엘리스그룹",
   "subscription_period": "2026.10.07~10.08",
   "confirmed_price": null,
@@ -801,33 +826,6 @@
    {
     "broker": "한국투자증권",
     "fee": 2000
-   }
-  ]
- },
- {
-  "name": "스트라드비젼",
-  "subscription_period": "2026.06.18~06.19",
-  "confirmed_price": 12000,
-  "band": "12,000~14,000",
-  "competition_rate": "45.83:1",
-  "underwriters": [
-   "KB증권"
-  ],
-  "detail_no": "2289",
-  "market": "코스닥",
-  "payment_date": "2026.06.23",
-  "refund_date": "2026.06.23",
-  "listing_date": "2026.06.30",
-  "par_value": 100,
-  "total_shares": 7000000,
-  "mandatory_holding": "2.77%",
-  "max_subscription": "55,000~70,000",
-  "institutional_rate": 381.3,
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "KB증권",
-    "fee": 1500
    }
   ]
  }
