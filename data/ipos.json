@@ -385,6 +385,7 @@
   "market": "코스닥",
   "payment_date": "2026.09.17",
   "refund_date": "2026.09.17",
+  "listing_date": "2026.09.23",
   "par_value": 100,
   "total_shares": 1600000,
   "mandatory_holding": "0.00%",
@@ -400,7 +401,7 @@
  {
   "name": "네오사피엔스",
   "subscription_period": "2026.09.10~09.11",
-  "confirmed_price": null,
+  "confirmed_price": 10000,
   "band": "13,800~15,800",
   "competition_rate": null,
   "underwriters": [
@@ -410,17 +411,20 @@
   "market": "코스닥",
   "payment_date": "2026.09.15",
   "refund_date": "2026.09.15",
+  "listing_date": "2026.09.21",
   "par_value": 500,
   "total_shares": 2000000,
-  "mandatory_holding": "0.00%",
+  "mandatory_holding": "8.98%",
   "max_subscription": "16,000~20,000",
+  "institutional_rate": 219.56,
   "deposit_rate": 0.5,
   "broker_conditions": [
    {
     "broker": "대신증권",
     "fee": 2000
    }
-  ]
+  ],
+  "min_shares": 20
  },
  {
   "name": "KB스팩34호",
@@ -435,6 +439,7 @@
   "market": "코스닥",
   "payment_date": "2026.09.15",
   "refund_date": "2026.09.15",
+  "listing_date": "2026.09.22",
   "par_value": 100,
   "total_shares": 7000000,
   "mandatory_holding": "0.00%",
@@ -451,7 +456,7 @@
  {
   "name": "한국스팩17호",
   "subscription_period": "2026.09.10~09.11",
-  "confirmed_price": null,
+  "confirmed_price": 2000,
   "band": "2,000~2,000",
   "competition_rate": null,
   "underwriters": [
@@ -461,10 +466,12 @@
   "market": "코스닥",
   "payment_date": "2026.09.15",
   "refund_date": "2026.09.15",
+  "listing_date": "2026.09.22",
   "par_value": 100,
   "total_shares": 7000000,
   "mandatory_holding": "0.00%",
   "max_subscription": "25,000~35,000",
+  "institutional_rate": 1270.51,
   "deposit_rate": 1.0,
   "broker_conditions": [
    {
