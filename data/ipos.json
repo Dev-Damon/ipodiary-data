@@ -1,5 +1,30 @@
 [
  {
+  "name": "바로팜",
+  "subscription_period": "2026.11.02~11.03",
+  "confirmed_price": null,
+  "band": "16,400~20,200",
+  "competition_rate": null,
+  "underwriters": [
+   "미래에셋증권"
+  ],
+  "detail_no": "2325",
+  "market": "코스닥",
+  "payment_date": "2026.11.05",
+  "refund_date": "2026.11.05",
+  "par_value": 500,
+  "total_shares": 1780000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "22,000~26,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "미래에셋증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "티앤이코리아",
   "subscription_period": "2026.10.20~10.21",
   "confirmed_price": null,
@@ -78,7 +103,7 @@
   "subscription_period": "2026.10.12~10.13",
   "confirmed_price": null,
   "band": "20,000~23,000",
-  "competition_rate": null,
+  "competition_rate": "정정신고서 제출 요구",
   "underwriters": [
    "NH투자증권"
   ],
@@ -799,33 +824,6 @@
   "broker_conditions": [
    {
     "broker": "미래에셋증권",
-    "fee": 2000
-   }
-  ]
- },
- {
-  "name": "한국스팩16호",
-  "subscription_period": "2026.06.22~06.23",
-  "confirmed_price": 2000,
-  "band": "2,000~2,000",
-  "competition_rate": "1274.77:1",
-  "underwriters": [
-   "한국투자증권"
-  ],
-  "detail_no": "2297",
-  "market": "코스닥",
-  "payment_date": "2026.06.25",
-  "refund_date": "2026.06.25",
-  "listing_date": "2026.06.30",
-  "par_value": 100,
-  "total_shares": 5500000,
-  "mandatory_holding": "0.00%",
-  "max_subscription": "22,500~27,500",
-  "institutional_rate": 1364.09,
-  "deposit_rate": 1.0,
-  "broker_conditions": [
-   {
-    "broker": "한국투자증권",
     "fee": 2000
    }
   ]
