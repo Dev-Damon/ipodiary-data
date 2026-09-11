@@ -99,6 +99,43 @@
   ]
  },
  {
+  "name": "디티에스(구.동양티에스)",
+  "subscription_period": "2026.10.13~10.14",
+  "confirmed_price": null,
+  "band": "17,000~18,500",
+  "competition_rate": null,
+  "underwriters": [
+   "대신증권",
+   "유진증권"
+  ],
+  "detail_no": "2326",
+  "market": "코스닥",
+  "payment_date": "2026.10.16",
+  "refund_date": "2026.10.16",
+  "par_value": 5000,
+  "total_shares": 2228917,
+  "mandatory_holding": "0.00%",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "대신증권",
+    "allocation": 601808,
+    "limit": 20000,
+    "role": null,
+    "allocation_pct": 90.0,
+    "fee": 2000
+   },
+   {
+    "broker": "유진증권",
+    "allocation": 66868,
+    "limit": 6500,
+    "role": "인수",
+    "allocation_pct": 10.0,
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "래블업",
   "subscription_period": "2026.10.12~10.13",
   "confirmed_price": null,
@@ -323,6 +360,7 @@
   "market": "코스닥",
   "payment_date": "2026.09.21",
   "refund_date": "2026.09.21",
+  "listing_date": "2026.09.29",
   "par_value": 500,
   "total_shares": 4000000,
   "mandatory_holding": "0.00%",
@@ -349,6 +387,7 @@
   "market": "코스닥",
   "payment_date": "2026.09.18",
   "refund_date": "2026.09.18",
+  "listing_date": "2026.09.29",
   "par_value": 100,
   "total_shares": 1600000,
   "mandatory_holding": "0.00%",
@@ -375,7 +414,7 @@
  {
   "name": "와이즈플래닛컴퍼니",
   "subscription_period": "2026.09.14~09.15",
-  "confirmed_price": null,
+  "confirmed_price": 12000,
   "band": "10,000~12,000",
   "competition_rate": null,
   "underwriters": [
@@ -388,22 +427,24 @@
   "listing_date": "2026.09.23",
   "par_value": 100,
   "total_shares": 1600000,
-  "mandatory_holding": "0.00%",
+  "mandatory_holding": "3.65%",
   "max_subscription": "13,000~16,000",
+  "institutional_rate": 1248.47,
   "deposit_rate": 0.5,
   "broker_conditions": [
    {
     "broker": "대신증권",
     "fee": 2000
    }
-  ]
+  ],
+  "min_shares": 10
  },
  {
   "name": "네오사피엔스",
   "subscription_period": "2026.09.10~09.11",
   "confirmed_price": 10000,
   "band": "13,800~15,800",
-  "competition_rate": null,
+  "competition_rate": "1047.78:1",
   "underwriters": [
    "대신증권"
   ],
@@ -431,7 +472,7 @@
   "subscription_period": "2026.09.10~09.11",
   "confirmed_price": 2000,
   "band": "2,000~2,000",
-  "competition_rate": null,
+  "competition_rate": "397.33:1",
   "underwriters": [
    "KB증권"
   ],
@@ -458,7 +499,7 @@
   "subscription_period": "2026.09.10~09.11",
   "confirmed_price": 2000,
   "band": "2,000~2,000",
-  "competition_rate": null,
+  "competition_rate": "494.62:1",
   "underwriters": [
    "한국투자증권"
   ],
@@ -805,33 +846,6 @@
    {
     "broker": "KB증권",
     "fee": 1500
-   }
-  ]
- },
- {
-  "name": "매드업",
-  "subscription_period": "2026.06.23~06.24",
-  "confirmed_price": 8000,
-  "band": "7,000~8,000",
-  "competition_rate": "3304.76:1",
-  "underwriters": [
-   "미래에셋증권"
-  ],
-  "detail_no": "2290",
-  "market": "코스닥",
-  "payment_date": "2026.06.26",
-  "refund_date": "2026.06.26",
-  "listing_date": "2026.07.01",
-  "par_value": 100,
-  "total_shares": 2000000,
-  "mandatory_holding": "27.39%",
-  "max_subscription": "25,000~30,000",
-  "institutional_rate": 1396.29,
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "미래에셋증권",
-    "fee": 2000
    }
   ]
  }
