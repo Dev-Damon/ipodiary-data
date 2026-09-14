@@ -376,7 +376,7 @@
  {
   "name": "빅웨이브로보틱스",
   "subscription_period": "2026.09.15~09.16",
-  "confirmed_price": null,
+  "confirmed_price": 18000,
   "band": "15,000~18,000",
   "competition_rate": null,
   "underwriters": [
@@ -390,12 +390,13 @@
   "listing_date": "2026.09.29",
   "par_value": 100,
   "total_shares": 1600000,
-  "mandatory_holding": "0.00%",
+  "mandatory_holding": "18.14%",
+  "institutional_rate": 1109.37,
   "deposit_rate": 0.5,
   "broker_conditions": [
    {
     "broker": "유진투자증권",
-    "allocation": 232560,
+    "allocation": 193800,
     "limit": 24000,
     "role": null,
     "allocation_pct": 51.0,
@@ -403,13 +404,14 @@
    },
    {
     "broker": "미래에셋증권",
-    "allocation": 223440,
+    "allocation": 186200,
     "limit": 11000,
     "role": null,
     "allocation_pct": 49.0,
     "fee": 2000
    }
-  ]
+  ],
+  "min_shares": 10
  },
  {
   "name": "와이즈플래닛컴퍼니",
