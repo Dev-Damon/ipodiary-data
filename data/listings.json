@@ -21,7 +21,7 @@
   "name": "글로벌테크놀로지",
   "listing_date": "2026.09.29",
   "current_price": null,
-  "offer_price": null,
+  "offer_price": 10000,
   "opening_price": null,
   "opening_vs_offer": "%",
   "first_day_close": null
@@ -65,7 +65,7 @@
  {
   "name": "NH스팩34호",
   "listing_date": "2026.09.10",
-  "current_price": 1932,
+  "current_price": 1934,
   "offer_price": 2000,
   "opening_price": 4000,
   "opening_vs_offer": "100%",
@@ -74,7 +74,7 @@
  {
   "name": "스카이랩스",
   "listing_date": "2026.09.04",
-  "current_price": 23600,
+  "current_price": 20800,
   "offer_price": 10000,
   "opening_price": 8500,
   "opening_vs_offer": "-15%",
@@ -83,7 +83,7 @@
  {
   "name": "해치텍",
   "listing_date": "2026.08.25",
-  "current_price": 12690,
+  "current_price": 12200,
   "offer_price": 23000,
   "opening_price": 20500,
   "opening_vs_offer": "-10.87%",
@@ -92,7 +92,7 @@
  {
   "name": "니어스랩",
   "listing_date": "2026.08.24",
-  "current_price": 29750,
+  "current_price": 28600,
   "offer_price": 41200,
   "opening_price": 40500,
   "opening_vs_offer": "-1.7%",
@@ -101,7 +101,7 @@
  {
   "name": "기도산업",
   "listing_date": "2026.08.21",
-  "current_price": 12790,
+  "current_price": 12590,
   "offer_price": 28400,
   "opening_price": 28000,
   "opening_vs_offer": "-1.41%",
@@ -119,7 +119,7 @@
  {
   "name": "케이앤에스아이앤씨",
   "listing_date": "2026.08.13",
-  "current_price": 7360,
+  "current_price": 6930,
   "offer_price": 11000,
   "opening_price": 21000,
   "opening_vs_offer": "90.91%",
@@ -128,7 +128,7 @@
  {
   "name": "딜리셔스",
   "listing_date": "2026.08.12",
-  "current_price": 3040,
+  "current_price": 3005,
   "offer_price": 7000,
   "opening_price": 6000,
   "opening_vs_offer": "-14.29%",
@@ -137,7 +137,7 @@
  {
   "name": "에이치엘지노믹스",
   "listing_date": "2026.07.24",
-  "current_price": 8750,
+  "current_price": 8710,
   "offer_price": 21500,
   "opening_price": 21500,
   "opening_vs_offer": "0%",
@@ -146,7 +146,7 @@
  {
   "name": "레메디",
   "listing_date": "2026.07.13",
-  "current_price": 16080,
+  "current_price": 16280,
   "offer_price": 20700,
   "opening_price": 30750,
   "opening_vs_offer": "48.55%",
@@ -155,7 +155,7 @@
  {
   "name": "레몬헬스케어",
   "listing_date": "2026.07.06",
-  "current_price": 4500,
+  "current_price": 4550,
   "offer_price": 10000,
   "opening_price": 16560,
   "opening_vs_offer": "65.6%",
@@ -164,7 +164,7 @@
  {
   "name": "매드업",
   "listing_date": "2026.07.01",
-  "current_price": 8600,
+  "current_price": 8230,
   "offer_price": 8000,
   "opening_price": 22250,
   "opening_vs_offer": "178.13%",
@@ -173,7 +173,7 @@
  {
   "name": "한국스팩16호",
   "listing_date": "2026.06.30",
-  "current_price": 1950,
+  "current_price": 1958,
   "offer_price": 2000,
   "opening_price": 4090,
   "opening_vs_offer": "104.5%",
