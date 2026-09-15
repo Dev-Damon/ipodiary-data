@@ -325,7 +325,7 @@
  {
   "name": "덕산넵코어스(구.넵코어스)",
   "subscription_period": "2026.09.16~09.17",
-  "confirmed_price": null,
+  "confirmed_price": 14600,
   "band": "12,400~14,600",
   "competition_rate": null,
   "underwriters": [
@@ -335,10 +335,12 @@
   "market": "코스닥",
   "payment_date": "2026.09.21",
   "refund_date": "2026.09.21",
+  "listing_date": "2026.09.30",
   "par_value": 500,
   "total_shares": 3000000,
   "mandatory_holding": "0.00%",
   "max_subscription": "25,000~30,000",
+  "institutional_rate": 868.64,
   "deposit_rate": 0.5,
   "broker_conditions": [
    {

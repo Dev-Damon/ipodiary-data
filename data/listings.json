@@ -1,5 +1,14 @@
 [
  {
+  "name": "덕산넵코어스(구.넵코어스)",
+  "listing_date": "2026.09.30",
+  "current_price": 22750,
+  "offer_price": 14600,
+  "opening_price": null,
+  "opening_vs_offer": "%",
+  "first_day_close": null
+ },
+ {
   "name": "빅웨이브로보틱스",
   "listing_date": "2026.09.29",
   "current_price": null,
@@ -169,14 +178,5 @@
   "opening_price": 4090,
   "opening_vs_offer": "104.5%",
   "first_day_close": 1941
- },
- {
-  "name": "스트라드비젼",
-  "listing_date": "2026.06.30",
-  "current_price": 3605,
-  "offer_price": 12000,
-  "opening_price": 11020,
-  "opening_vs_offer": "-8.17%",
-  "first_day_close": 7200
  }
 ]
