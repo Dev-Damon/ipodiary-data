@@ -325,7 +325,7 @@
  {
   "name": "브릴스",
   "subscription_period": "2026.09.17~09.18",
-  "confirmed_price": null,
+  "confirmed_price": 19500,
   "band": "16,500~19,500",
   "competition_rate": null,
   "underwriters": [
@@ -335,17 +335,20 @@
   "market": "코스닥",
   "payment_date": "2026.09.22",
   "refund_date": "2026.09.22",
+  "listing_date": "2026.10.01",
   "par_value": 500,
   "total_shares": 1200000,
-  "mandatory_holding": "0.00%",
+  "mandatory_holding": "21.75%",
   "max_subscription": "15,000~18,000",
+  "institutional_rate": 1187.74,
   "deposit_rate": 0.5,
   "broker_conditions": [
    {
     "broker": "IBK투자증권",
     "fee": 1500
    }
-  ]
+  ],
+  "min_shares": 10
  },
  {
   "name": "덕산넵코어스(구.넵코어스)",
