@@ -25,6 +25,31 @@
   ]
  },
  {
+  "name": "아이엠스팩1호",
+  "subscription_period": "2026.10.26~10.27",
+  "confirmed_price": null,
+  "band": "2,000~2,000",
+  "competition_rate": null,
+  "underwriters": [
+   "아이엠증권"
+  ],
+  "detail_no": "2329",
+  "market": "코스닥",
+  "payment_date": "2026.10.29",
+  "refund_date": "2026.10.29",
+  "par_value": 100,
+  "total_shares": 5000000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "125,000~150,000",
+  "deposit_rate": 1.0,
+  "broker_conditions": [
+   {
+    "broker": "아이엠증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "인텔리빅스",
   "subscription_period": "2026.10.21~10.22",
   "confirmed_price": null,
@@ -380,7 +405,7 @@
   "subscription_period": "2026.09.16~09.17",
   "confirmed_price": 14600,
   "band": "12,400~14,600",
-  "competition_rate": null,
+  "competition_rate": "332.82:1",
   "underwriters": [
    "대신증권"
   ],
@@ -407,7 +432,7 @@
   "subscription_period": "2026.09.16~09.17",
   "confirmed_price": 10000,
   "band": "13,000~15,000",
-  "competition_rate": null,
+  "competition_rate": "57.15:1",
   "underwriters": [
    "한국투자증권"
   ],
@@ -812,46 +837,5 @@
     "fee": 2000
    }
   ]
- },
- {
-  "name": "에이치엘지노믹스",
-  "subscription_period": "2026.07.13~07.14",
-  "confirmed_price": 21500,
-  "band": "18,500~21,500",
-  "competition_rate": "666.78:1",
-  "underwriters": [
-   "KB증권",
-   "IBK투자증권"
-  ],
-  "detail_no": "2301",
-  "market": "코스닥",
-  "payment_date": "2026.07.16",
-  "refund_date": "2026.07.16",
-  "listing_date": "2026.07.24",
-  "par_value": 500,
-  "total_shares": 2565000,
-  "mandatory_holding": "1.91%",
-  "max_subscription": "19,000~22,500",
-  "institutional_rate": 714.52,
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "KB증권",
-    "allocation": 461700,
-    "limit": null,
-    "role": "대표",
-    "allocation_pct": 90.0,
-    "fee": 1500
-   },
-   {
-    "broker": "IBK투자증권",
-    "allocation": 51300,
-    "limit": null,
-    "role": "공동",
-    "allocation_pct": 10.0,
-    "fee": 1500
-   }
-  ],
-  "min_shares": 10
  }
 ]
