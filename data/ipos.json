@@ -435,7 +435,7 @@
   "subscription_period": "2026.09.15~09.16",
   "confirmed_price": 18000,
   "band": "15,000~18,000",
-  "competition_rate": null,
+  "competition_rate": "1375.34:1",
   "underwriters": [
    "유진투자증권",
    "미래에셋증권"
