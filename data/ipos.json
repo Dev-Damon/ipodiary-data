@@ -25,6 +25,31 @@
   ]
  },
  {
+  "name": "엠비디",
+  "subscription_period": "2026.10.28~10.29",
+  "confirmed_price": null,
+  "band": "9,600~11,700",
+  "competition_rate": null,
+  "underwriters": [
+   "하나증권"
+  ],
+  "detail_no": "2321",
+  "market": "코스닥",
+  "payment_date": "2026.11.02",
+  "refund_date": "2026.11.02",
+  "par_value": 500,
+  "total_shares": 2000000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "25,000~30,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "하나증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "아이엠스팩1호",
   "subscription_period": "2026.10.26~10.27",
   "confirmed_price": null,
@@ -323,31 +348,6 @@
   ]
  },
  {
-  "name": "엠비디",
-  "subscription_period": "2026.10.06~10.07",
-  "confirmed_price": null,
-  "band": "9,400~11,500",
-  "competition_rate": null,
-  "underwriters": [
-   "하나증권"
-  ],
-  "detail_no": "2321",
-  "market": "코스닥",
-  "payment_date": "2026.10.12",
-  "refund_date": "2026.10.12",
-  "par_value": 500,
-  "total_shares": 2000000,
-  "mandatory_holding": "0.00%",
-  "max_subscription": "25,000~30,000",
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "하나증권",
-    "fee": 2000
-   }
-  ]
- },
- {
   "name": "진코스텍",
   "subscription_period": "2026.10.02~10.06",
   "confirmed_price": null,
@@ -402,7 +402,7 @@
   "subscription_period": "2026.09.17~09.18",
   "confirmed_price": 19500,
   "band": "16,500~19,500",
-  "competition_rate": null,
+  "competition_rate": "1676.26:1",
   "underwriters": [
    "IBK투자증권"
   ],
