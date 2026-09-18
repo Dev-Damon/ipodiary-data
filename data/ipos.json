@@ -125,6 +125,31 @@
   ]
  },
  {
+  "name": "한화플러스스팩6호",
+  "subscription_period": "2026.10.20~10.21",
+  "confirmed_price": null,
+  "band": "2,000~2,000",
+  "competition_rate": null,
+  "underwriters": [
+   "한화투자증권"
+  ],
+  "detail_no": "2330",
+  "market": "코스닥",
+  "payment_date": "2026.10.23",
+  "refund_date": "2026.10.23",
+  "par_value": 100,
+  "total_shares": 6000000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "150,000~180,000",
+  "deposit_rate": 1.0,
+  "broker_conditions": [
+   {
+    "broker": "한화투자증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "다비오",
   "subscription_period": "2026.10.19~10.20",
   "confirmed_price": null,
@@ -811,31 +836,5 @@
    }
   ],
   "min_shares": 20
- },
- {
-  "name": "인제니아테라퓨틱스",
-  "subscription_period": "2026.07.30~07.31",
-  "confirmed_price": 12000,
-  "band": "12,000~14,500",
-  "competition_rate": "3.09:1",
-  "underwriters": [
-   "삼성증권"
-  ],
-  "detail_no": "2298",
-  "market": "코스닥",
-  "payment_date": "2026.08.04",
-  "refund_date": "2026.08.04",
-  "listing_date": "2026.08.18",
-  "total_shares": 5000000,
-  "mandatory_holding": "2.23%",
-  "max_subscription": "60,000~75,000",
-  "institutional_rate": 50.4,
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "삼성증권",
-    "fee": 2000
-   }
-  ]
  }
 ]
