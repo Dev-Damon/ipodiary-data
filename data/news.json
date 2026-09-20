@@ -1,24 +1,6 @@
 {
  "ipo_news": [
   {
-   "title": "[공모주 마감] 브릴스 청약 일정 2일차까지 종료, 균등배정주식수 얼마? - CBC뉴스",
-   "date": "Sat, 19 Sep 2026 16:40:54 GMT",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9DSlYwdzdDaWZVLXB0SWhaYTV2U0pCOTRaeF9PMjFwOHZ5TzgtZW1SdFRBcFM1UG15VTV2SEZyY001Si1wSGN5SGVNSFVDamVLejBENUU4Vk9zZlBwRnIxTnE1S0ZmSjFR?oc=5",
-   "ipo": "브릴스"
-  },
-  {
-   "title": "'브릴스 공모주' 17~18일 청약 접수...공모가와 상장일 확정 - gukjenews.com",
-   "date": "Wed, 16 Sep 2026 15:10:00 GMT",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5seU1Uc1Zjb3VrWWZOZDBENnVfWi1NYnpsN0VObjVTVGZ5UDczM1ltcGN2ODFjTU1LVkt6b2NsdlR1ck42UWJYOVdCSVVpS25EOU93QkRrVlRGd1lzdmIzdWNISThIbV9yWFp2OHJn?oc=5",
-   "ipo": "브릴스"
-  },
-  {
-   "title": "브릴스, 공모가 상단 1만9500원 확정 - 뉴스톱",
-   "date": "Wed, 16 Sep 2026 08:05:41 GMT",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9CMmxYeHF5dDg5M1hlXzVuOGpKYTdheU9iZnhpWlNUSDdfdFVtSEtaMDk5TDJVUl9MQWpXQ0JfeE1od2drbUR2ZEtGai1NeVJCaFRpSm9NdTFSSUp5RUN2YkdLZGp2RDF1V053b21nZw?oc=5",
-   "ipo": "브릴스"
-  },
-  {
    "title": "[주간 IPO] 청약 쉬어가고 수요예측·상장 집중…네오사피엔스 등 4곳 증시 입성 - 이투데이",
    "date": "Sat, 19 Sep 2026 00:00:00 GMT",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1ReEJCQ1czU3NCSWpzSWZmY2hqaFE3a0xDWUYyZnFwVzBjaUs2UHpxY0ZWSmxnVFFJbjF1ZUpXRXBNVmhSR3JheTdlV1pUZ1YyZkRsQQ?oc=5",
@@ -51,6 +33,11 @@
  ],
  "richboost": [
   {
+   "title": "2026-09-20 경제시황: 국채 10년물 5% 재돌파에 다우 주간 하락, 코스피는 반도체로 6,894",
+   "date": "Sun, 20 Sep 2026 00:00:00 GMT",
+   "url": "https://richboost.stonesoft.co.kr/posts/news-2026-09-20/"
+  },
+  {
    "title": "2026-09-19 경제시황: 연준 3년 만의 인상에도 뉴욕 혼조 마감, 코스피는 반도체가 6,890선 회복",
    "date": "Sat, 19 Sep 2026 00:00:00 GMT",
    "url": "https://richboost.stonesoft.co.kr/posts/news-2026-09-19/"
@@ -69,11 +56,6 @@
    "title": "[ARK 매매] 9/17 캐시 우드, 코어위브(CRWV) 24만 주 추가 매수… 가던트헬스도 담아",
    "date": "Thu, 17 Sep 2026 00:00:00 GMT",
    "url": "https://richboost.stonesoft.co.kr/posts/ark-2026-09-17/"
-  },
-  {
-   "title": "구리는 사상 최고가인데 재고는 늘었다 — 전기화 원자재의 세 가지 착시",
-   "date": "Thu, 17 Sep 2026 00:00:00 GMT",
-   "url": "https://richboost.stonesoft.co.kr/posts/copper-lithium-water-mirage-2026/"
   }
  ]
 }
