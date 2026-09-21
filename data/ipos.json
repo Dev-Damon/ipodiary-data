@@ -75,6 +75,31 @@
   ]
  },
  {
+  "name": "에이엘로봇",
+  "subscription_period": "2026.10.26~10.27",
+  "confirmed_price": null,
+  "band": "15,700~17,600",
+  "competition_rate": null,
+  "underwriters": [
+   "대신증권"
+  ],
+  "detail_no": "2331",
+  "market": "코스닥",
+  "payment_date": "2026.10.29",
+  "refund_date": "2026.10.29",
+  "par_value": 500,
+  "total_shares": 2400000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "20,000~24,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "대신증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "인텔리빅스",
   "subscription_period": "2026.10.21~10.22",
   "confirmed_price": null,
@@ -808,33 +833,5 @@
    }
   ],
   "min_shares": 10
- },
- {
-  "name": "딜리셔스",
-  "subscription_period": "2026.08.03~08.04",
-  "confirmed_price": 7000,
-  "band": "5,000~7,000",
-  "competition_rate": "10.29:1",
-  "underwriters": [
-   "한국투자증권"
-  ],
-  "detail_no": "2302",
-  "market": "코스닥",
-  "payment_date": "2026.08.06",
-  "refund_date": "2026.08.06",
-  "listing_date": "2026.08.12",
-  "par_value": 500,
-  "total_shares": 2200000,
-  "mandatory_holding": "0.10%",
-  "max_subscription": "9,000~11,000",
-  "institutional_rate": 184.06,
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "한국투자증권",
-    "fee": 2000
-   }
-  ],
-  "min_shares": 20
  }
 ]
