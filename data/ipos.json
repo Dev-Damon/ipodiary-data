@@ -100,6 +100,31 @@
   ]
  },
  {
+  "name": "이에스티",
+  "subscription_period": "2026.10.22~10.23",
+  "confirmed_price": null,
+  "band": "10,600~12,400",
+  "competition_rate": null,
+  "underwriters": [
+   "대신증권"
+  ],
+  "detail_no": "2332",
+  "market": "코스닥",
+  "payment_date": "2026.10.27",
+  "refund_date": "2026.10.27",
+  "par_value": 500,
+  "total_shares": 2200000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "18,000~22,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "대신증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "인텔리빅스",
   "subscription_period": "2026.10.21~10.22",
   "confirmed_price": null,
@@ -805,33 +830,5 @@
    }
   ],
   "min_shares": 20
- },
- {
-  "name": "케이앤에스아이앤씨",
-  "subscription_period": "2026.08.04~08.05",
-  "confirmed_price": 11000,
-  "band": "9,000~11,000",
-  "competition_rate": "1079.55:1",
-  "underwriters": [
-   "IBK투자증권"
-  ],
-  "detail_no": "2299",
-  "market": "코스닥",
-  "payment_date": "2026.08.07",
-  "refund_date": "2026.08.07",
-  "listing_date": "2026.08.13",
-  "par_value": 100,
-  "total_shares": 2400000,
-  "mandatory_holding": "0.78%",
-  "max_subscription": "30,000~36,000",
-  "institutional_rate": 938.24,
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "IBK투자증권",
-    "fee": 1500
-   }
-  ],
-  "min_shares": 10
  }
 ]
