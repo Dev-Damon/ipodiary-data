@@ -94,5 +94,9 @@
  "브릴스": {
   "min_shares": 10,
   "price": 19500
+ },
+ "래블업": {
+  "min_shares": null,
+  "price": 19000
  }
 }
