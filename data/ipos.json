@@ -125,6 +125,31 @@
   ]
  },
  {
+  "name": "래블업",
+  "subscription_period": "2026.10.22~10.23",
+  "confirmed_price": null,
+  "band": "19,000~22,000",
+  "competition_rate": null,
+  "underwriters": [
+   "NH투자증권"
+  ],
+  "detail_no": "2335",
+  "market": "코스닥",
+  "payment_date": "2026.10.27",
+  "refund_date": "2026.10.27",
+  "par_value": 500,
+  "total_shares": 2180000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "18,000~21,800",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "NH투자증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "이에스티",
   "subscription_period": "2026.10.22~10.23",
   "confirmed_price": null,
@@ -784,34 +809,6 @@
    {
     "broker": "삼성증권",
     "fee": 2000
-   }
-  ],
-  "min_shares": 20
- },
- {
-  "name": "해치텍",
-  "subscription_period": "2026.08.12~08.13",
-  "confirmed_price": 23000,
-  "band": "23,000~28,000",
-  "competition_rate": "25.73:1",
-  "underwriters": [
-   "DB증권"
-  ],
-  "detail_no": "2304",
-  "market": "코스닥",
-  "payment_date": "2026.08.18",
-  "refund_date": "2026.08.18",
-  "listing_date": "2026.08.25",
-  "par_value": 500,
-  "total_shares": 1000000,
-  "mandatory_holding": "15.08%",
-  "max_subscription": "25,000~30,000",
-  "institutional_rate": 101.91,
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "DB증권",
-    "fee": 1500
    }
   ],
   "min_shares": 20
