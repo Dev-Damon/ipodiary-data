@@ -25,6 +25,31 @@
   ]
  },
  {
+  "name": "넥스아이",
+  "subscription_period": "2026.11.03~11.04",
+  "confirmed_price": null,
+  "band": "10,500~13,000",
+  "competition_rate": null,
+  "underwriters": [
+   "한국투자증권"
+  ],
+  "detail_no": "2336",
+  "market": "코스닥",
+  "payment_date": "2026.11.06",
+  "refund_date": "2026.11.06",
+  "par_value": 500,
+  "total_shares": 5000000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "20,000~25,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "한국투자증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "바로팜",
   "subscription_period": "2026.11.02~11.03",
   "confirmed_price": null,
@@ -784,33 +809,5 @@
    }
   ],
   "min_shares": 10
- },
- {
-  "name": "니어스랩",
-  "subscription_period": "2026.08.12~08.13",
-  "confirmed_price": 41200,
-  "band": "30,000~41,200",
-  "competition_rate": "522.99:1",
-  "underwriters": [
-   "삼성증권"
-  ],
-  "detail_no": "2303",
-  "market": "코스닥",
-  "payment_date": "2026.08.18",
-  "refund_date": "2026.08.18",
-  "listing_date": "2026.08.24",
-  "par_value": 100,
-  "total_shares": 910000,
-  "mandatory_holding": "1.26%",
-  "max_subscription": "11,000~13,000",
-  "institutional_rate": 743.49,
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "삼성증권",
-    "fee": 2000
-   }
-  ],
-  "min_shares": 20
  }
 ]
