@@ -25,6 +25,31 @@
   ]
  },
  {
+  "name": "옵토닉스",
+  "subscription_period": "2026.11.05~11.06",
+  "confirmed_price": null,
+  "band": "10,000~12,000",
+  "competition_rate": null,
+  "underwriters": [
+   "한국투자증권"
+  ],
+  "detail_no": "2338",
+  "market": "코스닥",
+  "payment_date": "2026.11.10",
+  "refund_date": "2026.11.10",
+  "par_value": 100,
+  "total_shares": 2200000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "9,000~11,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "한국투자증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "넥스아이",
   "subscription_period": "2026.11.03~11.04",
   "confirmed_price": null,
@@ -792,33 +817,6 @@
   "broker_conditions": [
    {
     "broker": "한국투자증권",
-    "fee": 2000
-   }
-  ]
- },
- {
-  "name": "NH스팩34호",
-  "subscription_period": "2026.09.01~09.02",
-  "confirmed_price": 2000,
-  "band": "2,000~2,000",
-  "competition_rate": "356.99:1",
-  "underwriters": [
-   "NH투자증권"
-  ],
-  "detail_no": "2312",
-  "market": "코스닥",
-  "payment_date": "2026.09.04",
-  "refund_date": "2026.09.04",
-  "listing_date": "2026.09.10",
-  "par_value": 100,
-  "total_shares": 8500000,
-  "mandatory_holding": "0.00%",
-  "max_subscription": "210,000~255,000",
-  "institutional_rate": 1160.7,
-  "deposit_rate": 1.0,
-  "broker_conditions": [
-   {
-    "broker": "NH투자증권",
     "fee": 2000
    }
   ]
