@@ -98,5 +98,9 @@
  "래블업": {
   "min_shares": null,
   "price": 19000
+ },
+ "진코스텍": {
+  "min_shares": null,
+  "price": 23500
  }
 }

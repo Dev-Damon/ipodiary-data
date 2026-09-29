@@ -350,6 +350,43 @@
   ]
  },
  {
+  "name": "유캐스트",
+  "subscription_period": "2026.10.19~10.20",
+  "confirmed_price": null,
+  "band": "21,000~26,000",
+  "competition_rate": null,
+  "underwriters": [
+   "유진투자증권",
+   "신영증권"
+  ],
+  "detail_no": "2337",
+  "market": "코스닥",
+  "payment_date": "2026.10.22",
+  "refund_date": "2026.10.22",
+  "par_value": 500,
+  "total_shares": 800000,
+  "mandatory_holding": "0.00%",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "유진투자증권",
+    "allocation": 200000,
+    "limit": 20000,
+    "role": "대표",
+    "allocation_pct": 83.3,
+    "fee": 2000
+   },
+   {
+    "broker": "신영증권",
+    "allocation": 40000,
+    "limit": 1300,
+    "role": "인수",
+    "allocation_pct": 16.7,
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "SK증권스팩14호",
   "subscription_period": "2026.10.15~10.16",
   "confirmed_price": null,
@@ -475,7 +512,7 @@
  {
   "name": "진코스텍",
   "subscription_period": "2026.10.02~10.06",
-  "confirmed_price": null,
+  "confirmed_price": 23500,
   "band": "19,500~23,500",
   "competition_rate": null,
   "underwriters": [
@@ -485,10 +522,12 @@
   "market": "코스닥",
   "payment_date": "2026.10.08",
   "refund_date": "2026.10.08",
+  "listing_date": "2026.10.15",
   "par_value": 500,
   "total_shares": 852000,
-  "mandatory_holding": "0.00%",
+  "mandatory_holding": "5.29%",
   "max_subscription": "10,000~12,000",
+  "institutional_rate": 1097.62,
   "deposit_rate": 0.5,
   "broker_conditions": [
    {
@@ -510,6 +549,7 @@
   "market": "코스닥",
   "payment_date": "2026.10.07",
   "refund_date": "2026.10.07",
+  "listing_date": "2026.10.15",
   "par_value": 500,
   "total_shares": 2500000,
   "mandatory_holding": "0.00%",
@@ -781,33 +821,5 @@
     "fee": 2000
    }
   ]
- },
- {
-  "name": "스카이랩스",
-  "subscription_period": "2026.08.26~08.27",
-  "confirmed_price": 10000,
-  "band": "13,000~16,000",
-  "competition_rate": "2.85:1",
-  "underwriters": [
-   "한국투자증권"
-  ],
-  "detail_no": "2306",
-  "market": "코스닥",
-  "payment_date": "2026.08.31",
-  "refund_date": "2026.08.31",
-  "listing_date": "2026.09.04",
-  "par_value": 500,
-  "total_shares": 2000000,
-  "mandatory_holding": "0.17%",
-  "max_subscription": "8,000~10,000",
-  "institutional_rate": 63.41,
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "한국투자증권",
-    "fee": 2000
-   }
-  ],
-  "min_shares": 10
  }
 ]
