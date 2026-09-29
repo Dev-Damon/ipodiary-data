@@ -539,7 +539,7 @@
  {
   "name": "멜콘(구.에스앤에프솔루션)",
   "subscription_period": "2026.10.01~10.02",
-  "confirmed_price": null,
+  "confirmed_price": 12300,
   "band": "10,700~12,300",
   "competition_rate": null,
   "underwriters": [
@@ -552,8 +552,9 @@
   "listing_date": "2026.10.15",
   "par_value": 500,
   "total_shares": 2500000,
-  "mandatory_holding": "0.00%",
+  "mandatory_holding": "36.07%",
   "max_subscription": "20,000~25,000",
+  "institutional_rate": 1136.84,
   "deposit_rate": 0.5,
   "broker_conditions": [
    {
