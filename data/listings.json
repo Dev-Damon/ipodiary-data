@@ -22,8 +22,8 @@
   "listing_date": "2026.10.01",
   "current_price": null,
   "offer_price": 19500,
-  "opening_price": null,
-  "opening_vs_offer": "%",
+  "opening_price": 61800,
+  "opening_vs_offer": "216.92%",
   "first_day_close": null
  },
  {
@@ -33,7 +33,7 @@
   "offer_price": 14600,
   "opening_price": 27100,
   "opening_vs_offer": "85.62%",
-  "first_day_close": 18710
+  "first_day_close": 16830
  },
  {
   "name": "빅웨이브로보틱스",
@@ -42,7 +42,7 @@
   "offer_price": 18000,
   "opening_price": 56000,
   "opening_vs_offer": "211.11%",
-  "first_day_close": 29900
+  "first_day_close": 27050
  },
  {
   "name": "글로벌테크놀로지",
@@ -51,7 +51,7 @@
   "offer_price": 10000,
   "opening_price": 21150,
   "opening_vs_offer": "111.5%",
-  "first_day_close": 18220
+  "first_day_close": 14500
  },
  {
   "name": "와이즈플래닛컴퍼니",
@@ -60,7 +60,7 @@
   "offer_price": 12000,
   "opening_price": 42750,
   "opening_vs_offer": "256.25%",
-  "first_day_close": 46300
+  "first_day_close": 45700
  },
  {
   "name": "KB스팩34호",
@@ -69,7 +69,7 @@
   "offer_price": 2000,
   "opening_price": 4000,
   "opening_vs_offer": "100%",
-  "first_day_close": 1914
+  "first_day_close": 1905
  },
  {
   "name": "한국스팩17호",
@@ -78,7 +78,7 @@
   "offer_price": 2000,
   "opening_price": 3415,
   "opening_vs_offer": "70.75%",
-  "first_day_close": 2155
+  "first_day_close": 1937
  },
  {
   "name": "네오사피엔스",
@@ -87,7 +87,7 @@
   "offer_price": 10000,
   "opening_price": 25250,
   "opening_vs_offer": "152.5%",
-  "first_day_close": 34300
+  "first_day_close": 36900
  },
  {
   "name": "NH스팩34호",
