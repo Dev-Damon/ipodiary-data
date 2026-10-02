@@ -1,5 +1,30 @@
 [
  {
+  "name": "케이엠에프",
+  "subscription_period": "2026.11.24~11.25",
+  "confirmed_price": null,
+  "band": "15,000~17,800",
+  "competition_rate": null,
+  "underwriters": [
+   "IBK투자증권"
+  ],
+  "detail_no": "2340",
+  "market": "코스닥",
+  "payment_date": "2026.11.27",
+  "refund_date": "2026.11.27",
+  "par_value": 500,
+  "total_shares": 2000000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "25,000~30,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "IBK투자증권",
+    "fee": 1500
+   }
+  ]
+ },
+ {
   "name": "하나에어로다이내믹스",
   "subscription_period": "2026.11.10~11.11",
   "confirmed_price": null,
@@ -554,7 +579,7 @@
   "subscription_period": "2026.10.01~10.02",
   "confirmed_price": 12300,
   "band": "10,700~12,300",
-  "competition_rate": null,
+  "competition_rate": "1741.48:1",
   "underwriters": [
    "대신증권"
   ],
@@ -779,33 +804,6 @@
    {
     "broker": "KB증권",
     "fee": 1500
-   }
-  ]
- },
- {
-  "name": "한국스팩17호",
-  "subscription_period": "2026.09.10~09.11",
-  "confirmed_price": 2000,
-  "band": "2,000~2,000",
-  "competition_rate": "494.62:1",
-  "underwriters": [
-   "한국투자증권"
-  ],
-  "detail_no": "2314",
-  "market": "코스닥",
-  "payment_date": "2026.09.15",
-  "refund_date": "2026.09.15",
-  "listing_date": "2026.09.22",
-  "par_value": 100,
-  "total_shares": 7000000,
-  "mandatory_holding": "0.00%",
-  "max_subscription": "25,000~35,000",
-  "institutional_rate": 1270.51,
-  "deposit_rate": 1.0,
-  "broker_conditions": [
-   {
-    "broker": "한국투자증권",
-    "fee": 2000
    }
   ]
  }
