@@ -100,6 +100,31 @@
   ]
  },
  {
+  "name": "동원파츠",
+  "subscription_period": "2026.11.02~11.03",
+  "confirmed_price": null,
+  "band": "23,000~26,500",
+  "competition_rate": null,
+  "underwriters": [
+   "삼성증권"
+  ],
+  "detail_no": "2339",
+  "market": "코스닥",
+  "payment_date": "2026.11.05",
+  "refund_date": "2026.11.05",
+  "par_value": 500,
+  "total_shares": 2030000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "12,500~15,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "삼성증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "엠비디",
   "subscription_period": "2026.10.28~10.29",
   "confirmed_price": null,
@@ -370,43 +395,6 @@
   "broker_conditions": [
    {
     "broker": "대신증권",
-    "fee": 2000
-   }
-  ]
- },
- {
-  "name": "유캐스트",
-  "subscription_period": "2026.10.19~10.20",
-  "confirmed_price": null,
-  "band": "21,000~26,000",
-  "competition_rate": null,
-  "underwriters": [
-   "유진투자증권",
-   "신영증권"
-  ],
-  "detail_no": "2337",
-  "market": "코스닥",
-  "payment_date": "2026.10.22",
-  "refund_date": "2026.10.22",
-  "par_value": 500,
-  "total_shares": 800000,
-  "mandatory_holding": "0.00%",
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "유진투자증권",
-    "allocation": 200000,
-    "limit": 20000,
-    "role": "대표",
-    "allocation_pct": 83.3,
-    "fee": 2000
-   },
-   {
-    "broker": "신영증권",
-    "allocation": 40000,
-    "limit": 1300,
-    "role": "인수",
-    "allocation_pct": 16.7,
     "fee": 2000
    }
   ]
