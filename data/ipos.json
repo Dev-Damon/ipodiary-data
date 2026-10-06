@@ -552,7 +552,7 @@
   "subscription_period": "2026.10.02~10.06",
   "confirmed_price": 23500,
   "band": "19,500~23,500",
-  "competition_rate": null,
+  "competition_rate": "685:1",
   "underwriters": [
    "하나증권"
   ],
