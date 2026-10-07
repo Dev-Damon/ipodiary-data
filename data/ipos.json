@@ -390,7 +390,7 @@
   "par_value": 100,
   "total_shares": 6000000,
   "mandatory_holding": "0.00%",
-  "max_subscription": "150,000~180,000",
+  "max_subscription": "75,000~90,000",
   "deposit_rate": 1.0,
   "broker_conditions": [
    {
@@ -463,7 +463,7 @@
  {
   "name": "엠에스바이오",
   "subscription_period": "2026.10.12~10.13",
-  "confirmed_price": null,
+  "confirmed_price": 7800,
   "band": "6,800~7,800",
   "competition_rate": null,
   "underwriters": [
@@ -473,10 +473,12 @@
   "market": "코스닥",
   "payment_date": "2026.10.15",
   "refund_date": "2026.10.15",
+  "listing_date": "2026.10.22",
   "par_value": 100,
   "total_shares": 4000000,
-  "mandatory_holding": "0.00%",
+  "mandatory_holding": "30.62%",
   "max_subscription": "33,000~40,000",
+  "institutional_rate": 1096.56,
   "deposit_rate": 0.5,
   "broker_conditions": [
    {

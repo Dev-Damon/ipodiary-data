@@ -110,5 +110,9 @@
  "엘리스그룹": {
   "min_shares": 20,
   "price": 90500
+ },
+ "엠에스바이오": {
+  "min_shares": null,
+  "price": 7800
  }
 }

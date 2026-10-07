@@ -1,5 +1,14 @@
 [
  {
+  "name": "엠에스바이오",
+  "listing_date": "2026.10.22",
+  "current_price": null,
+  "offer_price": 7800,
+  "opening_price": null,
+  "opening_vs_offer": "%",
+  "first_day_close": null
+ },
+ {
   "name": "엘리스그룹",
   "listing_date": "2026.10.20",
   "current_price": null,
@@ -29,7 +38,7 @@
  {
   "name": "브릴스",
   "listing_date": "2026.10.01",
-  "current_price": 30400,
+  "current_price": 25650,
   "offer_price": 19500,
   "opening_price": 61800,
   "opening_vs_offer": "216.92%",
@@ -38,7 +47,7 @@
  {
   "name": "덕산넵코어스(구.넵코어스)",
   "listing_date": "2026.09.30",
-  "current_price": 16080,
+  "current_price": 13790,
   "offer_price": 14600,
   "opening_price": 27100,
   "opening_vs_offer": "85.62%",
@@ -47,7 +56,7 @@
  {
   "name": "빅웨이브로보틱스",
   "listing_date": "2026.09.29",
-  "current_price": 31000,
+  "current_price": 27200,
   "offer_price": 18000,
   "opening_price": 56000,
   "opening_vs_offer": "211.11%",
@@ -56,7 +65,7 @@
  {
   "name": "글로벌테크놀로지",
   "listing_date": "2026.09.29",
-  "current_price": 14700,
+  "current_price": 12720,
   "offer_price": 10000,
   "opening_price": 21150,
   "opening_vs_offer": "111.5%",
@@ -65,7 +74,7 @@
  {
   "name": "와이즈플래닛컴퍼니",
   "listing_date": "2026.09.23",
-  "current_price": 16630,
+  "current_price": 15830,
   "offer_price": 12000,
   "opening_price": 42750,
   "opening_vs_offer": "256.25%",
@@ -83,7 +92,7 @@
  {
   "name": "한국스팩17호",
   "listing_date": "2026.09.22",
-  "current_price": 1913,
+  "current_price": 1907,
   "offer_price": 2000,
   "opening_price": 3415,
   "opening_vs_offer": "70.75%",
@@ -92,7 +101,7 @@
  {
   "name": "네오사피엔스",
   "listing_date": "2026.09.21",
-  "current_price": 13870,
+  "current_price": 13210,
   "offer_price": 10000,
   "opening_price": 25250,
   "opening_vs_offer": "152.5%",
@@ -110,7 +119,7 @@
  {
   "name": "스카이랩스",
   "listing_date": "2026.09.04",
-  "current_price": 17000,
+  "current_price": 15560,
   "offer_price": 10000,
   "opening_price": 8500,
   "opening_vs_offer": "-15%",
@@ -119,7 +128,7 @@
  {
   "name": "해치텍",
   "listing_date": "2026.08.25",
-  "current_price": 11920,
+  "current_price": 11450,
   "offer_price": 23000,
   "opening_price": 20500,
   "opening_vs_offer": "-10.87%",
@@ -128,7 +137,7 @@
  {
   "name": "니어스랩",
   "listing_date": "2026.08.24",
-  "current_price": 26950,
+  "current_price": 27950,
   "offer_price": 41200,
   "opening_price": 40500,
   "opening_vs_offer": "-1.7%",
@@ -137,7 +146,7 @@
  {
   "name": "기도산업",
   "listing_date": "2026.08.21",
-  "current_price": 11390,
+  "current_price": 11330,
   "offer_price": 28400,
   "opening_price": 28000,
   "opening_vs_offer": "-1.41%",
@@ -155,7 +164,7 @@
  {
   "name": "케이앤에스아이앤씨",
   "listing_date": "2026.08.13",
-  "current_price": 6250,
+  "current_price": 6120,
   "offer_price": 11000,
   "opening_price": 21000,
   "opening_vs_offer": "90.91%",
@@ -164,19 +173,10 @@
  {
   "name": "딜리셔스",
   "listing_date": "2026.08.12",
-  "current_price": 2710,
+  "current_price": 2655,
   "offer_price": 7000,
   "opening_price": 6000,
   "opening_vs_offer": "-14.29%",
   "first_day_close": 5140
- },
- {
-  "name": "에이치엘지노믹스",
-  "listing_date": "2026.07.24",
-  "current_price": 8300,
-  "offer_price": 21500,
-  "opening_price": 21500,
-  "opening_vs_offer": "0%",
-  "first_day_close": 14790
  }
 ]
