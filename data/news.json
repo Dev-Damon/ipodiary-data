@@ -1,6 +1,12 @@
 {
  "ipo_news": [
   {
+   "title": "10월 공모주 청약, 엘리스그룹부터 래블업까지…예정 일정 확인해야 - CBC뉴스",
+   "date": "Thu, 08 Oct 2026 02:59:45 GMT",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA2X1BaNEZfVUo2VnVPaE81QkpsZi1wam8wSXNYQ2V6YVFwSWktNlZOSzFtZHBfN2xnLUhpZHA0ckZLTFVqanE5cFZocWJZSlZEckRmTGlkTDd2TmM4TGxkVWoxMmN0ZElz?oc=5",
+   "ipo": "엘리스그룹"
+  },
+  {
    "title": "'AI 클라우드 기업' 엘리스그룹, 공모주 청약 돌입...주관사 미래에셋·삼성증권 - 조세일보",
    "date": "Wed, 07 Oct 2026 01:00:00 GMT",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE83M3BLNjc2RDF1YzNJMlM0R29EeHpsd2MzZ3dSSVVkWGE4ckt3V1pnQlNydlRxcXNrUnctWU5mUldrNF93d1dWR3N0Tmd5VEM2SURyUzFGVUFyanJ2QUVZ?oc=5",
@@ -10,12 +16,6 @@
    "title": "[장외시황] 엘리스그룹, 공모주 청약 진행 - 이투데이",
    "date": "Wed, 07 Oct 2026 06:42:00 GMT",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBnX2hjOW4wa0txRjBIdmdsRkNvajZueHZDMGN0NW1rSGppLXRKeXRMSWZ4NDZCTHhoZ0g3SzBSN25kUXRmQ0NobzhRRm02bU56RHZqZw?oc=5",
-   "ipo": "엘리스그룹"
-  },
-  {
-   "title": "'엘리스그룹 공모주' 청약일정 돌입...상장일은 오는 19일 - 국제뉴스",
-   "date": "Tue, 06 Oct 2026 15:01:00 GMT",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE93eXV5QmFKQXRjSHlwTjZkbTJDWkRJd1VkYWdxVjRJTklQU3JSMkhzMHVuODV0LUZFVmVNWEEtb2dxT3I3eW9JUmYtZWVLTFRNVlNMTzdmeXBVd1Vqa1FZOEN1cDVmS0lxb0lIakNB?oc=5",
    "ipo": "엘리스그룹"
   },
   {
@@ -39,29 +39,29 @@
  ],
  "richboost": [
   {
-   "title": "2026-10-07 경제시황: S&P500·나스닥 사상 최고, 코스피는 외국인 1.7조 매도에 7,000선 반납",
+   "title": "ARK 인베스트, 10x 지노믹스 지분 13G/A 정정 신고… 지분 변동 공시",
    "date": "Wed, 07 Oct 2026 00:00:00 GMT",
-   "url": "https://richboost.stonesoft.co.kr/posts/news-2026-10-07/"
+   "url": "https://richboost.stonesoft.co.kr/posts/13dg-ark-invest-10x-genomics-inc-2026-10-07/"
   },
   {
-   "title": "캐피털 그룹, 금·구리 광산 Aura Minerals 지분 5% 이상 정정신고",
-   "date": "Tue, 06 Oct 2026 00:00:00 GMT",
-   "url": "https://richboost.stonesoft.co.kr/posts/13dg-capital-group-aura-minerals-inc-2026-10-06/"
+   "title": "버크셔 해서웨이, 레나(Lennar) 지분 13G/A 정정신고…5% 이상 대량지분 변동 공시",
+   "date": "Wed, 07 Oct 2026 00:00:00 GMT",
+   "url": "https://richboost.stonesoft.co.kr/posts/13dg-berkshire-hathaway-lennar-corp-new-2026-10-07/"
   },
   {
-   "title": "캐피털 그룹, 뉴포트리스에너지 지분 5% 이상 13G 신고",
-   "date": "Tue, 06 Oct 2026 00:00:00 GMT",
-   "url": "https://richboost.stonesoft.co.kr/posts/13dg-capital-group-new-fortress-energy-inc-2026-10-06/"
+   "title": "피델리티, AI 연결칩 애스테라랩스 지분 5% 이상 13G 정정신고",
+   "date": "Wed, 07 Oct 2026 00:00:00 GMT",
+   "url": "https://richboost.stonesoft.co.kr/posts/13dg-fidelity-astera-labs-inc-2026-10-07/"
   },
   {
-   "title": "캐피털 그룹, 스카이웍스 지분 5% 이상 보유 13G 신고",
-   "date": "Tue, 06 Oct 2026 00:00:00 GMT",
-   "url": "https://richboost.stonesoft.co.kr/posts/13dg-capital-group-skyworks-solutions-inc-2026-10-06/"
+   "title": "피델리티, 볼드윈 인슈어런스 지분 5% 이상 유지… 13G/A 정정신고",
+   "date": "Wed, 07 Oct 2026 00:00:00 GMT",
+   "url": "https://richboost.stonesoft.co.kr/posts/13dg-fidelity-baldwin-insurance-group-inc-2026-10-07/"
   },
   {
-   "title": "2026-10-06 경제시황: 엔비디아 신고가에 나스닥 최고치, 국채금리 5.3%는 부담",
-   "date": "Tue, 06 Oct 2026 00:00:00 GMT",
-   "url": "https://richboost.stonesoft.co.kr/posts/news-2026-10-06/"
+   "title": "피델리티, 코르사나 바이오사이언스 5% 이상 지분 정정 신고(13G/A)",
+   "date": "Wed, 07 Oct 2026 00:00:00 GMT",
+   "url": "https://richboost.stonesoft.co.kr/posts/13dg-fidelity-korsana-biosciences-inc-2026-10-07/"
   }
  ]
 }
