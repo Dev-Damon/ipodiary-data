@@ -334,14 +334,6 @@
    "미래에셋증권"
   ],
   "detail_no": "2328",
-  "market": "코스닥",
-  "payment_date": "2026.10.26",
-  "refund_date": "2026.10.26",
-  "par_value": 100,
-  "total_shares": 2500000,
-  "mandatory_holding": "0.00%",
-  "max_subscription": "31,000~37,000",
-  "deposit_rate": 0.5,
   "broker_conditions": [
    {
     "broker": "미래에셋증권",
@@ -644,16 +636,6 @@
    "대신증권"
   ],
   "detail_no": "2309",
-  "market": "코스닥",
-  "payment_date": "2026.09.21",
-  "refund_date": "2026.09.21",
-  "listing_date": "2026.09.30",
-  "par_value": 500,
-  "total_shares": 3000000,
-  "mandatory_holding": "4.05%",
-  "max_subscription": "25,000~30,000",
-  "institutional_rate": 868.64,
-  "deposit_rate": 0.5,
   "broker_conditions": [
    {
     "broker": "대신증권",
