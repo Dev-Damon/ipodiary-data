@@ -25,6 +25,31 @@
   ]
  },
  {
+  "name": "엔키화이트햇",
+  "subscription_period": "2026.11.12~11.13",
+  "confirmed_price": null,
+  "band": "13,000~16,500",
+  "competition_rate": null,
+  "underwriters": [
+   "신영증권"
+  ],
+  "detail_no": "2343",
+  "market": "코스닥",
+  "payment_date": "2026.11.17",
+  "refund_date": "2026.11.17",
+  "par_value": 100,
+  "total_shares": 1700000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "14,000~17,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "신영증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "하나에어로다이내믹스",
   "subscription_period": "2026.11.10~11.11",
   "confirmed_price": null,
@@ -46,6 +71,31 @@
    {
     "broker": "IBK투자증권",
     "fee": 1500
+   }
+  ]
+ },
+ {
+  "name": "다비오",
+  "subscription_period": "2026.11.10~11.11",
+  "confirmed_price": null,
+  "band": "12,300~16,600",
+  "competition_rate": null,
+  "underwriters": [
+   "대신증권"
+  ],
+  "detail_no": "2344",
+  "market": "코스닥",
+  "payment_date": "2026.11.13",
+  "refund_date": "2026.11.13",
+  "par_value": 100,
+  "total_shares": 1000000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "8,000~10,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "대신증권",
+    "fee": 2000
    }
   ]
  },
@@ -753,61 +803,5 @@
    }
   ],
   "min_shares": 10
- },
- {
-  "name": "와이즈플래닛컴퍼니",
-  "subscription_period": "2026.09.14~09.15",
-  "confirmed_price": 12000,
-  "band": "10,000~12,000",
-  "competition_rate": "1477.65:1",
-  "underwriters": [
-   "대신증권"
-  ],
-  "detail_no": "2311",
-  "market": "코스닥",
-  "payment_date": "2026.09.17",
-  "refund_date": "2026.09.17",
-  "listing_date": "2026.09.23",
-  "par_value": 100,
-  "total_shares": 1600000,
-  "mandatory_holding": "3.65%",
-  "max_subscription": "13,000~16,000",
-  "institutional_rate": 1248.47,
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "대신증권",
-    "fee": 2000
-   }
-  ],
-  "min_shares": 10
- },
- {
-  "name": "네오사피엔스",
-  "subscription_period": "2026.09.10~09.11",
-  "confirmed_price": 10000,
-  "band": "13,800~15,800",
-  "competition_rate": "1047.78:1",
-  "underwriters": [
-   "대신증권"
-  ],
-  "detail_no": "2308",
-  "market": "코스닥",
-  "payment_date": "2026.09.15",
-  "refund_date": "2026.09.15",
-  "listing_date": "2026.09.21",
-  "par_value": 500,
-  "total_shares": 2000000,
-  "mandatory_holding": "8.98%",
-  "max_subscription": "16,000~20,000",
-  "institutional_rate": 219.56,
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "대신증권",
-    "fee": 2000
-   }
-  ],
-  "min_shares": 20
  }
 ]
