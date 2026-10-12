@@ -1,21 +1,21 @@
 {
  "ipo_news": [
   {
-   "title": "[공모주 현황] 엠에스바이오, 공모주 청약 첫날…기관 경쟁률 1096.56대 1 - CBC뉴스",
-   "date": "Mon, 12 Oct 2026 01:19:38 GMT",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBtdmxwdGRpVjFDc1A5WVZhVFhtY3RRR3lRN2FJdFNlODNibGhNMFZGRjZ2bHZZcU8wTlFma1FqM1Q5dUVPekNodGZRdG11TkVfNkpHQ0QzT3lvU1FoWTlMYVNTUlFPaVpx?oc=5",
-   "ipo": "엠에스바이오"
-  },
-  {
    "title": "'엠에스바이오 공모주' 수요예측 이어 청약도 흥행? 상장일 확정 - 국제뉴스",
    "date": "Sun, 11 Oct 2026 05:25:18 GMT",
    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0zU29nS1doUWJKVTlzSDR6dDlfUkVxVGZsckVULWZ6NjVJQk01X0Joby1xc0VJd3hfT19hZ0t3N3VqR0xIUXRBOHFKSDdsZkZqWWNKQ0VqNkJ6MkJSSjR5bHVnWE1pYkVFcGtOdE9B?oc=5",
    "ipo": "엠에스바이오"
   },
   {
-   "title": "KB증권, 엠에스바이오 IPO 주관…인수 수수료 12.9억원 - 이지경제",
-   "date": "Mon, 12 Oct 2026 08:21:24 GMT",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9CTl9xYXBDdzZuem1VeU9zeDBhaFZSVDRVNEVkcEVMbDVMWFNTcVg5NkVOYU9xOFBaNWswaFZuSVBXSjA1SGVMc1RjZWtZVjdXTzlkNVIteVFJMG11X0VFRlBLVUhxQ2dsWTc2Q3dR?oc=5",
+   "title": "[공모주 캘린더] 10월 둘째 주 공모주 청약 일정… 엠에스바이오·디티에스 등 2곳 - CEO경제신문",
+   "date": "Mon, 12 Oct 2026 15:56:37 GMT",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB5REdjRnl0cEo5S0pTbUxOaWN2LW5EV1kybjAtdGdoWWxJRnRxVjgtSFJIdl9PMUpoLWd0WEVVeV8zQjVzUFNrSW02ODF4ZXE0Umt3T2dDdjExdUk3LWl2blV0YmpiZGlzdktBbw?oc=5",
+   "ipo": "엠에스바이오"
+  },
+  {
+   "title": "[공모주 현황] 엠에스바이오, 공모주 청약 첫날…기관 경쟁률 1096.56대 1 - CBC뉴스",
+   "date": "Mon, 12 Oct 2026 01:19:38 GMT",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85Zkgwb2h3amptTjZ5MXY5U2pBV0pVMU1FQ21sYnl6WEtaOWhsc2FpYkdidDJYbW5jaXhZVmJJUVlROGZBcjAtcWVQLVN4UGszYUNBOWlkMS1ob3dWTVBmVkFJSjhwanc?oc=5",
    "ipo": "엠에스바이오"
   },
   {
@@ -32,6 +32,11 @@
   }
  ],
  "richboost": [
+  {
+   "title": "2026-10-13 경제시황: 메모리주 급락에 나스닥↓·코스피 3.6%↓, 이번 주 CPI·은행 실적 주목",
+   "date": "Tue, 13 Oct 2026 00:00:00 GMT",
+   "url": "https://richboost.stonesoft.co.kr/posts/news-2026-10-13/"
+  },
   {
    "title": "2026-10-12 경제시황: 뉴욕 증시 6주째 랠리… 美 10년물 5.24%·유가 100달러대는 부담",
    "date": "Mon, 12 Oct 2026 00:00:00 GMT",
@@ -51,11 +56,6 @@
    "title": "캐시 우드 ARK 매매 2026-10-09: 비트코인 ETF·DKNG 매도, 유전자편집 매수",
    "date": "Fri, 09 Oct 2026 00:00:00 GMT",
    "url": "https://richboost.stonesoft.co.kr/posts/ark-2026-10-09/"
-  },
-  {
-   "title": "2026-10-09 경제시황: OpenAI 매출 쇼크·유가 급등에 나스닥 1%대 하락, 코스피 2.6% 급락",
-   "date": "Fri, 09 Oct 2026 00:00:00 GMT",
-   "url": "https://richboost.stonesoft.co.kr/posts/news-2026-10-09/"
   }
  ]
 }
