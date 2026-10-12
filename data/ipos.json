@@ -526,7 +526,7 @@
  {
   "name": "디티에스(구.동양티에스)",
   "subscription_period": "2026.10.13~10.14",
-  "confirmed_price": null,
+  "confirmed_price": 18500,
   "band": "17,000~18,500",
   "competition_rate": null,
   "underwriters": [
@@ -537,9 +537,11 @@
   "market": "코스닥",
   "payment_date": "2026.10.16",
   "refund_date": "2026.10.16",
+  "listing_date": "2026.10.23",
   "par_value": 5000,
   "total_shares": 2228917,
-  "mandatory_holding": "0.00%",
+  "mandatory_holding": "13.31%",
+  "institutional_rate": 983.98,
   "deposit_rate": 0.5,
   "broker_conditions": [
    {

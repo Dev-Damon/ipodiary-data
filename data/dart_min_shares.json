@@ -114,5 +114,9 @@
  "엠에스바이오": {
   "min_shares": null,
   "price": 7800
+ },
+ "디티에스(구.동양티에스)": {
+  "min_shares": null,
+  "price": 18500
  }
 }
