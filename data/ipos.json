@@ -100,6 +100,31 @@
   ]
  },
  {
+  "name": "영광와이케이엠씨",
+  "subscription_period": "2026.11.04~11.05",
+  "confirmed_price": null,
+  "band": "9,400~11,000",
+  "competition_rate": null,
+  "underwriters": [
+   "대신증권"
+  ],
+  "detail_no": "2342",
+  "market": "코스닥",
+  "payment_date": "2026.11.09",
+  "refund_date": "2026.11.09",
+  "par_value": 500,
+  "total_shares": 2300000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "19,000~23,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "대신증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "넥스아이",
   "subscription_period": "2026.11.03~11.04",
   "confirmed_price": null,
@@ -517,7 +542,7 @@
   "subscription_period": "2026.10.07~10.08",
   "confirmed_price": 90500,
   "band": "70,400~90,500",
-  "competition_rate": null,
+  "competition_rate": "408:1",
   "underwriters": [
    "미래에셋증권",
    "삼성증권"
@@ -784,32 +809,5 @@
    }
   ],
   "min_shares": 20
- },
- {
-  "name": "KB스팩34호",
-  "subscription_period": "2026.09.10~09.11",
-  "confirmed_price": 2000,
-  "band": "2,000~2,000",
-  "competition_rate": "397.33:1",
-  "underwriters": [
-   "KB증권"
-  ],
-  "detail_no": "2313",
-  "market": "코스닥",
-  "payment_date": "2026.09.15",
-  "refund_date": "2026.09.15",
-  "listing_date": "2026.09.22",
-  "par_value": 100,
-  "total_shares": 7000000,
-  "mandatory_holding": "0.00%",
-  "max_subscription": "50,000",
-  "institutional_rate": 1232.51,
-  "deposit_rate": 1.0,
-  "broker_conditions": [
-   {
-    "broker": "KB증권",
-    "fee": 1500
-   }
-  ]
  }
 ]
