@@ -25,6 +25,43 @@
   ]
  },
  {
+  "name": "아델",
+  "subscription_period": "2026.11.23~11.24",
+  "confirmed_price": null,
+  "band": "18,000~25,000",
+  "competition_rate": null,
+  "underwriters": [
+   "삼성증권",
+   "미래에셋증권"
+  ],
+  "detail_no": "2345",
+  "market": "코스닥",
+  "payment_date": "2026.11.26",
+  "refund_date": "2026.11.26",
+  "par_value": 500,
+  "total_shares": 2170000,
+  "mandatory_holding": "0.00%",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "삼성증권",
+    "allocation": 423150,
+    "limit": 10500,
+    "role": null,
+    "allocation_pct": 65.0,
+    "fee": 2000
+   },
+   {
+    "broker": "미래에셋증권",
+    "allocation": 227850,
+    "limit": 11000,
+    "role": null,
+    "allocation_pct": 35.0,
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "엔키화이트햇",
   "subscription_period": "2026.11.12~11.13",
   "confirmed_price": null,
@@ -91,6 +128,31 @@
   "total_shares": 1000000,
   "mandatory_holding": "0.00%",
   "max_subscription": "8,000~10,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "대신증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "에이엘로봇",
+  "subscription_period": "2026.11.06~11.09",
+  "confirmed_price": null,
+  "band": "15,700~17,600",
+  "competition_rate": null,
+  "underwriters": [
+   "대신증권"
+  ],
+  "detail_no": "2331",
+  "market": "코스닥",
+  "payment_date": "2026.11.11",
+  "refund_date": "2026.11.11",
+  "par_value": 500,
+  "total_shares": 2400000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "20,000~24,000",
   "deposit_rate": 0.5,
   "broker_conditions": [
    {
@@ -295,31 +357,6 @@
   "broker_conditions": [
    {
     "broker": "아이엠증권",
-    "fee": 2000
-   }
-  ]
- },
- {
-  "name": "에이엘로봇",
-  "subscription_period": "2026.10.26~10.27",
-  "confirmed_price": null,
-  "band": "15,700~17,600",
-  "competition_rate": null,
-  "underwriters": [
-   "대신증권"
-  ],
-  "detail_no": "2331",
-  "market": "코스닥",
-  "payment_date": "2026.10.29",
-  "refund_date": "2026.10.29",
-  "par_value": 500,
-  "total_shares": 2400000,
-  "mandatory_holding": "0.00%",
-  "max_subscription": "20,000~24,000",
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "대신증권",
     "fee": 2000
    }
   ]
@@ -765,45 +802,5 @@
    }
   ],
   "min_shares": 20
- },
- {
-  "name": "빅웨이브로보틱스",
-  "subscription_period": "2026.09.15~09.16",
-  "confirmed_price": 18000,
-  "band": "15,000~18,000",
-  "competition_rate": "1375.34:1",
-  "underwriters": [
-   "유진투자증권",
-   "미래에셋증권"
-  ],
-  "detail_no": "2294",
-  "market": "코스닥",
-  "payment_date": "2026.09.18",
-  "refund_date": "2026.09.18",
-  "listing_date": "2026.09.29",
-  "par_value": 100,
-  "total_shares": 1600000,
-  "mandatory_holding": "18.14%",
-  "institutional_rate": 1109.37,
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "유진투자증권",
-    "allocation": 193800,
-    "limit": 24000,
-    "role": null,
-    "allocation_pct": 51.0,
-    "fee": 2000
-   },
-   {
-    "broker": "미래에셋증권",
-    "allocation": 186200,
-    "limit": 11000,
-    "role": null,
-    "allocation_pct": 49.0,
-    "fee": 2000
-   }
-  ],
-  "min_shares": 10
  }
 ]
