@@ -678,16 +678,6 @@
    "하나증권"
   ],
   "detail_no": "2320",
-  "market": "코스닥",
-  "payment_date": "2026.10.08",
-  "refund_date": "2026.10.08",
-  "listing_date": "2026.10.15",
-  "par_value": 500,
-  "total_shares": 852000,
-  "mandatory_holding": "5.29%",
-  "max_subscription": "10,000~12,000",
-  "institutional_rate": 1097.62,
-  "deposit_rate": 0.5,
   "broker_conditions": [
    {
     "broker": "하나증권",
