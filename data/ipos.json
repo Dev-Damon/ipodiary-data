@@ -539,7 +539,7 @@
  {
   "name": "SK증권스팩14호",
   "subscription_period": "2026.10.15~10.16",
-  "confirmed_price": null,
+  "confirmed_price": 2000,
   "band": "2,000~2,000",
   "competition_rate": null,
   "underwriters": [
@@ -553,6 +553,7 @@
   "par_value": 100,
   "total_shares": 6500000,
   "mandatory_holding": "0.00%",
+  "institutional_rate": 1228.38,
   "deposit_rate": 1.0,
   "broker_conditions": [
    {
@@ -566,7 +567,7 @@
   "subscription_period": "2026.10.13~10.14",
   "confirmed_price": 18500,
   "band": "17,000~18,500",
-  "competition_rate": null,
+  "competition_rate": "987:1",
   "underwriters": [
    "대신증권",
    "유진증권"
