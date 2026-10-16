@@ -346,6 +346,14 @@
    "아이엠증권"
   ],
   "detail_no": "2329",
+  "market": "코스닥",
+  "payment_date": "2026.10.29",
+  "refund_date": "2026.10.29",
+  "par_value": 100,
+  "total_shares": 5000000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "125,000~150,000",
+  "deposit_rate": 1.0,
   "broker_conditions": [
    {
     "broker": "아이엠증권",
