@@ -102,6 +102,7 @@
   "par_value": 100,
   "total_shares": 2950000,
   "mandatory_holding": "0.00%",
+  "max_subscription": "12,000~14,000",
   "deposit_rate": 0.5,
   "broker_conditions": [
    {
