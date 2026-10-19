@@ -151,13 +151,13 @@
   "payment_date": "2026.11.17",
   "refund_date": "2026.11.17",
   "par_value": 500,
-  "total_shares": 3300000,
+  "total_shares": 4300000,
   "mandatory_holding": "0.00%",
   "deposit_rate": 0.5,
   "broker_conditions": [
    {
     "broker": "대신증권",
-    "allocation": 2475000,
+    "allocation": 742500,
     "limit": 32000,
     "role": null,
     "allocation_pct": 75.0,
@@ -165,7 +165,7 @@
    },
    {
     "broker": "NH투자증권",
-    "allocation": 825000,
+    "allocation": 247500,
     "limit": 10700,
     "role": null,
     "allocation_pct": 25.0,
