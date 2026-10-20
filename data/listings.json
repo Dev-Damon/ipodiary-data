@@ -1,5 +1,14 @@
 [
  {
+  "name": "크리에이츠",
+  "listing_date": "2026.10.30",
+  "current_price": null,
+  "offer_price": 15000,
+  "opening_price": null,
+  "opening_vs_offer": "%",
+  "first_day_close": null
+ },
+ {
   "name": "한화플러스스팩6호",
   "listing_date": "2026.10.30",
   "current_price": null,
@@ -169,14 +178,5 @@
   "opening_price": 20500,
   "opening_vs_offer": "-10.87%",
   "first_day_close": 13930
- },
- {
-  "name": "니어스랩",
-  "listing_date": "2026.08.24",
-  "current_price": 17830,
-  "offer_price": 41200,
-  "opening_price": 40500,
-  "opening_vs_offer": "-1.7%",
-  "first_day_close": 28650
  }
 ]
