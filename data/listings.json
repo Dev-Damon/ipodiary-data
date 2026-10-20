@@ -1,5 +1,23 @@
 [
  {
+  "name": "한화플러스스팩6호",
+  "listing_date": "2026.10.30",
+  "current_price": null,
+  "offer_price": 2000,
+  "opening_price": null,
+  "opening_vs_offer": "%",
+  "first_day_close": null
+ },
+ {
+  "name": "티앤이코리아",
+  "listing_date": "2026.10.29",
+  "current_price": null,
+  "offer_price": 15300,
+  "opening_price": null,
+  "opening_vs_offer": "%",
+  "first_day_close": null
+ },
+ {
   "name": "SK증권스팩14호",
   "listing_date": "2026.10.27",
   "current_price": null,
@@ -31,8 +49,8 @@
   "listing_date": "2026.10.20",
   "current_price": null,
   "offer_price": 90500,
-  "opening_price": null,
-  "opening_vs_offer": "%",
+  "opening_price": 75700,
+  "opening_vs_offer": "-16.35%",
   "first_day_close": null
  },
  {
@@ -160,23 +178,5 @@
   "opening_price": 40500,
   "opening_vs_offer": "-1.7%",
   "first_day_close": 28650
- },
- {
-  "name": "기도산업",
-  "listing_date": "2026.08.21",
-  "current_price": 10400,
-  "offer_price": 28400,
-  "opening_price": 28000,
-  "opening_vs_offer": "-1.41%",
-  "first_day_close": 18580
- },
- {
-  "name": "인제니아테라퓨틱스",
-  "listing_date": "2026.08.18",
-  "current_price": 17990,
-  "offer_price": 12000,
-  "opening_price": 10960,
-  "opening_vs_offer": "-8.67%",
-  "first_day_close": 17990
  }
 ]
