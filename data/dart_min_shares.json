@@ -130,5 +130,13 @@
  "인텔리빅스": {
   "min_shares": 20,
   "price": 9000
+ },
+ "이에스티": {
+  "min_shares": null,
+  "price": 12400
+ },
+ "영광(구.영광공작소)": {
+  "min_shares": null,
+  "price": 17000
  }
 }

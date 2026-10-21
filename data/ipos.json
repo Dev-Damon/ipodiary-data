@@ -25,6 +25,31 @@
   ]
  },
  {
+  "name": "이노보테라퓨틱스",
+  "subscription_period": "2026.12.07~12.08",
+  "confirmed_price": null,
+  "band": "20,000~24,000",
+  "competition_rate": null,
+  "underwriters": [
+   "한국투자증권"
+  ],
+  "detail_no": "2351",
+  "market": "코스닥",
+  "payment_date": "2026.12.10",
+  "refund_date": "2026.12.10",
+  "par_value": 1000,
+  "total_shares": 2200000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "9,000~11,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "한국투자증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "에이엔에이치스트럭쳐",
   "subscription_period": "2026.11.27~11.30",
   "confirmed_price": null,
@@ -521,7 +546,7 @@
  {
   "name": "래블업",
   "subscription_period": "2026.10.22~10.23",
-  "confirmed_price": null,
+  "confirmed_price": 19000,
   "band": "19,000~22,000",
   "competition_rate": null,
   "underwriters": [
@@ -533,8 +558,9 @@
   "refund_date": "2026.10.27",
   "par_value": 500,
   "total_shares": 2180000,
-  "mandatory_holding": "0.00%",
+  "mandatory_holding": "2.09%",
   "max_subscription": "18,000~21,800",
+  "institutional_rate": 284.53,
   "deposit_rate": 0.5,
   "broker_conditions": [
    {
@@ -546,7 +572,7 @@
  {
   "name": "이에스티",
   "subscription_period": "2026.10.22~10.23",
-  "confirmed_price": null,
+  "confirmed_price": 12400,
   "band": "10,600~12,400",
   "competition_rate": null,
   "underwriters": [
@@ -556,10 +582,12 @@
   "market": "코스닥",
   "payment_date": "2026.10.27",
   "refund_date": "2026.10.27",
+  "listing_date": "2026.11.04",
   "par_value": 500,
   "total_shares": 2200000,
-  "mandatory_holding": "0.00%",
+  "mandatory_holding": "0.24%",
   "max_subscription": "18,000~22,000",
+  "institutional_rate": 630.1,
   "deposit_rate": 0.5,
   "broker_conditions": [
    {
@@ -571,7 +599,7 @@
  {
   "name": "영광(구.영광공작소)",
   "subscription_period": "2026.10.22~10.23",
-  "confirmed_price": null,
+  "confirmed_price": 17000,
   "band": "14,000~17,000",
   "competition_rate": null,
   "underwriters": [
@@ -581,10 +609,12 @@
   "market": "코스닥",
   "payment_date": "2026.10.27",
   "refund_date": "2026.10.27",
+  "listing_date": "2026.11.02",
   "par_value": 500,
   "total_shares": 2260000,
-  "mandatory_holding": "0.00%",
+  "mandatory_holding": "0.87%",
   "max_subscription": "9,000~11,000",
+  "institutional_rate": 1000.07,
   "deposit_rate": 0.5,
   "broker_conditions": [
    {
@@ -626,7 +656,7 @@
   "subscription_period": "2026.10.20~10.21",
   "confirmed_price": 15300,
   "band": "12,600~15,300",
-  "competition_rate": null,
+  "competition_rate": "1253.39:1",
   "underwriters": [
    "신한투자증권"
   ],
@@ -654,7 +684,7 @@
   "subscription_period": "2026.10.20~10.21",
   "confirmed_price": 15000,
   "band": "15,000~18,000",
-  "competition_rate": null,
+  "competition_rate": "6.92:1",
   "underwriters": [
    "삼성증권"
   ],
@@ -682,7 +712,7 @@
   "subscription_period": "2026.10.20~10.21",
   "confirmed_price": 2000,
   "band": "2,000~2,000",
-  "competition_rate": null,
+  "competition_rate": "185.75:1",
   "underwriters": [
    "한화투자증권"
   ],
@@ -795,45 +825,5 @@
     "fee": 1500
    }
   ]
- },
- {
-  "name": "엘리스그룹",
-  "subscription_period": "2026.10.07~10.08",
-  "confirmed_price": 90500,
-  "band": "70,400~90,500",
-  "competition_rate": "408:1",
-  "underwriters": [
-   "미래에셋증권",
-   "삼성증권"
-  ],
-  "detail_no": "2316",
-  "market": "코스닥",
-  "payment_date": "2026.10.13",
-  "refund_date": "2026.10.13",
-  "listing_date": "2026.10.20",
-  "par_value": 500,
-  "total_shares": 2222000,
-  "mandatory_holding": "13.70%",
-  "institutional_rate": 388.84,
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "미래에셋증권",
-    "allocation": 444400,
-    "limit": 26500,
-    "role": "대표",
-    "allocation_pct": 80.0,
-    "fee": 2000
-   },
-   {
-    "broker": "삼성증권",
-    "allocation": 111100,
-    "limit": 6000,
-    "role": "공동",
-    "allocation_pct": 20.0,
-    "fee": 2000
-   }
-  ],
-  "min_shares": 20
  }
 ]
