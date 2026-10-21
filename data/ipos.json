@@ -25,6 +25,31 @@
   ]
  },
  {
+  "name": "에이엔에이치스트럭쳐",
+  "subscription_period": "2026.11.27~11.30",
+  "confirmed_price": null,
+  "band": "11,200~13,600",
+  "competition_rate": null,
+  "underwriters": [
+   "NH투자증권"
+  ],
+  "detail_no": "2350",
+  "market": "코스닥",
+  "payment_date": "2026.12.02",
+  "refund_date": "2026.12.02",
+  "par_value": 500,
+  "total_shares": 2100000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "8,900~10,700",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "NH투자증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "케이엠에프",
   "subscription_period": "2026.11.24~11.25",
   "confirmed_price": null,
@@ -810,32 +835,5 @@
    }
   ],
   "min_shares": 20
- },
- {
-  "name": "진코스텍",
-  "subscription_period": "2026.10.02~10.06",
-  "confirmed_price": 23500,
-  "band": "19,500~23,500",
-  "competition_rate": "685:1",
-  "underwriters": [
-   "하나증권"
-  ],
-  "detail_no": "2320",
-  "market": "코스닥",
-  "payment_date": "2026.10.08",
-  "refund_date": "2026.10.08",
-  "listing_date": "2026.10.15",
-  "par_value": 500,
-  "total_shares": 852000,
-  "mandatory_holding": "5.29%",
-  "max_subscription": "10,000~12,000",
-  "institutional_rate": 1097.62,
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "하나증권",
-    "fee": 2000
-   }
-  ]
  }
 ]
