@@ -182,6 +182,43 @@
   ]
  },
  {
+  "name": "유캐스트",
+  "subscription_period": "2026.11.18~11.19",
+  "confirmed_price": null,
+  "band": "19,000~23,000",
+  "competition_rate": null,
+  "underwriters": [
+   "유진투자증권",
+   "신영증권"
+  ],
+  "detail_no": "2352",
+  "market": "코스닥",
+  "payment_date": "2026.11.23",
+  "refund_date": "2026.11.23",
+  "par_value": 500,
+  "total_shares": 800000,
+  "mandatory_holding": "0.00%",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "유진투자증권",
+    "allocation": 200000,
+    "limit": 20000,
+    "role": null,
+    "allocation_pct": 83.3,
+    "fee": 2000
+   },
+   {
+    "broker": "신영증권",
+    "allocation": 40000,
+    "limit": 1300,
+    "role": "인수",
+    "allocation_pct": 16.7,
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "엠비디",
   "subscription_period": "2026.11.12~11.13",
   "confirmed_price": null,
@@ -796,33 +833,6 @@
     "role": "인수",
     "allocation_pct": 10.0,
     "fee": 2000
-   }
-  ]
- },
- {
-  "name": "엠에스바이오",
-  "subscription_period": "2026.10.12~10.13",
-  "confirmed_price": 7800,
-  "band": "6,800~7,800",
-  "competition_rate": "1538.51:1",
-  "underwriters": [
-   "KB증권"
-  ],
-  "detail_no": "2324",
-  "market": "코스닥",
-  "payment_date": "2026.10.15",
-  "refund_date": "2026.10.15",
-  "listing_date": "2026.10.22",
-  "par_value": 100,
-  "total_shares": 4000000,
-  "mandatory_holding": "30.62%",
-  "max_subscription": "33,000~40,000",
-  "institutional_rate": 1096.56,
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "KB증권",
-    "fee": 1500
    }
   ]
  }

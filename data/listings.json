@@ -76,8 +76,8 @@
   "listing_date": "2026.10.22",
   "current_price": null,
   "offer_price": 7800,
-  "opening_price": null,
-  "opening_vs_offer": "%",
+  "opening_price": 16000,
+  "opening_vs_offer": "105.13%",
   "first_day_close": null
  },
  {
