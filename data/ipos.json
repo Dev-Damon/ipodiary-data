@@ -624,7 +624,7 @@
   "subscription_period": "2026.10.22~10.23",
   "confirmed_price": 19000,
   "band": "19,000~22,000",
-  "competition_rate": null,
+  "competition_rate": "3.55:1",
   "underwriters": [
    "NH투자증권"
   ],
@@ -651,7 +651,7 @@
   "subscription_period": "2026.10.22~10.23",
   "confirmed_price": 12400,
   "band": "10,600~12,400",
-  "competition_rate": null,
+  "competition_rate": "28.95:1",
   "underwriters": [
    "대신증권"
   ],
@@ -678,7 +678,7 @@
   "subscription_period": "2026.10.22~10.23",
   "confirmed_price": 17000,
   "band": "14,000~17,000",
-  "competition_rate": null,
+  "competition_rate": "684.73:1",
   "underwriters": [
    "한국투자증권"
   ],
