@@ -1,6 +1,12 @@
 {
  "ipo_news": [
   {
+   "title": "[10월 공모주 미리보기⑤] iM증권 사명 변경 후 ‘첫 스팩’ - 대한데일리",
+   "date": "Sun, 25 Oct 2026 20:23:57 GMT",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9KN0NScHVkNkVzbnp5RG4yOUtSRl9aOTh2c1RDSlV1QTMwNGRUcWRKOTlTUHBNdVRiVmgyQkE5ZXlTTU5RRFJ4RVhzZnVTekJvTFZyYVdUdXhtRjFpdk5fOUllUHNtdTlybWc?oc=5",
+   "ipo": "아이엠스팩1호"
+  },
+  {
    "title": "[리스트업] 2026Y 'Q1 ~ Q4' 주요 IPO 공모주 (국내·주관사) - 이코노미톡뉴스",
    "date": "Thu, 24 Sep 2026 07:00:00 GMT",
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Cbld6YTdrWGcycWhEN2JjV1VQSThXcFFSb1EyQ1JaazRwdDNLT1g1ZDhnbENxcGdaTVVLWDBNbVAyamJ1RzRHTDl2QV9ub0lqaDMyelZ4QjFacFZLWHVOVG44dzRySXFtbDV2MA?oc=5",
@@ -10,12 +16,6 @@
    "title": "남들 몰래 용돈 벌자…10월 공모주 시장 최고의 '꿀 종목'은? - 위키트리",
    "date": "Wed, 30 Sep 2026 07:00:00 GMT",
    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGRXNYVEdGVE5rUllKSW44WHhYNzRZMEZrNHRzMnd4SkhmQUpfUW1RcVg3bHQ3anFMSFlBc252UTdUV0ZFa3B0WjhzUVJtUHRwUVc2dFpR?oc=5",
-   "ipo": "아이엠스팩1호"
-  },
-  {
-   "title": "10월 IPO시장 '공모주 홍수' 예고 AI·반도체 대어 출격…20여개 기업 청약 러시 - 포인트데일리",
-   "date": "Thu, 01 Oct 2026 07:00:00 GMT",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE52b3JBTjFrak5qY3VzUm5KUHU4eTNUNndicjJiZkJGU2xLSEl0bmFBRV9DeGNUTVJBejZWbnJrMnpSVnljd1dmVWh2cVZaeVVBdjE2OEc1WGZ2d09YYkxsellrZFNHRVFXWmJsMXhoSUbSAXRBVV95cUxPQS10bmE1cF9sV3UtQzNsbWtwX1pUWnNuOUM5cUhSS2szZHZMUE5aNXJNQkxtNEdvTU1sZkJaQWladzhIbGVrZF9kcFRKYzBzMGJXS09oWkdzTHlMZUl5clg0YUQ3ZGVIU1dkR0FvdFhMNC0zSg?oc=5",
    "ipo": "아이엠스팩1호"
   },
   {
@@ -51,6 +51,11 @@
  ],
  "richboost": [
   {
+   "title": "2026-10-26 경제시황: 유가 100달러 재돌파·빅테크 실적·FOMC 겹친 슈퍼위크",
+   "date": "Mon, 26 Oct 2026 00:00:00 GMT",
+   "url": "https://richboost.stonesoft.co.kr/posts/news-2026-10-26/"
+  },
+  {
    "title": "2026-10-25 경제시황: 유가 116달러에 다우 652p 급락, 이번 주 FOMC·빅테크 실적 대기",
    "date": "Sun, 25 Oct 2026 00:00:00 GMT",
    "url": "https://richboost.stonesoft.co.kr/posts/news-2026-10-25/"
@@ -69,11 +74,6 @@
    "title": "2026-10-23 경제시황: 메타 쇼크에 나스닥 2.6% 급락, 코스피도 3.5% 밀려",
    "date": "Fri, 23 Oct 2026 00:00:00 GMT",
    "url": "https://richboost.stonesoft.co.kr/posts/news-2026-10-23/"
-  },
-  {
-   "title": "BNY 멜런, 퍼스트워치 레스토랑 5% 이상 지분 정정신고(13G/A)",
-   "date": "Thu, 22 Oct 2026 00:00:00 GMT",
-   "url": "https://richboost.stonesoft.co.kr/posts/13dg-bny-mellon-first-watch-restaurant-group-inc-2026-10-22/"
   }
  ]
 }
