@@ -87,6 +87,31 @@
   ]
  },
  {
+  "name": "우리투자스팩1호",
+  "subscription_period": "2026.12.02~12.03",
+  "confirmed_price": null,
+  "band": "2,000~2,000",
+  "competition_rate": null,
+  "underwriters": [
+   "우리투자증권"
+  ],
+  "detail_no": "2354",
+  "market": "코스닥",
+  "payment_date": "2026.12.07",
+  "refund_date": "2026.12.07",
+  "par_value": 100,
+  "total_shares": 6500000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "80,000~90,000",
+  "deposit_rate": 1.0,
+  "broker_conditions": [
+   {
+    "broker": "우리투자증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "에이엔에이치스트럭쳐",
   "subscription_period": "2026.11.27~11.30",
   "confirmed_price": null,
@@ -807,32 +832,6 @@
   "broker_conditions": [
    {
     "broker": "한화투자증권",
-    "fee": 2000
-   }
-  ]
- },
- {
-  "name": "SK증권스팩14호",
-  "subscription_period": "2026.10.15~10.16",
-  "confirmed_price": 2000,
-  "band": "2,000~2,000",
-  "competition_rate": "656:1",
-  "underwriters": [
-   "SK증권"
-  ],
-  "detail_no": "2319",
-  "market": "코스닥",
-  "payment_date": "2026.10.20",
-  "refund_date": "2026.10.20",
-  "listing_date": "2026.10.27",
-  "par_value": 100,
-  "total_shares": 6500000,
-  "mandatory_holding": "0.00%",
-  "institutional_rate": 1228.38,
-  "deposit_rate": 1.0,
-  "broker_conditions": [
-   {
-    "broker": "SK증권",
     "fee": 2000
    }
   ]
