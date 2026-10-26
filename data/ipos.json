@@ -112,6 +112,31 @@
   ]
  },
  {
+  "name": "제논",
+  "subscription_period": "2026.11.24~11.25",
+  "confirmed_price": null,
+  "band": "9,700~12,200",
+  "competition_rate": null,
+  "underwriters": [
+   "삼성증권"
+  ],
+  "detail_no": "2341",
+  "market": "코스닥",
+  "payment_date": "2026.11.27",
+  "refund_date": "2026.11.27",
+  "par_value": 500,
+  "total_shares": 2200000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "13,000~16,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "삼성증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "케이엠에프",
   "subscription_period": "2026.11.24~11.25",
   "confirmed_price": null,
@@ -463,31 +488,6 @@
   "broker_conditions": [
    {
     "broker": "한국투자증권",
-    "fee": 2000
-   }
-  ]
- },
- {
-  "name": "제논",
-  "subscription_period": "2026.11.04~11.05",
-  "confirmed_price": null,
-  "band": "9,700~12,200",
-  "competition_rate": null,
-  "underwriters": [
-   "삼성증권"
-  ],
-  "detail_no": "2341",
-  "market": "코스닥",
-  "payment_date": "2026.11.09",
-  "refund_date": "2026.11.09",
-  "par_value": 500,
-  "total_shares": 2200000,
-  "mandatory_holding": "0.00%",
-  "max_subscription": "13,000~16,000",
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "삼성증권",
     "fee": 2000
    }
   ]
