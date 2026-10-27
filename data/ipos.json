@@ -622,7 +622,7 @@
   "subscription_period": "2026.10.26~10.27",
   "confirmed_price": 2000,
   "band": "2,000~2,000",
-  "competition_rate": null,
+  "competition_rate": "1112.73:1",
   "underwriters": [
    "아이엠증권"
   ],
@@ -730,7 +730,7 @@
   "subscription_period": "2026.10.21~10.22",
   "confirmed_price": 9000,
   "band": "7,600~9,000",
-  "competition_rate": null,
+  "competition_rate": "1410.87:1",
   "underwriters": [
    "미래에셋증권"
   ],
