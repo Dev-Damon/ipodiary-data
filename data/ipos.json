@@ -112,6 +112,31 @@
   ]
  },
  {
+  "name": "엔키화이트햇",
+  "subscription_period": "2026.12.01~12.02",
+  "confirmed_price": null,
+  "band": "13,000~16,500",
+  "competition_rate": null,
+  "underwriters": [
+   "신영증권"
+  ],
+  "detail_no": "2343",
+  "market": "코스닥",
+  "payment_date": "2026.12.04",
+  "refund_date": "2026.12.04",
+  "par_value": 100,
+  "total_shares": 1700000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "14,000~17,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "신영증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "에이엔에이치스트럭쳐",
   "subscription_period": "2026.11.27~11.30",
   "confirmed_price": null,
@@ -351,31 +376,6 @@
   "broker_conditions": [
    {
     "broker": "한국투자증권",
-    "fee": 2000
-   }
-  ]
- },
- {
-  "name": "엔키화이트햇",
-  "subscription_period": "2026.11.12~11.13",
-  "confirmed_price": null,
-  "band": "13,000~16,500",
-  "competition_rate": null,
-  "underwriters": [
-   "신영증권"
-  ],
-  "detail_no": "2343",
-  "market": "코스닥",
-  "payment_date": "2026.11.17",
-  "refund_date": "2026.11.17",
-  "par_value": 100,
-  "total_shares": 1700000,
-  "mandatory_holding": "0.00%",
-  "max_subscription": "14,000~17,000",
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "신영증권",
     "fee": 2000
    }
   ]
