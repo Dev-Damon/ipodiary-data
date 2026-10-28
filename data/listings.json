@@ -74,7 +74,7 @@
  {
   "name": "SK증권스팩14호",
   "listing_date": "2026.10.27",
-  "current_price": 1905,
+  "current_price": 1879,
   "offer_price": 2000,
   "opening_price": 4065,
   "opening_vs_offer": "103.25%",
@@ -83,7 +83,7 @@
  {
   "name": "디티에스(구.동양티에스)",
   "listing_date": "2026.10.23",
-  "current_price": 22500,
+  "current_price": 21350,
   "offer_price": 18500,
   "opening_price": 32350,
   "opening_vs_offer": "74.86%",
@@ -92,7 +92,7 @@
  {
   "name": "엠에스바이오",
   "listing_date": "2026.10.22",
-  "current_price": 11810,
+  "current_price": 10980,
   "offer_price": 7800,
   "opening_price": 16000,
   "opening_vs_offer": "105.13%",
@@ -101,7 +101,7 @@
  {
   "name": "엘리스그룹",
   "listing_date": "2026.10.20",
-  "current_price": 80700,
+  "current_price": 80600,
   "offer_price": 90500,
   "opening_price": 75700,
   "opening_vs_offer": "-16.35%",
@@ -110,7 +110,7 @@
  {
   "name": "멜콘(구.에스앤에프솔루션)",
   "listing_date": "2026.10.15",
-  "current_price": 15830,
+  "current_price": 19210,
   "offer_price": 12300,
   "opening_price": 27400,
   "opening_vs_offer": "122.76%",
@@ -119,7 +119,7 @@
  {
   "name": "진코스텍",
   "listing_date": "2026.10.15",
-  "current_price": 10170,
+  "current_price": 10180,
   "offer_price": 23500,
   "opening_price": 24000,
   "opening_vs_offer": "2.13%",
@@ -128,7 +128,7 @@
  {
   "name": "브릴스",
   "listing_date": "2026.10.01",
-  "current_price": 20350,
+  "current_price": 20900,
   "offer_price": 19500,
   "opening_price": 61800,
   "opening_vs_offer": "216.92%",
@@ -137,7 +137,7 @@
  {
   "name": "덕산넵코어스(구.넵코어스)",
   "listing_date": "2026.09.30",
-  "current_price": 8700,
+  "current_price": 8730,
   "offer_price": 14600,
   "opening_price": 27100,
   "opening_vs_offer": "85.62%",
@@ -146,7 +146,7 @@
  {
   "name": "빅웨이브로보틱스",
   "listing_date": "2026.09.29",
-  "current_price": 28500,
+  "current_price": 29450,
   "offer_price": 18000,
   "opening_price": 56000,
   "opening_vs_offer": "211.11%",
@@ -155,7 +155,7 @@
  {
   "name": "글로벌테크놀로지",
   "listing_date": "2026.09.29",
-  "current_price": 9020,
+  "current_price": 9030,
   "offer_price": 10000,
   "opening_price": 21150,
   "opening_vs_offer": "111.5%",
@@ -164,7 +164,7 @@
  {
   "name": "와이즈플래닛컴퍼니",
   "listing_date": "2026.09.23",
-  "current_price": 7870,
+  "current_price": 7750,
   "offer_price": 12000,
   "opening_price": 42750,
   "opening_vs_offer": "256.25%",
@@ -173,7 +173,7 @@
  {
   "name": "KB스팩34호",
   "listing_date": "2026.09.22",
-  "current_price": 1900,
+  "current_price": 1899,
   "offer_price": 2000,
   "opening_price": 4000,
   "opening_vs_offer": "100%",
