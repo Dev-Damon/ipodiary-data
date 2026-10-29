@@ -25,6 +25,31 @@
   ]
  },
  {
+  "name": "데스틴파워",
+  "subscription_period": "2026.12.14~12.15",
+  "confirmed_price": null,
+  "band": "8,000~11,000",
+  "competition_rate": null,
+  "underwriters": [
+   "한국투자증권"
+  ],
+  "detail_no": "2356",
+  "market": "코스닥",
+  "payment_date": "2026.12.17",
+  "refund_date": "2026.12.17",
+  "par_value": 500,
+  "total_shares": 2200000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "9,000~11,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "한국투자증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "씨아이에스케미칼",
   "subscription_period": "2026.12.10~12.11",
   "confirmed_price": null,
@@ -233,6 +258,31 @@
    {
     "broker": "IBK투자증권",
     "fee": 1500
+   }
+  ]
+ },
+ {
+  "name": "신영스팩12호",
+  "subscription_period": "2026.11.24~11.25",
+  "confirmed_price": null,
+  "band": "2,000~2,000",
+  "competition_rate": null,
+  "underwriters": [
+   "신영증권"
+  ],
+  "detail_no": "2357",
+  "market": "코스닥",
+  "payment_date": "2026.11.27",
+  "refund_date": "2026.11.27",
+  "par_value": 100,
+  "total_shares": 6250000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "52,000~62,000",
+  "deposit_rate": 1.0,
+  "broker_conditions": [
+   {
+    "broker": "신영증권",
+    "fee": 2000
    }
   ]
  },
@@ -773,62 +823,6 @@
   "broker_conditions": [
    {
     "broker": "미래에셋증권",
-    "fee": 2000
-   }
-  ],
-  "min_shares": 20
- },
- {
-  "name": "티앤이코리아",
-  "subscription_period": "2026.10.20~10.21",
-  "confirmed_price": 15300,
-  "band": "12,600~15,300",
-  "competition_rate": "1253.39:1",
-  "underwriters": [
-   "신한투자증권"
-  ],
-  "detail_no": "2322",
-  "market": "코스닥",
-  "payment_date": "2026.10.23",
-  "refund_date": "2026.10.23",
-  "listing_date": "2026.10.29",
-  "par_value": 500,
-  "total_shares": 2400000,
-  "mandatory_holding": "29.52%",
-  "max_subscription": "20,000~24,000",
-  "institutional_rate": 1041.02,
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "신한투자증권",
-    "fee": 2000
-   }
-  ],
-  "min_shares": 20
- },
- {
-  "name": "크리에이츠",
-  "subscription_period": "2026.10.20~10.21",
-  "confirmed_price": 15000,
-  "band": "15,000~18,000",
-  "competition_rate": "6.92:1",
-  "underwriters": [
-   "삼성증권"
-  ],
-  "detail_no": "2323",
-  "market": "코스닥",
-  "payment_date": "2026.10.23",
-  "refund_date": "2026.10.23",
-  "listing_date": "2026.10.30",
-  "par_value": 200,
-  "total_shares": 1400000,
-  "mandatory_holding": "0.00%",
-  "max_subscription": "16,000~20,000",
-  "institutional_rate": 240.46,
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "삼성증권",
     "fee": 2000
    }
   ],
