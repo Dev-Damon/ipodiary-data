@@ -9,6 +9,15 @@
   "first_day_close": null
  },
  {
+  "name": "동원파츠",
+  "listing_date": "2026.11.10",
+  "current_price": null,
+  "offer_price": 26500,
+  "opening_price": null,
+  "opening_vs_offer": "%",
+  "first_day_close": null
+ },
+ {
   "name": "아이엠스팩1호",
   "listing_date": "2026.11.04",
   "current_price": null,
@@ -49,8 +58,8 @@
   "listing_date": "2026.10.30",
   "current_price": null,
   "offer_price": 15000,
-  "opening_price": null,
-  "opening_vs_offer": "%",
+  "opening_price": 12000,
+  "opening_vs_offer": "-20%",
   "first_day_close": null
  },
  {
@@ -58,8 +67,8 @@
   "listing_date": "2026.10.30",
   "current_price": null,
   "offer_price": 9000,
-  "opening_price": null,
-  "opening_vs_offer": "%",
+  "opening_price": 19290,
+  "opening_vs_offer": "114.33%",
   "first_day_close": null
  },
  {
@@ -67,8 +76,8 @@
   "listing_date": "2026.10.30",
   "current_price": null,
   "offer_price": 2000,
-  "opening_price": null,
-  "opening_vs_offer": "%",
+  "opening_price": 2810,
+  "opening_vs_offer": "40.5%",
   "first_day_close": null
  },
  {
@@ -169,14 +178,5 @@
   "opening_price": 21150,
   "opening_vs_offer": "111.5%",
   "first_day_close": 14500
- },
- {
-  "name": "와이즈플래닛컴퍼니",
-  "listing_date": "2026.09.23",
-  "current_price": 7220,
-  "offer_price": 12000,
-  "opening_price": 42750,
-  "opening_vs_offer": "256.25%",
-  "first_day_close": 45700
  }
 ]

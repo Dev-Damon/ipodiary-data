@@ -142,5 +142,9 @@
  "옵토닉스": {
   "min_shares": null,
   "price": 12000
+ },
+ "동원파츠": {
+  "min_shares": 20,
+  "price": 26500
  }
 }

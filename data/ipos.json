@@ -672,7 +672,7 @@
  {
   "name": "동원파츠",
   "subscription_period": "2026.11.02~11.03",
-  "confirmed_price": null,
+  "confirmed_price": 26500,
   "band": "23,000~26,500",
   "competition_rate": null,
   "underwriters": [
@@ -682,17 +682,20 @@
   "market": "코스닥",
   "payment_date": "2026.11.05",
   "refund_date": "2026.11.05",
+  "listing_date": "2026.11.10",
   "par_value": 500,
   "total_shares": 2030000,
-  "mandatory_holding": "0.00%",
+  "mandatory_holding": "16.61%",
   "max_subscription": "12,500~15,000",
+  "institutional_rate": 840.86,
   "deposit_rate": 0.5,
   "broker_conditions": [
    {
     "broker": "삼성증권",
     "fee": 2000
    }
-  ]
+  ],
+  "min_shares": 20
  },
  {
   "name": "아이엠스팩1호",
