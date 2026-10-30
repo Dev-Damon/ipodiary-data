@@ -622,7 +622,7 @@
  {
   "name": "넥스아이",
   "subscription_period": "2026.11.03~11.04",
-  "confirmed_price": null,
+  "confirmed_price": 8000,
   "band": "10,500~13,000",
   "competition_rate": null,
   "underwriters": [
@@ -635,7 +635,7 @@
   "listing_date": "2026.11.12",
   "par_value": 500,
   "total_shares": 5000000,
-  "mandatory_holding": "0.00%",
+  "mandatory_holding": "0.06%",
   "max_subscription": "20,000~25,000",
   "deposit_rate": 0.5,
   "broker_conditions": [
@@ -643,12 +643,13 @@
     "broker": "한국투자증권",
     "fee": 2000
    }
-  ]
+  ],
+  "min_shares": 10
  },
  {
   "name": "바로팜",
   "subscription_period": "2026.11.02~11.03",
-  "confirmed_price": null,
+  "confirmed_price": 16400,
   "band": "16,400~20,200",
   "competition_rate": null,
   "underwriters": [
@@ -661,7 +662,7 @@
   "listing_date": "2026.11.11",
   "par_value": 500,
   "total_shares": 1780000,
-  "mandatory_holding": "0.00%",
+  "mandatory_holding": "0.03%",
   "max_subscription": "22,000~26,000",
   "deposit_rate": 0.5,
   "broker_conditions": [
@@ -669,7 +670,8 @@
     "broker": "미래에셋증권",
     "fee": 2000
    }
-  ]
+  ],
+  "min_shares": 20
  },
  {
   "name": "동원파츠",
