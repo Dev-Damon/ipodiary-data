@@ -187,6 +187,31 @@
   ]
  },
  {
+  "name": "다비오",
+  "subscription_period": "2026.12.01~12.02",
+  "confirmed_price": null,
+  "band": "12,300~16,600",
+  "competition_rate": null,
+  "underwriters": [
+   "대신증권"
+  ],
+  "detail_no": "2358",
+  "market": "코스닥",
+  "payment_date": "2026.12.04",
+  "refund_date": "2026.12.04",
+  "par_value": 100,
+  "total_shares": 1000000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "8,000~10,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "대신증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "에이엔에이치스트럭쳐",
   "subscription_period": "2026.11.27~11.30",
   "confirmed_price": null,
@@ -514,31 +539,6 @@
    {
     "broker": "IBK투자증권",
     "fee": 1500
-   }
-  ]
- },
- {
-  "name": "다비오",
-  "subscription_period": "2026.11.10~11.11",
-  "confirmed_price": null,
-  "band": "12,300~16,600",
-  "competition_rate": null,
-  "underwriters": [
-   "대신증권"
-  ],
-  "detail_no": "2344",
-  "market": "코스닥",
-  "payment_date": "2026.11.13",
-  "refund_date": "2026.11.13",
-  "par_value": 100,
-  "total_shares": 1000000,
-  "mandatory_holding": "0.00%",
-  "max_subscription": "8,000~10,000",
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "대신증권",
-    "fee": 2000
    }
   ]
  },
