@@ -637,6 +637,7 @@
   "total_shares": 5000000,
   "mandatory_holding": "0.06%",
   "max_subscription": "20,000~25,000",
+  "institutional_rate": 66.58,
   "deposit_rate": 0.5,
   "broker_conditions": [
    {
@@ -664,6 +665,7 @@
   "total_shares": 1780000,
   "mandatory_holding": "0.03%",
   "max_subscription": "22,000~26,000",
+  "institutional_rate": 152.36,
   "deposit_rate": 0.5,
   "broker_conditions": [
    {
