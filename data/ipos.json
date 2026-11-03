@@ -597,7 +597,7 @@
  {
   "name": "영광와이케이엠씨",
   "subscription_period": "2026.11.04~11.05",
-  "confirmed_price": null,
+  "confirmed_price": 11000,
   "band": "9,400~11,000",
   "competition_rate": null,
   "underwriters": [
@@ -607,17 +607,20 @@
   "market": "코스닥",
   "payment_date": "2026.11.09",
   "refund_date": "2026.11.09",
+  "listing_date": "2026.11.16",
   "par_value": 500,
   "total_shares": 2300000,
-  "mandatory_holding": "0.00%",
+  "mandatory_holding": "7.21%",
   "max_subscription": "19,000~23,000",
+  "institutional_rate": 1163.35,
   "deposit_rate": 0.5,
   "broker_conditions": [
    {
     "broker": "대신증권",
     "fee": 2000
    }
-  ]
+  ],
+  "min_shares": 20
  },
  {
   "name": "넥스아이",
@@ -652,7 +655,7 @@
   "subscription_period": "2026.11.02~11.03",
   "confirmed_price": 16400,
   "band": "16,400~20,200",
-  "competition_rate": null,
+  "competition_rate": "19.27:1",
   "underwriters": [
    "미래에셋증권"
   ],
@@ -680,7 +683,7 @@
   "subscription_period": "2026.11.02~11.03",
   "confirmed_price": 26500,
   "band": "23,000~26,500",
-  "competition_rate": null,
+  "competition_rate": "1219.37:1",
   "underwriters": [
    "삼성증권"
   ],
