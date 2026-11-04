@@ -49,8 +49,8 @@
   "listing_date": "2026.11.04",
   "current_price": null,
   "offer_price": 2000,
-  "opening_price": null,
-  "opening_vs_offer": "%",
+  "opening_price": 2580,
+  "opening_vs_offer": "29%",
   "first_day_close": null
  },
  {
@@ -58,8 +58,8 @@
   "listing_date": "2026.11.04",
   "current_price": null,
   "offer_price": 12400,
-  "opening_price": null,
-  "opening_vs_offer": "%",
+  "opening_price": 15890,
+  "opening_vs_offer": "28.15%",
   "first_day_close": null
  },
  {
