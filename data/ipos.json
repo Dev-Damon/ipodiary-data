@@ -545,7 +545,7 @@
  {
   "name": "에이엘로봇",
   "subscription_period": "2026.11.06~11.09",
-  "confirmed_price": null,
+  "confirmed_price": 17600,
   "band": "15,700~17,600",
   "competition_rate": null,
   "underwriters": [
@@ -557,8 +557,9 @@
   "refund_date": "2026.11.11",
   "par_value": 500,
   "total_shares": 2400000,
-  "mandatory_holding": "0.00%",
+  "mandatory_holding": "1.13%",
   "max_subscription": "20,000~24,000",
+  "institutional_rate": 871.74,
   "deposit_rate": 0.5,
   "broker_conditions": [
    {
@@ -627,7 +628,7 @@
   "subscription_period": "2026.11.03~11.04",
   "confirmed_price": 8000,
   "band": "10,500~13,000",
-  "competition_rate": null,
+  "competition_rate": "13.26:1",
   "underwriters": [
    "한국투자증권"
   ],

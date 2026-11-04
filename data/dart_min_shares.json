@@ -158,5 +158,9 @@
  "영광와이케이엠씨": {
   "min_shares": 20,
   "price": 11000
+ },
+ "에이엘로봇": {
+  "min_shares": null,
+  "price": 17600
  }
 }

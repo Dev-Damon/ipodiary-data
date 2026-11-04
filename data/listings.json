@@ -47,25 +47,25 @@
  {
   "name": "아이엠스팩1호",
   "listing_date": "2026.11.04",
-  "current_price": null,
+  "current_price": 1863,
   "offer_price": 2000,
   "opening_price": 2580,
   "opening_vs_offer": "29%",
-  "first_day_close": null
+  "first_day_close": 1861
  },
  {
   "name": "이에스티",
   "listing_date": "2026.11.04",
-  "current_price": null,
+  "current_price": 9890,
   "offer_price": 12400,
   "opening_price": 15890,
   "opening_vs_offer": "28.15%",
-  "first_day_close": null
+  "first_day_close": 9940
  },
  {
   "name": "래블업",
   "listing_date": "2026.11.03",
-  "current_price": 14220,
+  "current_price": 14470,
   "offer_price": 19000,
   "opening_price": 19000,
   "opening_vs_offer": "0%",
@@ -74,7 +74,7 @@
  {
   "name": "영광(구.영광공작소)",
   "listing_date": "2026.11.02",
-  "current_price": 15630,
+  "current_price": 13840,
   "offer_price": 17000,
   "opening_price": 21350,
   "opening_vs_offer": "25.59%",
@@ -83,7 +83,7 @@
  {
   "name": "크리에이츠",
   "listing_date": "2026.10.30",
-  "current_price": 6470,
+  "current_price": 5790,
   "offer_price": 15000,
   "opening_price": 12000,
   "opening_vs_offer": "-20%",
@@ -92,7 +92,7 @@
  {
   "name": "인텔리빅스",
   "listing_date": "2026.10.30",
-  "current_price": 22300,
+  "current_price": 17960,
   "offer_price": 9000,
   "opening_price": 19290,
   "opening_vs_offer": "114.33%",
@@ -101,7 +101,7 @@
  {
   "name": "한화플러스스팩6호",
   "listing_date": "2026.10.30",
-  "current_price": 1873,
+  "current_price": 1874,
   "offer_price": 2000,
   "opening_price": 2810,
   "opening_vs_offer": "40.5%",
@@ -110,7 +110,7 @@
  {
   "name": "티앤이코리아",
   "listing_date": "2026.10.29",
-  "current_price": 19020,
+  "current_price": 17760,
   "offer_price": 15300,
   "opening_price": 30350,
   "opening_vs_offer": "98.37%",
@@ -128,7 +128,7 @@
  {
   "name": "디티에스(구.동양티에스)",
   "listing_date": "2026.10.23",
-  "current_price": 16120,
+  "current_price": 14700,
   "offer_price": 18500,
   "opening_price": 32350,
   "opening_vs_offer": "74.86%",
@@ -137,7 +137,7 @@
  {
   "name": "엠에스바이오",
   "listing_date": "2026.10.22",
-  "current_price": 6690,
+  "current_price": 6200,
   "offer_price": 7800,
   "opening_price": 16000,
   "opening_vs_offer": "105.13%",
@@ -146,7 +146,7 @@
  {
   "name": "엘리스그룹",
   "listing_date": "2026.10.20",
-  "current_price": 57000,
+  "current_price": 62800,
   "offer_price": 90500,
   "opening_price": 75700,
   "opening_vs_offer": "-16.35%",
@@ -155,7 +155,7 @@
  {
   "name": "멜콘(구.에스앤에프솔루션)",
   "listing_date": "2026.10.15",
-  "current_price": 14280,
+  "current_price": 13770,
   "offer_price": 12300,
   "opening_price": 27400,
   "opening_vs_offer": "122.76%",
@@ -164,7 +164,7 @@
  {
   "name": "진코스텍",
   "listing_date": "2026.10.15",
-  "current_price": 10130,
+  "current_price": 9580,
   "offer_price": 23500,
   "opening_price": 24000,
   "opening_vs_offer": "2.13%",
@@ -173,7 +173,7 @@
  {
   "name": "브릴스",
   "listing_date": "2026.10.01",
-  "current_price": 13860,
+  "current_price": 13270,
   "offer_price": 19500,
   "opening_price": 61800,
   "opening_vs_offer": "216.92%",
