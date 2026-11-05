@@ -602,7 +602,7 @@
   "subscription_period": "2026.11.04~11.05",
   "confirmed_price": 11000,
   "band": "9,400~11,000",
-  "competition_rate": null,
+  "competition_rate": "1342.66:1",
   "underwriters": [
    "대신증권"
   ],
