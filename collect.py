@@ -203,10 +203,14 @@ def parse_min_shares(text):
     물결은 문서마다 ~ ∼ ～ 등으로 다르고 보이지 않는 문자가 끼기도 해 사이는 숫자 아닌 아무 글자."""
     text = re.sub(r"[\u200b-\u200f\u2060\ufeff\u00ad]", "", text)  # 보이지 않는 문자
     text = re.sub(r"\s+", " ", text)
-    mins = [
-        int(m) for m in re.findall(r"(\d+)\s*주\s*이상\D{0,6}?[\d,]+\s*주\s*이하", text)
-    ]
-    return min(mins) if mins else None
+    pat = r"(\d+)\s*주\s*이상\D{0,6}?[\d,]+\s*주\s*이하"
+    # '[○○증권 청약단위]' 표 바로 뒤를 먼저 본다. 문서의 다른 표('0주 이상 ~ …')가
+    # 섞여 최솟값이 0이 되면 '없음'으로 처리되던 문제(에이엘로봇·이에스티).
+    for scope in [text[i:i + 400] for i in (m.end() for m in re.finditer(r"청약\s*단위\s*\]", text))] + [text]:
+        mins = [int(m) for m in re.findall(pat, scope) if int(m) > 0]
+        if mins:
+            return min(mins)
+    return None
 
 
 def dart_min_shares(name):
@@ -262,8 +266,6 @@ def dart_min_shares(name):
         ms = parse_min_shares(text)
         if ms:
             return ms
-        i = text.find("청약단위]")
-        print(f"[DART] {name} {x['report_nm']} {len(text)}자: {ascii(re.sub(r"\s+", " ", text[i + 15:i + 400])[:140]) if i >= 0 else '청약단위] 없음'}")
         time.sleep(0.3)
     print(f"[DART] {name}: 문서 {len(cands)}건({', '.join(x['report_nm'] for x in cands[:4])})에서 청약단위 표 못 찾음")
     return None
