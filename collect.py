@@ -263,7 +263,7 @@ def dart_min_shares(name):
         if ms:
             return ms
         i = text.find("청약단위]")
-        print(f"[DART] {name} {x['report_nm']} {len(text)}자: {ascii(text[i + 15:i + 60]) if i >= 0 else '청약단위] 없음'}")
+        print(f"[DART] {name} {x['report_nm']} {len(text)}자: {ascii(re.sub(r"\s+", " ", text[i + 15:i + 400])[:140]) if i >= 0 else '청약단위] 없음'}")
         time.sleep(0.3)
     print(f"[DART] {name}: 문서 {len(cands)}건({', '.join(x['report_nm'] for x in cands[:4])})에서 청약단위 표 못 찾음")
     return None
