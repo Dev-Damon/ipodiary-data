@@ -155,53 +155,102 @@ def parse_underwriter_table(soup):
     return conds
 
 
+_DART_LIST = "https://opendart.fss.or.kr/api/list.json"
+_filings_cache = None
+
+
+def _dart_list(params):
+    """DART 공시목록 전체 페이지를 모아 반환 (page_count 최대 100이라 넘치면 잘린다)."""
+    rows, page = [], 1
+    while True:
+        try:
+            r = requests.get(
+                _DART_LIST,
+                params={**params, "crtfc_key": DART_KEY, "page_no": page, "page_count": 100},
+                timeout=20,
+            ).json()
+        except Exception:
+            break
+        if r.get("status") != "000":
+            break
+        rows += r.get("list", [])
+        if page >= int(r.get("total_page", 1)):
+            break
+        page += 1
+        time.sleep(0.2)
+    return rows
+
+
+def _dart_name(name):
+    """38커뮤 이름의 '(구.옛이름)' 꼬리를 떼서 DART 회사명과 맞춘다."""
+    return re.sub(r"\(구\.[^)]*\)", "", name).strip()
+
+
+def parse_min_shares(text):
+    """청약단위 표 'N주 이상 ~ M주 이하'의 최소 N. 없으면 None."""
+    text = re.sub(r"\s+", " ", text)
+    mins = [
+        int(m) for m in re.findall(r"(\d+)\s*주\s*이상\s*~?\s*[\d,]+\s*주\s*이하", text)
+    ]
+    return min(mins) if mins else None
+
+
 def dart_min_shares(name):
-    """DART 발행조건확정에서 일반청약자 최소 청약수량 추출.
+    """DART 공시에서 일반청약자 최소 청약수량 추출.
 
     '청약단위 20주 이상 ~ 100주 이하 10주' 표에서 'N주 이상 ~ M주 이하'의
     최소 N을 취한다. (38커뮤에는 없는 정보 — 청약 예상금액 정확도의 핵심)
+    [발행조건확정] 문서는 이 표를 '(중략)'으로 빼는 경우가 많아(예: 옵토닉스)
+    투자설명서 → 증권신고서 → 발행조건확정 순으로 표가 나올 때까지 본다.
     """
+    global _filings_cache
     if not DART_KEY:
         return None
     end = datetime.now()
-    bgn = end - timedelta(days=90)
-    try:
-        r = requests.get(
-            "https://opendart.fss.or.kr/api/list.json",
-            params={
-                "crtfc_key": DART_KEY,
-                "bgn_de": bgn.strftime("%Y%m%d"),
-                "end_de": end.strftime("%Y%m%d"),
-                "pblntf_detail_ty": "C001",
-                "page_count": 100,
-            },
-            timeout=20,
-        ).json()
-    except Exception:
+    bgn = end - timedelta(days=120)
+    span = {"bgn_de": bgn.strftime("%Y%m%d"), "end_de": end.strftime("%Y%m%d")}
+    if _filings_cache is None:
+        _filings_cache = _dart_list({**span, "pblntf_detail_ty": "C001"})
+    dname = _dart_name(name)
+    hit = next((x for x in _filings_cache if x["corp_name"] == dname), None)
+    if not hit:
         return None
-    if r.get("status") != "000":
+    # 그 회사 발행공시 전부(투자설명서가 C001 밖으로 분류돼도 잡히게)
+    rows = _dart_list({**span, "corp_code": hit["corp_code"], "pblntf_ty": "C"}) or [hit]
+    rows.sort(key=lambda x: x["rcept_no"], reverse=True)  # 최신 우선
+
+    def rank(nm):
+        if "투자설명서" in nm:
+            return 0
+        if "발행조건확정" in nm:
+            return 2
+        if "증권신고서" in nm:
+            return 1
         return None
-    rows = [
-        x for x in r.get("list", [])
-        if x["corp_name"] == name and "발행조건확정" in x["report_nm"]
-    ]
-    if not rows:
-        return None
-    try:
-        d = requests.get(
-            "https://opendart.fss.or.kr/api/document.xml",
-            params={"crtfc_key": DART_KEY, "rcept_no": rows[0]["rcept_no"]},
-            timeout=25,
-        )
-        z = zipfile.ZipFile(io.BytesIO(d.content))
-        html = z.read(z.namelist()[0]).decode("utf-8")
-    except Exception:
-        return None
-    text = re.sub(r"\s+", " ", BeautifulSoup(html, "html.parser").get_text(" "))
-    mins = [
-        int(m) for m in re.findall(r"(\d+)\s*주\s*이상\s*~\s*[\d,]+\s*주\s*이하", text)
-    ]
-    return min(mins) if mins else None
+
+    cands = sorted(
+        (x for x in rows if rank(x["report_nm"]) is not None),
+        key=lambda x: rank(x["report_nm"]),
+    )
+    for x in cands[:4]:
+        try:
+            d = requests.get(
+                "https://opendart.fss.or.kr/api/document.xml",
+                params={"crtfc_key": DART_KEY, "rcept_no": x["rcept_no"]},
+                timeout=40,
+            )
+            z = zipfile.ZipFile(io.BytesIO(d.content))
+            html = " ".join(z.read(n).decode("utf-8", "ignore") for n in z.namelist())
+        except Exception:
+            continue
+        ms = parse_min_shares(BeautifulSoup(html, "html.parser").get_text(" "))
+        if ms:
+            return ms
+        time.sleep(0.3)
+    return None
+
+
+MIN_SHARES_TRIES = 6  # 못 찾은 종목 재시도 한도(공시가 늦게 올라오는 경우 대비)
 
 
 def add_min_shares(schedule):
@@ -225,9 +274,15 @@ def add_min_shares(schedule):
             if c.get("min_shares"):
                 rec["min_shares"] = c["min_shares"]
                 found += 1
-            continue  # 이미 조회함 (없으면 없는 대로 캐시)
+                continue
+            # 예전엔 못 찾으면(None) 영영 다시 안 봤다 → 10주로 굳는 원인. 한도 내 재시도.
+            if c.get("tries", 1) >= MIN_SHARES_TRIES:
+                continue
+        tries = (c.get("tries", 1) + 1) if (c and c.get("price") == price) else 1
         ms = dart_min_shares(name)
         cache[name] = {"min_shares": ms, "price": price}
+        if not ms:
+            cache[name]["tries"] = tries
         if ms:
             rec["min_shares"] = ms
             found += 1
