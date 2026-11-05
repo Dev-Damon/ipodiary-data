@@ -172,6 +172,8 @@ def _dart_list(params):
         except Exception:
             break
         if r.get("status") != "000":
+            if r.get("status") != "013":  # 013 = 조회 결과 없음
+                print(f"[DART] list {r.get('status')} {r.get('message')}")
             break
         rows += r.get("list", [])
         if page >= int(r.get("total_page", 1)):
@@ -214,6 +216,7 @@ def dart_min_shares(name):
     dname = _dart_name(name)
     hit = next((x for x in _filings_cache if x["corp_name"] == dname), None)
     if not hit:
+        print(f"[DART] {name}: 공시목록({len(_filings_cache)}건)에 회사명 없음")
         return None
     # 그 회사 발행공시 전부(투자설명서가 C001 밖으로 분류돼도 잡히게)
     rows = _dart_list({**span, "corp_code": hit["corp_code"], "pblntf_ty": "C"}) or [hit]
@@ -247,6 +250,7 @@ def dart_min_shares(name):
         if ms:
             return ms
         time.sleep(0.3)
+    print(f"[DART] {name}: 문서 {len(cands)}건에서 청약단위 표 못 찾음")
     return None
 
 
