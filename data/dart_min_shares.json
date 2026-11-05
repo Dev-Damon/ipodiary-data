@@ -134,7 +134,7 @@
  "이에스티": {
   "min_shares": null,
   "price": 12400,
-  "tries": 4
+  "tries": 5
  },
  "영광(구.영광공작소)": {
   "min_shares": 20,
@@ -163,6 +163,6 @@
  "에이엘로봇": {
   "min_shares": null,
   "price": 17600,
-  "tries": 4
+  "tries": 5
  }
 }
