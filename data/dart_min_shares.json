@@ -97,7 +97,8 @@
  },
  "래블업": {
   "min_shares": null,
-  "price": 19000
+  "price": 19000,
+  "tries": 2
  },
  "진코스텍": {
   "min_shares": null,
@@ -133,15 +134,18 @@
  },
  "이에스티": {
   "min_shares": null,
-  "price": 12400
+  "price": 12400,
+  "tries": 2
  },
  "영광(구.영광공작소)": {
   "min_shares": null,
-  "price": 17000
+  "price": 17000,
+  "tries": 2
  },
  "옵토닉스": {
   "min_shares": null,
-  "price": 12000
+  "price": 12000,
+  "tries": 2
  },
  "동원파츠": {
   "min_shares": 20,
@@ -161,6 +165,7 @@
  },
  "에이엘로봇": {
   "min_shares": null,
-  "price": 17600
+  "price": 17600,
+  "tries": 2
  }
 }
