@@ -188,6 +188,16 @@ def _dart_name(name):
     return re.sub(r"\(구\.[^)]*\)", "", name).strip()
 
 
+def _decode(b):
+    """DART 원문은 대개 UTF-8이지만 EUC-KR 문서도 있다(ignore로 읽으면 한글이 통째로 빠짐)."""
+    for enc in ("utf-8", "cp949"):
+        try:
+            return b.decode(enc)
+        except UnicodeDecodeError:
+            pass
+    return b.decode("utf-8", "ignore")
+
+
 def parse_min_shares(text):
     """청약단위 표 'N주 이상 ~ M주 이하'의 최소 N. 없으면 None.
     물결은 문서마다 ~ ∼ ～ 등으로 달라 모두 받는다."""
@@ -244,12 +254,15 @@ def dart_min_shares(name):
                 timeout=40,
             )
             z = zipfile.ZipFile(io.BytesIO(d.content))
-            html = " ".join(z.read(n).decode("utf-8", "ignore") for n in z.namelist())
+            html = " ".join(_decode(z.read(n)) for n in z.namelist())
         except Exception:
             continue
-        ms = parse_min_shares(BeautifulSoup(html, "html.parser").get_text(" "))
+        text = BeautifulSoup(html, "html.parser").get_text(" ")
+        ms = parse_min_shares(text)
         if ms:
             return ms
+        i = text.find("청약단위]")
+        print(f"[DART] {name} {x['report_nm']} {len(text)}자: {re.sub(r'\s+', ' ', text[i:i + 160]) if i >= 0 else '청약단위] 없음'}")
         time.sleep(0.3)
     print(f"[DART] {name}: 문서 {len(cands)}건({', '.join(x['report_nm'] for x in cands[:4])})에서 청약단위 표 못 찾음")
     return None
