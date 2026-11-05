@@ -209,7 +209,7 @@ def dart_min_shares(name):
     if not DART_KEY:
         return None
     end = datetime.now()
-    bgn = end - timedelta(days=120)
+    bgn = end - timedelta(days=89)  # corp_code 없이 조회는 3개월까지만 허용
     span = {"bgn_de": bgn.strftime("%Y%m%d"), "end_de": end.strftime("%Y%m%d")}
     if _filings_cache is None:
         _filings_cache = _dart_list({**span, "pblntf_detail_ty": "C001"})
