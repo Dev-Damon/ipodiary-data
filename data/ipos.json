@@ -520,7 +520,7 @@
  {
   "name": "하나에어로다이내믹스",
   "subscription_period": "2026.11.10~11.11",
-  "confirmed_price": null,
+  "confirmed_price": 5700,
   "band": "4,700~5,700",
   "competition_rate": null,
   "underwriters": [
@@ -530,24 +530,27 @@
   "market": "코스닥",
   "payment_date": "2026.11.13",
   "refund_date": "2026.11.13",
+  "listing_date": "2026.11.20",
   "par_value": 100,
   "total_shares": 4400000,
-  "mandatory_holding": "0.00%",
+  "mandatory_holding": "4.16%",
   "max_subscription": "50,000~65,000",
+  "institutional_rate": 1051.38,
   "deposit_rate": 0.5,
   "broker_conditions": [
    {
     "broker": "IBK투자증권",
     "fee": 1500
    }
-  ]
+  ],
+  "min_shares": 10
  },
  {
   "name": "에이엘로봇",
   "subscription_period": "2026.11.06~11.09",
   "confirmed_price": 17600,
   "band": "15,700~17,600",
-  "competition_rate": null,
+  "competition_rate": "834.73:1",
   "underwriters": [
    "대신증권"
   ],
