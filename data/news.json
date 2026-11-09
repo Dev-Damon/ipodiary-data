@@ -1,24 +1,6 @@
 {
  "ipo_news": [
   {
-   "title": "에이엘로봇 공모주 청약 : 기관 98.29%가 상단 이상, 확약은 신청 수량의 1.13% - 네이버 프리미엄콘텐츠",
-   "date": "Wed, 04 Nov 2026 08:31:00 GMT",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaGZzZ21kNkFZeW53MFdVTU5iN09NdmtlS1VJOFV1aEtfUnJMdklPS3VfbUZLMXFCMHM0NzhpWFZsbFFqY3VFc2FGS2RpR3JKZDllb0syMk5RdE9tczBfZDBaOVNPcnRaM3RVWGtJSHhYcjBQTlJka0IxSHVqN1psNjBqYjdWQWZJTWV5b255aw?oc=5",
-   "ipo": "에이엘로봇"
-  },
-  {
-   "title": "[공모주 현황] 에이엘로봇 청약 첫날 종료…균등배정 몇 주 가능할까? - CBC뉴스",
-   "date": "Sat, 07 Nov 2026 11:39:10 GMT",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBORVJzMmdBSHNpS3Y3OEpfMk5ua3d6LXBaLXJVMzVjX0NIc0VTM1ZValJiZ0ZEczY1OS1WMFgwcVhESUQ1dGNBT0tDZ0o0cVJBbmlzZzRtS0x6UlpLV1VqaEpNSE5ZMWJu?oc=5",
-   "ipo": "에이엘로봇"
-  },
-  {
-   "title": "[공모주달력]AI·반도체소부장·로봇주 줄줄이 수요예측 - 비즈워치",
-   "date": "Sun, 25 Oct 2026 07:00:00 GMT",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1mX1JJMHpSbDdUMVRnOHg3WkN0bDl1SVpUOUVzQzAydWNPSFc4QWRyODRUaDg0MzltSjFDdk44ZkNZMnZPWmd2VWR3VFVucHoyMFd4MUpMeFg1OEtRcGp6dnFGbHVZekl6MGc?oc=5",
-   "ipo": "에이엘로봇"
-  },
-  {
    "title": "이번주 공모주 청약, 하나에어로다이내믹스·엠비디 등 4개사 - 데일리안",
    "date": "Sat, 07 Nov 2026 21:01:00 GMT",
    "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxQRWNpRk1xY2xtZ2VPSkZWRkVIZ3Z5SkY4RUQ1LWFuS0IzZTNiVXExTDRzRUZqdVd5V3Nhd3VIQXE2UHdMMDhqdFhPLS12Mm5FZ0lSTnplNkppZE5NX3IxWDliX09VZnY1WkJHb3RCUVdJcUVQaFViWHg0OWZVUEI1YnNhTXhDLVNXamYxNXd1MEhLNUxUcTlJbjRBVndSeThENG1La0JFZHQ3TlMwM0dVRXJodkRVTTlFOEw1YWpOeTJuNUJmcjU4S1BkN1g5N3YtRWp4MjZnS2ZKTU4xOG9XTXJIaHRCellJSFlMSHoyNnlwRTNEbm1rTGdFdDJIcXJxTkRjZUtCc3FjaC1vVFVWbUh6SnIybnpiR0FVc0VwUkdvc3B1YktVMWtmLVFqUQ?oc=5",
@@ -75,6 +57,11 @@
  ],
  "richboost": [
   {
+   "title": "2026-11-09 경제시황: AI 쇼크 이후 반등, 뜨거운 고용에 12월 금리 인상설",
+   "date": "Mon, 09 Nov 2026 00:00:00 GMT",
+   "url": "https://richboost.stonesoft.co.kr/posts/news-2026-11-09/"
+  },
+  {
    "title": "2026-11-08 경제시황: AI 규제 공포에 코스피 6% 급락, 美 고용 서프라이즈로 금리인상 우려",
    "date": "Sun, 08 Nov 2026 00:00:00 GMT",
    "url": "https://richboost.stonesoft.co.kr/posts/news-2026-11-08/"
@@ -93,11 +80,6 @@
    "title": "피델리티, 결제 소프트웨어 ACI 월드와이드 지분 13G/A 정정신고",
    "date": "Fri, 06 Nov 2026 00:00:00 GMT",
    "url": "https://richboost.stonesoft.co.kr/posts/13dg-fidelity-aci-worldwide-inc-2026-11-06/"
-  },
-  {
-   "title": "피델리티(FMR), 시티 테라퓨틱스 지분 5% 이상 확보…13G 신고",
-   "date": "Fri, 06 Nov 2026 00:00:00 GMT",
-   "url": "https://richboost.stonesoft.co.kr/posts/13dg-fidelity-city-therapeutics-inc-2026-11-06/"
   }
  ]
 }
