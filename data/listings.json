@@ -1,5 +1,14 @@
 [
  {
+  "name": "에이엘로봇",
+  "listing_date": "2026.11.18",
+  "current_price": null,
+  "offer_price": 17600,
+  "opening_price": null,
+  "opening_vs_offer": "%",
+  "first_day_close": null
+ },
+ {
   "name": "옵토닉스",
   "listing_date": "2026.11.17",
   "current_price": null,
@@ -169,14 +178,5 @@
   "opening_price": 24000,
   "opening_vs_offer": "2.13%",
   "first_day_close": 14450
- },
- {
-  "name": "브릴스",
-  "listing_date": "2026.10.01",
-  "current_price": 11250,
-  "offer_price": 19500,
-  "opening_price": 61800,
-  "opening_vs_offer": "216.92%",
-  "first_day_close": 31350
  }
 ]
