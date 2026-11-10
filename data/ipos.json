@@ -112,6 +112,43 @@
   ]
  },
  {
+  "name": "마더스제약",
+  "subscription_period": "2026.12.08~12.09",
+  "confirmed_price": null,
+  "band": "11,000~14,500",
+  "competition_rate": null,
+  "underwriters": [
+   "KB증권",
+   "NH투자증권"
+  ],
+  "detail_no": "2359",
+  "market": "코스닥",
+  "payment_date": "2026.12.11",
+  "refund_date": "2026.12.11",
+  "par_value": 500,
+  "total_shares": 2400000,
+  "mandatory_holding": "0.00%",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "KB증권",
+    "allocation": 285000,
+    "limit": null,
+    "role": null,
+    "allocation_pct": 50.0,
+    "fee": 1500
+   },
+   {
+    "broker": "NH투자증권",
+    "allocation": 285000,
+    "limit": null,
+    "role": null,
+    "allocation_pct": 50.0,
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "이노보테라퓨틱스",
   "subscription_period": "2026.12.07~12.08",
   "confirmed_price": null,
@@ -433,7 +470,7 @@
  {
   "name": "엠비디",
   "subscription_period": "2026.11.12~11.13",
-  "confirmed_price": null,
+  "confirmed_price": 7000,
   "band": "9,600~11,700",
   "competition_rate": null,
   "underwriters": [
@@ -443,17 +480,20 @@
   "market": "코스닥",
   "payment_date": "2026.11.17",
   "refund_date": "2026.11.17",
+  "listing_date": "2026.11.24",
   "par_value": 500,
   "total_shares": 2000000,
   "mandatory_holding": "0.00%",
   "max_subscription": "25,000~30,000",
+  "institutional_rate": 187.1,
   "deposit_rate": 0.5,
   "broker_conditions": [
    {
     "broker": "하나증권",
     "fee": 2000
    }
-  ]
+  ],
+  "min_shares": 20
  },
  {
   "name": "씨앤엠",
@@ -819,34 +859,6 @@
   "broker_conditions": [
    {
     "broker": "한국투자증권",
-    "fee": 2000
-   }
-  ],
-  "min_shares": 20
- },
- {
-  "name": "인텔리빅스",
-  "subscription_period": "2026.10.21~10.22",
-  "confirmed_price": 9000,
-  "band": "7,600~9,000",
-  "competition_rate": "1410.87:1",
-  "underwriters": [
-   "미래에셋증권"
-  ],
-  "detail_no": "2328",
-  "market": "코스닥",
-  "payment_date": "2026.10.26",
-  "refund_date": "2026.10.26",
-  "listing_date": "2026.10.30",
-  "par_value": 100,
-  "total_shares": 2500000,
-  "mandatory_holding": "6.14%",
-  "max_subscription": "31,000~37,000",
-  "institutional_rate": 1234.3,
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "미래에셋증권",
     "fee": 2000
    }
   ],
