@@ -63,6 +63,11 @@
  ],
  "richboost": [
   {
+   "title": "2026-11-11 경제시황: 미 CPI 쇼크에 10년물 5% 재돌파, 코스피는 4.4% 급등",
+   "date": "Wed, 11 Nov 2026 00:00:00 GMT",
+   "url": "https://richboost.stonesoft.co.kr/posts/news-2026-11-11/"
+  },
+  {
    "title": "2026-11-10 경제시황: 유가 급락·반도체 반등에 다우 1,100p 급등, 오늘 밤 CPI 주목",
    "date": "Tue, 10 Nov 2026 00:00:00 GMT",
    "url": "https://richboost.stonesoft.co.kr/posts/news-2026-11-10/"
@@ -73,19 +78,14 @@
    "url": "https://richboost.stonesoft.co.kr/posts/13dg-goldman-sachs-am-mountain-crest-acquisition-6-corp-2026-11-09/"
   },
   {
-   "title": "골드만삭스 AWM, 토미바하마 모회사 옥스퍼드 인더스트리스 5% 이상 지분 13G 신고",
-   "date": "Mon, 09 Nov 2026 00:00:00 GMT",
-   "url": "https://richboost.stonesoft.co.kr/posts/13dg-goldman-sachs-am-oxford-industries-inc-2026-11-09/"
-  },
-  {
-   "title": "골드만삭스 자산운용, 퍼시픽 바이오사이언스 지분 5% 이상 13G 신고",
-   "date": "Mon, 09 Nov 2026 00:00:00 GMT",
-   "url": "https://richboost.stonesoft.co.kr/posts/13dg-goldman-sachs-am-pacific-biosciences-of-california-inc-2026-11-09/"
-  },
-  {
    "title": "골드만삭스 자산운용, 넷스트리트(NETSTREIT) 5%+ 지분 정정신고",
    "date": "Mon, 09 Nov 2026 00:00:00 GMT",
    "url": "https://richboost.stonesoft.co.kr/posts/13dg-goldman-sachs-am-netstreit-corp-2026-11-09/"
+  },
+  {
+   "title": "골드만삭스 AWM, 토미바하마 모회사 옥스퍼드 인더스트리스 5% 이상 지분 13G 신고",
+   "date": "Mon, 09 Nov 2026 00:00:00 GMT",
+   "url": "https://richboost.stonesoft.co.kr/posts/13dg-goldman-sachs-am-oxford-industries-inc-2026-11-09/"
   }
  ]
 }
