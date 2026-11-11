@@ -496,73 +496,11 @@
   "min_shares": 20
  },
  {
-  "name": "씨앤엠",
-  "subscription_period": "2026.11.12~11.13",
-  "confirmed_price": null,
-  "band": "10,000~13,000",
-  "competition_rate": null,
-  "underwriters": [
-   "한국투자증권"
-  ],
-  "detail_no": "2346",
-  "market": "코스닥",
-  "payment_date": "2026.11.17",
-  "refund_date": "2026.11.17",
-  "par_value": 100,
-  "total_shares": 2950000,
-  "mandatory_holding": "0.00%",
-  "max_subscription": "12,000~14,000",
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "한국투자증권",
-    "fee": 2000
-   }
-  ]
- },
- {
-  "name": "제이앤티지",
-  "subscription_period": "2026.11.12~11.13",
-  "confirmed_price": null,
-  "band": "26,400~31,900",
-  "competition_rate": null,
-  "underwriters": [
-   "대신증권",
-   "NH투자증권"
-  ],
-  "detail_no": "2347",
-  "market": "코스닥",
-  "payment_date": "2026.11.17",
-  "refund_date": "2026.11.17",
-  "par_value": 500,
-  "total_shares": 4300000,
-  "mandatory_holding": "0.00%",
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "대신증권",
-    "allocation": 742500,
-    "limit": 32000,
-    "role": null,
-    "allocation_pct": 75.0,
-    "fee": 2000
-   },
-   {
-    "broker": "NH투자증권",
-    "allocation": 247500,
-    "limit": 10700,
-    "role": null,
-    "allocation_pct": 25.0,
-    "fee": 2000
-   }
-  ]
- },
- {
   "name": "하나에어로다이내믹스",
   "subscription_period": "2026.11.10~11.11",
   "confirmed_price": 5700,
   "band": "4,700~5,700",
-  "competition_rate": null,
+  "competition_rate": "1851.14:1",
   "underwriters": [
    "IBK투자증권"
   ],
@@ -859,6 +797,62 @@
   "broker_conditions": [
    {
     "broker": "한국투자증권",
+    "fee": 2000
+   }
+  ],
+  "min_shares": 20
+ },
+ {
+  "name": "인텔리빅스",
+  "subscription_period": "2026.10.21~10.22",
+  "confirmed_price": 9000,
+  "band": "7,600~9,000",
+  "competition_rate": "1410.87:1",
+  "underwriters": [
+   "미래에셋증권"
+  ],
+  "detail_no": "2328",
+  "market": "코스닥",
+  "payment_date": "2026.10.26",
+  "refund_date": "2026.10.26",
+  "listing_date": "2026.10.30",
+  "par_value": 100,
+  "total_shares": 2500000,
+  "mandatory_holding": "6.14%",
+  "max_subscription": "31,000~37,000",
+  "institutional_rate": 1234.3,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "미래에셋증권",
+    "fee": 2000
+   }
+  ],
+  "min_shares": 20
+ },
+ {
+  "name": "티앤이코리아",
+  "subscription_period": "2026.10.20~10.21",
+  "confirmed_price": 15300,
+  "band": "12,600~15,300",
+  "competition_rate": "1253.39:1",
+  "underwriters": [
+   "신한투자증권"
+  ],
+  "detail_no": "2322",
+  "market": "코스닥",
+  "payment_date": "2026.10.23",
+  "refund_date": "2026.10.23",
+  "listing_date": "2026.10.29",
+  "par_value": 500,
+  "total_shares": 2400000,
+  "mandatory_holding": "29.52%",
+  "max_subscription": "20,000~24,000",
+  "institutional_rate": 1041.02,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "신한투자증권",
     "fee": 2000
    }
   ],
