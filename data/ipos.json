@@ -133,7 +133,7 @@
    {
     "broker": "KB증권",
     "allocation": 285000,
-    "limit": null,
+    "limit": 12000,
     "role": null,
     "allocation_pct": 50.0,
     "fee": 1500
@@ -141,7 +141,7 @@
    {
     "broker": "NH투자증권",
     "allocation": 285000,
-    "limit": null,
+    "limit": 12000,
     "role": null,
     "allocation_pct": 50.0,
     "fee": 2000
