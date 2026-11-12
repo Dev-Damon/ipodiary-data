@@ -1,5 +1,32 @@
 [
  {
+  "name": "아델",
+  "listing_date": "2026.12.02",
+  "current_price": null,
+  "offer_price": null,
+  "opening_price": null,
+  "opening_vs_offer": "%",
+  "first_day_close": null
+ },
+ {
+  "name": "유캐스트",
+  "listing_date": "2026.11.30",
+  "current_price": null,
+  "offer_price": null,
+  "opening_price": null,
+  "opening_vs_offer": "%",
+  "first_day_close": null
+ },
+ {
+  "name": "에스에프씨(유가)",
+  "listing_date": "2026.11.27",
+  "current_price": null,
+  "offer_price": null,
+  "opening_price": null,
+  "opening_vs_offer": "%",
+  "first_day_close": null
+ },
+ {
   "name": "엠비디",
   "listing_date": "2026.11.24",
   "current_price": null,
@@ -49,8 +76,8 @@
   "listing_date": "2026.11.12",
   "current_price": null,
   "offer_price": 8000,
-  "opening_price": null,
-  "opening_vs_offer": "%",
+  "opening_price": 7620,
+  "opening_vs_offer": "-4.75%",
   "first_day_close": null
  },
  {
@@ -151,32 +178,5 @@
   "opening_price": 4065,
   "opening_vs_offer": "103.25%",
   "first_day_close": 1905
- },
- {
-  "name": "디티에스(구.동양티에스)",
-  "listing_date": "2026.10.23",
-  "current_price": 12130,
-  "offer_price": 18500,
-  "opening_price": 32350,
-  "opening_vs_offer": "74.86%",
-  "first_day_close": 25050
- },
- {
-  "name": "엠에스바이오",
-  "listing_date": "2026.10.22",
-  "current_price": 6440,
-  "offer_price": 7800,
-  "opening_price": 16000,
-  "opening_vs_offer": "105.13%",
-  "first_day_close": 13070
- },
- {
-  "name": "엘리스그룹",
-  "listing_date": "2026.10.20",
-  "current_price": 72500,
-  "offer_price": 90500,
-  "opening_price": 75700,
-  "opening_vs_offer": "-16.35%",
-  "first_day_close": 61000
  }
 ]
