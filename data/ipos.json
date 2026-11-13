@@ -1,5 +1,30 @@
 [
  {
+  "name": "제논",
+  "subscription_period": "2026.12.14~12.15",
+  "confirmed_price": null,
+  "band": "9,700~12,200",
+  "competition_rate": null,
+  "underwriters": [
+   "삼성증권"
+  ],
+  "detail_no": "2341",
+  "market": "코스닥",
+  "payment_date": "2026.12.17",
+  "refund_date": "2026.12.17",
+  "par_value": 500,
+  "total_shares": 2200000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "13,000~16,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "삼성증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "태석광학",
   "subscription_period": "2026.12.14~12.15",
   "confirmed_price": null,
@@ -311,31 +336,6 @@
   ]
  },
  {
-  "name": "제논",
-  "subscription_period": "2026.11.24~11.25",
-  "confirmed_price": null,
-  "band": "9,700~12,200",
-  "competition_rate": null,
-  "underwriters": [
-   "삼성증권"
-  ],
-  "detail_no": "2341",
-  "market": "코스닥",
-  "payment_date": "2026.11.27",
-  "refund_date": "2026.11.27",
-  "par_value": 500,
-  "total_shares": 2200000,
-  "mandatory_holding": "0.00%",
-  "max_subscription": "13,000~16,000",
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "삼성증권",
-    "fee": 2000
-   }
-  ]
- },
- {
   "name": "케이엠에프",
   "subscription_period": "2026.11.24~11.25",
   "confirmed_price": null,
@@ -512,7 +512,7 @@
   "subscription_period": "2026.11.12~11.13",
   "confirmed_price": 7000,
   "band": "9,600~11,700",
-  "competition_rate": null,
+  "competition_rate": "172:1",
   "underwriters": [
    "하나증권"
   ],
