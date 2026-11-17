@@ -472,7 +472,7 @@
  {
   "name": "유캐스트",
   "subscription_period": "2026.11.18~11.19",
-  "confirmed_price": null,
+  "confirmed_price": 19000,
   "band": "19,000~23,000",
   "competition_rate": null,
   "underwriters": [
@@ -486,15 +486,16 @@
   "listing_date": "2026.11.30",
   "par_value": 500,
   "total_shares": 800000,
-  "mandatory_holding": "0.00%",
+  "mandatory_holding": "0.57%",
+  "institutional_rate": 173.42,
   "deposit_rate": 0.5,
   "broker_conditions": [
    {
     "broker": "유진투자증권",
-    "allocation": 200000,
+    "allocation": 160000,
     "limit": 20000,
     "role": null,
-    "allocation_pct": 83.3,
+    "allocation_pct": 80.0,
     "fee": 2000
    },
    {
@@ -502,10 +503,11 @@
     "allocation": 40000,
     "limit": 1300,
     "role": "인수",
-    "allocation_pct": 16.7,
+    "allocation_pct": 20.0,
     "fee": 2000
    }
-  ]
+  ],
+  "min_shares": 10
  },
  {
   "name": "엠비디",
