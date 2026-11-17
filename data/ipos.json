@@ -1,5 +1,30 @@
 [
  {
+  "name": "이나인페이",
+  "subscription_period": "2026.12.16~12.17",
+  "confirmed_price": null,
+  "band": "7,500~10,500",
+  "competition_rate": null,
+  "underwriters": [
+   "한국투자증권"
+  ],
+  "detail_no": "2361",
+  "market": "코스닥",
+  "payment_date": "2026.12.21",
+  "refund_date": "2026.12.21",
+  "par_value": 500,
+  "total_shares": 6400000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "26,000~31,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "한국투자증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "제논",
   "subscription_period": "2026.12.14~12.15",
   "confirmed_price": null,
@@ -419,52 +444,6 @@
     "limit": 11000,
     "role": null,
     "allocation_pct": 35.0,
-    "fee": 2000
-   }
-  ]
- },
- {
-  "name": "에스에프씨(유가)",
-  "subscription_period": "2026.11.18~11.19",
-  "confirmed_price": null,
-  "band": "31,600~36,100",
-  "competition_rate": null,
-  "underwriters": [
-   "미래에셋증권",
-   "한국투자증권",
-   "삼성증권"
-  ],
-  "detail_no": "2349",
-  "payment_date": "2026.11.23",
-  "refund_date": "2026.11.23",
-  "listing_date": "2026.11.27",
-  "par_value": 500,
-  "total_shares": 5000000,
-  "mandatory_holding": "0.00%",
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "미래에셋증권",
-    "allocation": 971855,
-    "limit": null,
-    "role": null,
-    "allocation_pct": 75.0,
-    "fee": 2000
-   },
-   {
-    "broker": "한국투자증권",
-    "allocation": 259162,
-    "limit": null,
-    "role": null,
-    "allocation_pct": 20.0,
-    "fee": 2000
-   },
-   {
-    "broker": "삼성증권",
-    "allocation": 64790,
-    "limit": null,
-    "role": "인수",
-    "allocation_pct": 5.0,
     "fee": 2000
    }
   ]
