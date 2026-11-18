@@ -87,6 +87,31 @@
   ]
  },
  {
+  "name": "엠디에스코리아",
+  "subscription_period": "2026.12.14~12.15",
+  "confirmed_price": null,
+  "band": "9,500~11,500",
+  "competition_rate": null,
+  "underwriters": [
+   "미래에셋증권"
+  ],
+  "detail_no": "2362",
+  "market": "코스닥",
+  "payment_date": "2026.12.17",
+  "refund_date": "2026.12.17",
+  "par_value": 500,
+  "total_shares": 2250000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "28,000~33,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "미래에셋증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "KTE",
   "subscription_period": "2026.12.14~12.15",
   "confirmed_price": null,
@@ -818,34 +843,6 @@
   "broker_conditions": [
    {
     "broker": "한국투자증권",
-    "fee": 2000
-   }
-  ],
-  "min_shares": 20
- },
- {
-  "name": "인텔리빅스",
-  "subscription_period": "2026.10.21~10.22",
-  "confirmed_price": 9000,
-  "band": "7,600~9,000",
-  "competition_rate": "1410.87:1",
-  "underwriters": [
-   "미래에셋증권"
-  ],
-  "detail_no": "2328",
-  "market": "코스닥",
-  "payment_date": "2026.10.26",
-  "refund_date": "2026.10.26",
-  "listing_date": "2026.10.30",
-  "par_value": 100,
-  "total_shares": 2500000,
-  "mandatory_holding": "6.14%",
-  "max_subscription": "31,000~37,000",
-  "institutional_rate": 1234.3,
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "미래에셋증권",
     "fee": 2000
    }
   ],
