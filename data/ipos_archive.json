@@ -1,0 +1,2429 @@
+[
+ {
+  "name": "이나인페이",
+  "subscription_period": "2026.12.16~12.17",
+  "confirmed_price": null,
+  "band": "7,500~10,500",
+  "competition_rate": null,
+  "underwriters": [
+   "한국투자증권"
+  ],
+  "detail_no": "2361",
+  "market": "코스닥",
+  "payment_date": "2026.12.21",
+  "refund_date": "2026.12.21",
+  "par_value": 500,
+  "total_shares": 6400000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "26,000~31,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "한국투자증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "제논",
+  "subscription_period": "2026.12.14~12.15",
+  "confirmed_price": null,
+  "band": "9,700~12,200",
+  "competition_rate": null,
+  "underwriters": [
+   "삼성증권"
+  ],
+  "detail_no": "2341",
+  "market": "코스닥",
+  "payment_date": "2026.12.17",
+  "refund_date": "2026.12.17",
+  "par_value": 500,
+  "total_shares": 2200000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "13,000~16,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "삼성증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "KTE",
+  "subscription_period": "2026.12.14~12.15",
+  "confirmed_price": null,
+  "band": "19,000~23,000",
+  "competition_rate": null,
+  "underwriters": [
+   "NH투자증권"
+  ],
+  "detail_no": "2355",
+  "market": "코스닥",
+  "payment_date": "2026.12.17",
+  "refund_date": "2026.12.17",
+  "par_value": 500,
+  "total_shares": 2816000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "23,400~28,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "NH투자증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "태석광학",
+  "subscription_period": "2026.12.14~12.15",
+  "confirmed_price": null,
+  "band": "17,500~20,200",
+  "competition_rate": null,
+  "underwriters": [
+   "신한투자증권",
+   "대신증권"
+  ],
+  "detail_no": "2360",
+  "market": "코스닥",
+  "payment_date": "2026.12.17",
+  "refund_date": "2026.12.17",
+  "par_value": 500,
+  "total_shares": 2478000,
+  "mandatory_holding": "0.00%",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "신한투자증권",
+    "allocation": 346920,
+    "limit": null,
+    "role": null,
+    "allocation_pct": 70.0,
+    "fee": 2000
+   },
+   {
+    "broker": "대신증권",
+    "allocation": 148680,
+    "limit": null,
+    "role": null,
+    "allocation_pct": 30.0,
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "엠디에스코리아",
+  "subscription_period": "2026.12.14~12.15",
+  "confirmed_price": null,
+  "band": "9,500~11,500",
+  "competition_rate": null,
+  "underwriters": [
+   "미래에셋증권"
+  ],
+  "detail_no": "2362",
+  "market": "코스닥",
+  "payment_date": "2026.12.17",
+  "refund_date": "2026.12.17",
+  "par_value": 500,
+  "total_shares": 2250000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "28,000~33,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "미래에셋증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "데스틴파워",
+  "subscription_period": "2026.12.11~12.14",
+  "confirmed_price": null,
+  "band": "8,000~11,000",
+  "competition_rate": null,
+  "underwriters": [
+   "한국투자증권"
+  ],
+  "detail_no": "2356",
+  "market": "코스닥",
+  "payment_date": "2026.12.16",
+  "refund_date": "2026.12.16",
+  "par_value": 500,
+  "total_shares": 2200000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "9,000~11,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "한국투자증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "씨아이에스케미칼",
+  "subscription_period": "2026.12.10~12.11",
+  "confirmed_price": null,
+  "band": "5,400~6,800",
+  "competition_rate": null,
+  "underwriters": [
+   "KB증권"
+  ],
+  "detail_no": "2348",
+  "market": "코스닥",
+  "payment_date": "2026.12.15",
+  "refund_date": "2026.12.15",
+  "par_value": 500,
+  "total_shares": 4000000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "33,000~40,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "KB증권",
+    "fee": 1500
+   }
+  ]
+ },
+ {
+  "name": "다비오",
+  "subscription_period": "2026.12.09~12.10",
+  "confirmed_price": null,
+  "band": "12,300~16,600",
+  "competition_rate": null,
+  "underwriters": [
+   "대신증권"
+  ],
+  "detail_no": "2358",
+  "market": "코스닥",
+  "payment_date": "2026.12.14",
+  "refund_date": "2026.12.14",
+  "par_value": 100,
+  "total_shares": 1000000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "8,000~10,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "대신증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "인터엑스",
+  "subscription_period": "2026.12.09~12.10",
+  "confirmed_price": null,
+  "band": "10,000~13,000",
+  "competition_rate": null,
+  "underwriters": [
+   "한국투자증권",
+   "BNK투자증권"
+  ],
+  "detail_no": "2353",
+  "market": "코스닥",
+  "payment_date": "2026.12.14",
+  "refund_date": "2026.12.14",
+  "par_value": 500,
+  "total_shares": 3000000,
+  "mandatory_holding": "0.00%",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "한국투자증권",
+    "allocation": 810000,
+    "limit": 13000,
+    "role": null,
+    "allocation_pct": 90.0,
+    "fee": 2000
+   },
+   {
+    "broker": "BNK투자증권",
+    "allocation": 90000,
+    "limit": 9000,
+    "role": "인수",
+    "allocation_pct": 10.0,
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "마더스제약",
+  "subscription_period": "2026.12.08~12.09",
+  "confirmed_price": null,
+  "band": "11,000~14,500",
+  "competition_rate": null,
+  "underwriters": [
+   "KB증권",
+   "NH투자증권"
+  ],
+  "detail_no": "2359",
+  "market": "코스닥",
+  "payment_date": "2026.12.11",
+  "refund_date": "2026.12.11",
+  "par_value": 500,
+  "total_shares": 2400000,
+  "mandatory_holding": "0.00%",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "KB증권",
+    "allocation": 285000,
+    "limit": 12000,
+    "role": null,
+    "allocation_pct": 50.0,
+    "fee": 1500
+   },
+   {
+    "broker": "NH투자증권",
+    "allocation": 285000,
+    "limit": 12000,
+    "role": null,
+    "allocation_pct": 50.0,
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "이노보테라퓨틱스",
+  "subscription_period": "2026.12.07~12.08",
+  "confirmed_price": null,
+  "band": "20,000~24,000",
+  "competition_rate": null,
+  "underwriters": [
+   "한국투자증권"
+  ],
+  "detail_no": "2351",
+  "market": "코스닥",
+  "payment_date": "2026.12.10",
+  "refund_date": "2026.12.10",
+  "par_value": 1000,
+  "total_shares": 2200000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "9,000~11,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "한국투자증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "우리투자스팩1호",
+  "subscription_period": "2026.12.02~12.03",
+  "confirmed_price": null,
+  "band": "2,000~2,000",
+  "competition_rate": null,
+  "underwriters": [
+   "우리투자증권"
+  ],
+  "detail_no": "2354",
+  "market": "코스닥",
+  "payment_date": "2026.12.07",
+  "refund_date": "2026.12.07",
+  "par_value": 100,
+  "total_shares": 6500000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "80,000~90,000",
+  "deposit_rate": 1.0,
+  "broker_conditions": [
+   {
+    "broker": "우리투자증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "엔키화이트햇",
+  "subscription_period": "2026.12.01~12.02",
+  "confirmed_price": null,
+  "band": "13,000~16,500",
+  "competition_rate": null,
+  "underwriters": [
+   "신영증권"
+  ],
+  "detail_no": "2343",
+  "market": "코스닥",
+  "payment_date": "2026.12.04",
+  "refund_date": "2026.12.04",
+  "par_value": 100,
+  "total_shares": 1700000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "14,000~17,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "신영증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "에이엔에이치스트럭쳐",
+  "subscription_period": "2026.11.27~11.30",
+  "confirmed_price": null,
+  "band": "11,200~13,600",
+  "competition_rate": null,
+  "underwriters": [
+   "NH투자증권"
+  ],
+  "detail_no": "2350",
+  "market": "코스닥",
+  "payment_date": "2026.12.02",
+  "refund_date": "2026.12.02",
+  "par_value": 500,
+  "total_shares": 2100000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "17,000~21,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "NH투자증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "케이엠에프",
+  "subscription_period": "2026.11.24~11.25",
+  "confirmed_price": null,
+  "band": "15,000~17,800",
+  "competition_rate": null,
+  "underwriters": [
+   "IBK투자증권"
+  ],
+  "detail_no": "2340",
+  "market": "코스닥",
+  "payment_date": "2026.11.27",
+  "refund_date": "2026.11.27",
+  "par_value": 500,
+  "total_shares": 2000000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "25,000~30,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "IBK투자증권",
+    "fee": 1500
+   }
+  ]
+ },
+ {
+  "name": "신영스팩12호",
+  "subscription_period": "2026.11.24~11.25",
+  "confirmed_price": null,
+  "band": "2,000~2,000",
+  "competition_rate": null,
+  "underwriters": [
+   "신영증권"
+  ],
+  "detail_no": "2357",
+  "market": "코스닥",
+  "payment_date": "2026.11.27",
+  "refund_date": "2026.11.27",
+  "par_value": 100,
+  "total_shares": 6250000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "52,000~62,000",
+  "deposit_rate": 1.0,
+  "broker_conditions": [
+   {
+    "broker": "신영증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "아델",
+  "subscription_period": "2026.11.23~11.24",
+  "confirmed_price": null,
+  "band": "18,000~25,000",
+  "competition_rate": null,
+  "underwriters": [
+   "삼성증권",
+   "미래에셋증권"
+  ],
+  "detail_no": "2345",
+  "market": "코스닥",
+  "payment_date": "2026.11.26",
+  "refund_date": "2026.11.26",
+  "listing_date": "2026.12.02",
+  "par_value": 500,
+  "total_shares": 2170000,
+  "mandatory_holding": "0.00%",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "삼성증권",
+    "allocation": 423150,
+    "limit": 10500,
+    "role": null,
+    "allocation_pct": 65.0,
+    "fee": 2000
+   },
+   {
+    "broker": "미래에셋증권",
+    "allocation": 227850,
+    "limit": 11000,
+    "role": null,
+    "allocation_pct": 35.0,
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "유캐스트",
+  "subscription_period": "2026.11.18~11.19",
+  "confirmed_price": 19000,
+  "band": "19,000~23,000",
+  "competition_rate": null,
+  "underwriters": [
+   "유진투자증권",
+   "신영증권"
+  ],
+  "detail_no": "2352",
+  "market": "코스닥",
+  "payment_date": "2026.11.23",
+  "refund_date": "2026.11.23",
+  "listing_date": "2026.11.30",
+  "par_value": 500,
+  "total_shares": 800000,
+  "mandatory_holding": "0.57%",
+  "institutional_rate": 173.42,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "유진투자증권",
+    "allocation": 160000,
+    "limit": 20000,
+    "role": null,
+    "allocation_pct": 80.0,
+    "fee": 2000
+   },
+   {
+    "broker": "신영증권",
+    "allocation": 40000,
+    "limit": 1300,
+    "role": "인수",
+    "allocation_pct": 20.0,
+    "fee": 2000
+   }
+  ],
+  "min_shares": 10
+ },
+ {
+  "name": "에스에프씨(유가)",
+  "subscription_period": "2026.11.18~11.19",
+  "confirmed_price": null,
+  "band": "31,600~36,100",
+  "competition_rate": null,
+  "underwriters": [
+   "미래에셋증권",
+   "한국투자증권",
+   "삼성증권"
+  ],
+  "detail_no": "2349",
+  "payment_date": "2026.11.23",
+  "refund_date": "2026.11.23",
+  "listing_date": "2026.11.27",
+  "par_value": 500,
+  "total_shares": 5000000,
+  "mandatory_holding": "0.00%",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "미래에셋증권",
+    "allocation": 971855,
+    "limit": null,
+    "role": null,
+    "allocation_pct": 75.0,
+    "fee": 2000
+   },
+   {
+    "broker": "한국투자증권",
+    "allocation": 259162,
+    "limit": null,
+    "role": null,
+    "allocation_pct": 20.0,
+    "fee": 2000
+   },
+   {
+    "broker": "삼성증권",
+    "allocation": 64790,
+    "limit": null,
+    "role": "인수",
+    "allocation_pct": 5.0,
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "엠비디",
+  "subscription_period": "2026.11.12~11.13",
+  "confirmed_price": 7000,
+  "band": "9,600~11,700",
+  "competition_rate": "172:1",
+  "underwriters": [
+   "하나증권"
+  ],
+  "detail_no": "2321",
+  "market": "코스닥",
+  "payment_date": "2026.11.17",
+  "refund_date": "2026.11.17",
+  "listing_date": "2026.11.24",
+  "par_value": 500,
+  "total_shares": 2000000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "25,000~30,000",
+  "institutional_rate": 187.1,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "하나증권",
+    "fee": 2000
+   }
+  ],
+  "min_shares": 20
+ },
+ {
+  "name": "씨앤엠",
+  "subscription_period": "2026.11.12~11.13",
+  "confirmed_price": null,
+  "band": "10,000~13,000",
+  "competition_rate": null,
+  "underwriters": [
+   "한국투자증권"
+  ],
+  "detail_no": "2346",
+  "market": "코스닥",
+  "payment_date": "2026.11.17",
+  "refund_date": "2026.11.17",
+  "par_value": 100,
+  "total_shares": 2950000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "12,000~14,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "한국투자증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "제이앤티지",
+  "subscription_period": "2026.11.12~11.13",
+  "confirmed_price": null,
+  "band": "26,400~31,900",
+  "competition_rate": null,
+  "underwriters": [
+   "대신증권",
+   "NH투자증권"
+  ],
+  "detail_no": "2347",
+  "market": "코스닥",
+  "payment_date": "2026.11.17",
+  "refund_date": "2026.11.17",
+  "par_value": 500,
+  "total_shares": 4300000,
+  "mandatory_holding": "0.00%",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "대신증권",
+    "allocation": 742500,
+    "limit": 32000,
+    "role": null,
+    "allocation_pct": 75.0,
+    "fee": 2000
+   },
+   {
+    "broker": "NH투자증권",
+    "allocation": 247500,
+    "limit": 10700,
+    "role": null,
+    "allocation_pct": 25.0,
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "하나에어로다이내믹스",
+  "subscription_period": "2026.11.10~11.11",
+  "confirmed_price": 5700,
+  "band": "4,700~5,700",
+  "competition_rate": "1851.14:1",
+  "underwriters": [
+   "IBK투자증권"
+  ],
+  "detail_no": "2334",
+  "market": "코스닥",
+  "payment_date": "2026.11.13",
+  "refund_date": "2026.11.13",
+  "listing_date": "2026.11.20",
+  "par_value": 100,
+  "total_shares": 4400000,
+  "mandatory_holding": "4.16%",
+  "max_subscription": "50,000~65,000",
+  "institutional_rate": 1051.38,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "IBK투자증권",
+    "fee": 1500
+   }
+  ],
+  "min_shares": 10
+ },
+ {
+  "name": "에이엘로봇",
+  "subscription_period": "2026.11.06~11.09",
+  "confirmed_price": 17600,
+  "band": "15,700~17,600",
+  "competition_rate": "834.73:1",
+  "underwriters": [
+   "대신증권"
+  ],
+  "detail_no": "2331",
+  "market": "코스닥",
+  "payment_date": "2026.11.11",
+  "refund_date": "2026.11.11",
+  "listing_date": "2026.11.18",
+  "par_value": 500,
+  "total_shares": 2400000,
+  "mandatory_holding": "1.13%",
+  "max_subscription": "20,000~24,000",
+  "institutional_rate": 871.74,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "대신증권",
+    "fee": 2000
+   }
+  ],
+  "min_shares": 10
+ },
+ {
+  "name": "옵토닉스",
+  "subscription_period": "2026.11.05~11.06",
+  "confirmed_price": 12000,
+  "band": "10,000~12,000",
+  "competition_rate": "1343.32:1",
+  "underwriters": [
+   "한국투자증권"
+  ],
+  "detail_no": "2338",
+  "market": "코스닥",
+  "payment_date": "2026.11.10",
+  "refund_date": "2026.11.10",
+  "listing_date": "2026.11.17",
+  "par_value": 100,
+  "total_shares": 2200000,
+  "mandatory_holding": "5.62%",
+  "max_subscription": "9,000~11,000",
+  "institutional_rate": 1201.81,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "한국투자증권",
+    "fee": 2000
+   }
+  ],
+  "min_shares": 20
+ },
+ {
+  "name": "영광와이케이엠씨",
+  "subscription_period": "2026.11.04~11.05",
+  "confirmed_price": 11000,
+  "band": "9,400~11,000",
+  "competition_rate": "1342.66:1",
+  "underwriters": [
+   "대신증권"
+  ],
+  "detail_no": "2342",
+  "market": "코스닥",
+  "payment_date": "2026.11.09",
+  "refund_date": "2026.11.09",
+  "listing_date": "2026.11.16",
+  "par_value": 500,
+  "total_shares": 2300000,
+  "mandatory_holding": "7.21%",
+  "max_subscription": "19,000~23,000",
+  "institutional_rate": 1163.35,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "대신증권",
+    "fee": 2000
+   }
+  ],
+  "min_shares": 20
+ },
+ {
+  "name": "넥스아이",
+  "subscription_period": "2026.11.03~11.04",
+  "confirmed_price": 8000,
+  "band": "10,500~13,000",
+  "competition_rate": "13.26:1",
+  "underwriters": [
+   "한국투자증권"
+  ],
+  "detail_no": "2336",
+  "market": "코스닥",
+  "payment_date": "2026.11.06",
+  "refund_date": "2026.11.06",
+  "listing_date": "2026.11.12",
+  "par_value": 500,
+  "total_shares": 5000000,
+  "mandatory_holding": "0.06%",
+  "max_subscription": "20,000~25,000",
+  "institutional_rate": 66.58,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "한국투자증권",
+    "fee": 2000
+   }
+  ],
+  "min_shares": 10
+ },
+ {
+  "name": "바로팜",
+  "subscription_period": "2026.11.02~11.03",
+  "confirmed_price": 16400,
+  "band": "16,400~20,200",
+  "competition_rate": "19.27:1",
+  "underwriters": [
+   "미래에셋증권"
+  ],
+  "detail_no": "2325",
+  "market": "코스닥",
+  "payment_date": "2026.11.05",
+  "refund_date": "2026.11.05",
+  "listing_date": "2026.11.11",
+  "par_value": 500,
+  "total_shares": 1780000,
+  "mandatory_holding": "0.03%",
+  "max_subscription": "22,000~26,000",
+  "institutional_rate": 152.36,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "미래에셋증권",
+    "fee": 2000
+   }
+  ],
+  "min_shares": 20
+ },
+ {
+  "name": "동원파츠",
+  "subscription_period": "2026.11.02~11.03",
+  "confirmed_price": 26500,
+  "band": "23,000~26,500",
+  "competition_rate": "1219.37:1",
+  "underwriters": [
+   "삼성증권"
+  ],
+  "detail_no": "2339",
+  "market": "코스닥",
+  "payment_date": "2026.11.05",
+  "refund_date": "2026.11.05",
+  "listing_date": "2026.11.10",
+  "par_value": 500,
+  "total_shares": 2030000,
+  "mandatory_holding": "16.61%",
+  "max_subscription": "12,500~15,000",
+  "institutional_rate": 840.86,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "삼성증권",
+    "fee": 2000
+   }
+  ],
+  "min_shares": 20
+ },
+ {
+  "name": "아이엠스팩1호",
+  "subscription_period": "2026.10.26~10.27",
+  "confirmed_price": 2000,
+  "band": "2,000~2,000",
+  "competition_rate": "1112.73:1",
+  "underwriters": [
+   "아이엠증권"
+  ],
+  "detail_no": "2329",
+  "market": "코스닥",
+  "payment_date": "2026.10.29",
+  "refund_date": "2026.10.29",
+  "listing_date": "2026.11.04",
+  "par_value": 100,
+  "total_shares": 5000000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "125,000~150,000",
+  "institutional_rate": 1266.52,
+  "deposit_rate": 1.0,
+  "broker_conditions": [
+   {
+    "broker": "아이엠증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "래블업",
+  "subscription_period": "2026.10.22~10.23",
+  "confirmed_price": 19000,
+  "band": "19,000~22,000",
+  "competition_rate": "3.55:1",
+  "underwriters": [
+   "NH투자증권"
+  ],
+  "detail_no": "2335",
+  "market": "코스닥",
+  "payment_date": "2026.10.27",
+  "refund_date": "2026.10.27",
+  "listing_date": "2026.11.03",
+  "par_value": 500,
+  "total_shares": 2180000,
+  "mandatory_holding": "2.09%",
+  "max_subscription": "18,000~21,800",
+  "institutional_rate": 284.53,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "NH투자증권",
+    "fee": 2000
+   }
+  ],
+  "min_shares": 10
+ },
+ {
+  "name": "이에스티",
+  "subscription_period": "2026.10.22~10.23",
+  "confirmed_price": 12400,
+  "band": "10,600~12,400",
+  "competition_rate": "28.95:1",
+  "underwriters": [
+   "대신증권"
+  ],
+  "detail_no": "2332",
+  "market": "코스닥",
+  "payment_date": "2026.10.27",
+  "refund_date": "2026.10.27",
+  "listing_date": "2026.11.04",
+  "par_value": 500,
+  "total_shares": 2200000,
+  "mandatory_holding": "0.24%",
+  "max_subscription": "18,000~22,000",
+  "institutional_rate": 630.1,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "대신증권",
+    "fee": 2000
+   }
+  ],
+  "min_shares": 20
+ },
+ {
+  "name": "영광(구.영광공작소)",
+  "subscription_period": "2026.10.22~10.23",
+  "confirmed_price": 17000,
+  "band": "14,000~17,000",
+  "competition_rate": "684.73:1",
+  "underwriters": [
+   "한국투자증권"
+  ],
+  "detail_no": "2333",
+  "market": "코스닥",
+  "payment_date": "2026.10.27",
+  "refund_date": "2026.10.27",
+  "listing_date": "2026.11.02",
+  "par_value": 500,
+  "total_shares": 2260000,
+  "mandatory_holding": "0.87%",
+  "max_subscription": "9,000~11,000",
+  "institutional_rate": 1000.07,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "한국투자증권",
+    "fee": 2000
+   }
+  ],
+  "min_shares": 20
+ },
+ {
+  "name": "인텔리빅스",
+  "subscription_period": "2026.10.21~10.22",
+  "confirmed_price": 9000,
+  "band": "7,600~9,000",
+  "competition_rate": "1410.87:1",
+  "underwriters": [
+   "미래에셋증권"
+  ],
+  "detail_no": "2328",
+  "market": "코스닥",
+  "payment_date": "2026.10.26",
+  "refund_date": "2026.10.26",
+  "listing_date": "2026.10.30",
+  "par_value": 100,
+  "total_shares": 2500000,
+  "mandatory_holding": "6.14%",
+  "max_subscription": "31,000~37,000",
+  "institutional_rate": 1234.3,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "미래에셋증권",
+    "fee": 2000
+   }
+  ],
+  "min_shares": 20
+ },
+ {
+  "name": "티앤이코리아",
+  "subscription_period": "2026.10.20~10.21",
+  "confirmed_price": 15300,
+  "band": "12,600~15,300",
+  "competition_rate": "1253.39:1",
+  "underwriters": [
+   "신한투자증권"
+  ],
+  "detail_no": "2322",
+  "market": "코스닥",
+  "payment_date": "2026.10.23",
+  "refund_date": "2026.10.23",
+  "listing_date": "2026.10.29",
+  "par_value": 500,
+  "total_shares": 2400000,
+  "mandatory_holding": "29.52%",
+  "max_subscription": "20,000~24,000",
+  "institutional_rate": 1041.02,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "신한투자증권",
+    "fee": 2000
+   }
+  ],
+  "min_shares": 20
+ },
+ {
+  "name": "크리에이츠",
+  "subscription_period": "2026.10.20~10.21",
+  "confirmed_price": 15000,
+  "band": "15,000~18,000",
+  "competition_rate": "6.92:1",
+  "underwriters": [
+   "삼성증권"
+  ],
+  "detail_no": "2323",
+  "market": "코스닥",
+  "payment_date": "2026.10.23",
+  "refund_date": "2026.10.23",
+  "listing_date": "2026.10.30",
+  "par_value": 200,
+  "total_shares": 1400000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "16,000~20,000",
+  "institutional_rate": 240.46,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "삼성증권",
+    "fee": 2000
+   }
+  ],
+  "min_shares": 20
+ },
+ {
+  "name": "한화플러스스팩6호",
+  "subscription_period": "2026.10.20~10.21",
+  "confirmed_price": 2000,
+  "band": "2,000~2,000",
+  "competition_rate": "185.75:1",
+  "underwriters": [
+   "한화투자증권"
+  ],
+  "detail_no": "2330",
+  "market": "코스닥",
+  "payment_date": "2026.10.23",
+  "refund_date": "2026.10.23",
+  "listing_date": "2026.10.30",
+  "par_value": 100,
+  "total_shares": 6000000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "75,000~90,000",
+  "institutional_rate": 1256.48,
+  "deposit_rate": 1.0,
+  "broker_conditions": [
+   {
+    "broker": "한화투자증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "SK증권스팩14호",
+  "subscription_period": "2026.10.15~10.16",
+  "confirmed_price": 2000,
+  "band": "2,000~2,000",
+  "competition_rate": "656:1",
+  "underwriters": [
+   "SK증권"
+  ],
+  "detail_no": "2319",
+  "market": "코스닥",
+  "payment_date": "2026.10.20",
+  "refund_date": "2026.10.20",
+  "listing_date": "2026.10.27",
+  "par_value": 100,
+  "total_shares": 6500000,
+  "mandatory_holding": "0.00%",
+  "institutional_rate": 1228.38,
+  "deposit_rate": 1.0,
+  "broker_conditions": [
+   {
+    "broker": "SK증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "디티에스(구.동양티에스)",
+  "subscription_period": "2026.10.13~10.14",
+  "confirmed_price": 18500,
+  "band": "17,000~18,500",
+  "competition_rate": "986.99:1",
+  "underwriters": [
+   "대신증권",
+   "유진증권"
+  ],
+  "detail_no": "2326",
+  "market": "코스닥",
+  "payment_date": "2026.10.16",
+  "refund_date": "2026.10.16",
+  "listing_date": "2026.10.23",
+  "par_value": 5000,
+  "total_shares": 2228917,
+  "mandatory_holding": "13.31%",
+  "institutional_rate": 983.98,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "대신증권",
+    "allocation": 601808,
+    "limit": 20000,
+    "role": null,
+    "allocation_pct": 90.0,
+    "fee": 2000
+   },
+   {
+    "broker": "유진증권",
+    "allocation": 66868,
+    "limit": 6500,
+    "role": "인수",
+    "allocation_pct": 10.0,
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "엠에스바이오",
+  "subscription_period": "2026.10.12~10.13",
+  "confirmed_price": 7800,
+  "band": "6,800~7,800",
+  "competition_rate": "1538.51:1",
+  "underwriters": [
+   "KB증권"
+  ],
+  "detail_no": "2324",
+  "market": "코스닥",
+  "payment_date": "2026.10.15",
+  "refund_date": "2026.10.15",
+  "listing_date": "2026.10.22",
+  "par_value": 100,
+  "total_shares": 4000000,
+  "mandatory_holding": "30.62%",
+  "max_subscription": "33,000~40,000",
+  "institutional_rate": 1096.56,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "KB증권",
+    "fee": 1500
+   }
+  ]
+ },
+ {
+  "name": "엘리스그룹",
+  "subscription_period": "2026.10.07~10.08",
+  "confirmed_price": 90500,
+  "band": "70,400~90,500",
+  "competition_rate": "408:1",
+  "underwriters": [
+   "미래에셋증권",
+   "삼성증권"
+  ],
+  "detail_no": "2316",
+  "market": "코스닥",
+  "payment_date": "2026.10.13",
+  "refund_date": "2026.10.13",
+  "listing_date": "2026.10.20",
+  "par_value": 500,
+  "total_shares": 2222000,
+  "mandatory_holding": "13.70%",
+  "institutional_rate": 388.84,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "미래에셋증권",
+    "allocation": 444400,
+    "limit": 26500,
+    "role": "대표",
+    "allocation_pct": 80.0,
+    "fee": 2000
+   },
+   {
+    "broker": "삼성증권",
+    "allocation": 111100,
+    "limit": 6000,
+    "role": "공동",
+    "allocation_pct": 20.0,
+    "fee": 2000
+   }
+  ],
+  "min_shares": 20
+ },
+ {
+  "name": "진코스텍",
+  "subscription_period": "2026.10.02~10.06",
+  "confirmed_price": 23500,
+  "band": "19,500~23,500",
+  "competition_rate": "685:1",
+  "underwriters": [
+   "하나증권"
+  ],
+  "detail_no": "2320",
+  "market": "코스닥",
+  "payment_date": "2026.10.08",
+  "refund_date": "2026.10.08",
+  "listing_date": "2026.10.15",
+  "par_value": 500,
+  "total_shares": 852000,
+  "mandatory_holding": "5.29%",
+  "max_subscription": "10,000~12,000",
+  "institutional_rate": 1097.62,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "하나증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "멜콘(구.에스앤에프솔루션)",
+  "subscription_period": "2026.10.01~10.02",
+  "confirmed_price": 12300,
+  "band": "10,700~12,300",
+  "competition_rate": "1741.48:1",
+  "underwriters": [
+   "대신증권"
+  ],
+  "detail_no": "2315",
+  "market": "코스닥",
+  "payment_date": "2026.10.07",
+  "refund_date": "2026.10.07",
+  "listing_date": "2026.10.15",
+  "par_value": 500,
+  "total_shares": 2500000,
+  "mandatory_holding": "36.07%",
+  "max_subscription": "20,000~25,000",
+  "institutional_rate": 1136.84,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "대신증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "브릴스",
+  "subscription_period": "2026.09.17~09.18",
+  "confirmed_price": 19500,
+  "band": "16,500~19,500",
+  "competition_rate": "1676.26:1",
+  "underwriters": [
+   "IBK투자증권"
+  ],
+  "detail_no": "2307",
+  "market": "코스닥",
+  "payment_date": "2026.09.22",
+  "refund_date": "2026.09.22",
+  "listing_date": "2026.10.01",
+  "par_value": 500,
+  "total_shares": 1200000,
+  "mandatory_holding": "21.75%",
+  "max_subscription": "15,000~18,000",
+  "institutional_rate": 1187.74,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "IBK투자증권",
+    "fee": 1500
+   }
+  ],
+  "min_shares": 10
+ },
+ {
+  "name": "덕산넵코어스(구.넵코어스)",
+  "subscription_period": "2026.09.16~09.17",
+  "confirmed_price": 14600,
+  "band": "12,400~14,600",
+  "competition_rate": "332.82:1",
+  "underwriters": [
+   "대신증권"
+  ],
+  "detail_no": "2309",
+  "market": "코스닥",
+  "payment_date": "2026.09.21",
+  "refund_date": "2026.09.21",
+  "listing_date": "2026.09.30",
+  "par_value": 500,
+  "total_shares": 3000000,
+  "mandatory_holding": "4.05%",
+  "max_subscription": "25,000~30,000",
+  "institutional_rate": 868.64,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "대신증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "글로벌테크놀로지",
+  "subscription_period": "2026.09.16~09.17",
+  "confirmed_price": 10000,
+  "band": "13,000~15,000",
+  "competition_rate": "57.15:1",
+  "underwriters": [
+   "한국투자증권"
+  ],
+  "detail_no": "2310",
+  "market": "코스닥",
+  "payment_date": "2026.09.21",
+  "refund_date": "2026.09.21",
+  "listing_date": "2026.09.29",
+  "par_value": 500,
+  "total_shares": 4000000,
+  "mandatory_holding": "0.27%",
+  "max_subscription": "15,000~20,000",
+  "institutional_rate": 123.19,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "한국투자증권",
+    "fee": 2000
+   }
+  ],
+  "min_shares": 20
+ },
+ {
+  "name": "빅웨이브로보틱스",
+  "subscription_period": "2026.09.15~09.16",
+  "confirmed_price": 18000,
+  "band": "15,000~18,000",
+  "competition_rate": "1375.34:1",
+  "underwriters": [
+   "유진투자증권",
+   "미래에셋증권"
+  ],
+  "detail_no": "2294",
+  "market": "코스닥",
+  "payment_date": "2026.09.18",
+  "refund_date": "2026.09.18",
+  "listing_date": "2026.09.29",
+  "par_value": 100,
+  "total_shares": 1600000,
+  "mandatory_holding": "18.14%",
+  "institutional_rate": 1109.37,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "유진투자증권",
+    "allocation": 193800,
+    "limit": 24000,
+    "role": null,
+    "allocation_pct": 51.0,
+    "fee": 2000
+   },
+   {
+    "broker": "미래에셋증권",
+    "allocation": 186200,
+    "limit": 11000,
+    "role": null,
+    "allocation_pct": 49.0,
+    "fee": 2000
+   }
+  ],
+  "min_shares": 10
+ },
+ {
+  "name": "와이즈플래닛컴퍼니",
+  "subscription_period": "2026.09.14~09.15",
+  "confirmed_price": 12000,
+  "band": "10,000~12,000",
+  "competition_rate": "1477.65:1",
+  "underwriters": [
+   "대신증권"
+  ],
+  "detail_no": "2311",
+  "market": "코스닥",
+  "payment_date": "2026.09.17",
+  "refund_date": "2026.09.17",
+  "listing_date": "2026.09.23",
+  "par_value": 100,
+  "total_shares": 1600000,
+  "mandatory_holding": "3.65%",
+  "max_subscription": "13,000~16,000",
+  "institutional_rate": 1248.47,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "대신증권",
+    "fee": 2000
+   }
+  ],
+  "min_shares": 10
+ },
+ {
+  "name": "네오사피엔스",
+  "subscription_period": "2026.09.10~09.11",
+  "confirmed_price": 10000,
+  "band": "13,800~15,800",
+  "competition_rate": "1047.78:1",
+  "underwriters": [
+   "대신증권"
+  ],
+  "detail_no": "2308",
+  "market": "코스닥",
+  "payment_date": "2026.09.15",
+  "refund_date": "2026.09.15",
+  "listing_date": "2026.09.21",
+  "par_value": 500,
+  "total_shares": 2000000,
+  "mandatory_holding": "8.98%",
+  "max_subscription": "16,000~20,000",
+  "institutional_rate": 219.56,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "대신증권",
+    "fee": 2000
+   }
+  ],
+  "min_shares": 20
+ },
+ {
+  "name": "KB스팩34호",
+  "subscription_period": "2026.09.10~09.11",
+  "confirmed_price": 2000,
+  "band": "2,000~2,000",
+  "competition_rate": "397.33:1",
+  "underwriters": [
+   "KB증권"
+  ],
+  "detail_no": "2313",
+  "market": "코스닥",
+  "payment_date": "2026.09.15",
+  "refund_date": "2026.09.15",
+  "listing_date": "2026.09.22",
+  "par_value": 100,
+  "total_shares": 7000000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "50,000",
+  "institutional_rate": 1232.51,
+  "deposit_rate": 1.0,
+  "broker_conditions": [
+   {
+    "broker": "KB증권",
+    "fee": 1500
+   }
+  ]
+ },
+ {
+  "name": "한국스팩17호",
+  "subscription_period": "2026.09.10~09.11",
+  "confirmed_price": 2000,
+  "band": "2,000~2,000",
+  "competition_rate": "494.62:1",
+  "underwriters": [
+   "한국투자증권"
+  ],
+  "detail_no": "2314",
+  "market": "코스닥",
+  "payment_date": "2026.09.15",
+  "refund_date": "2026.09.15",
+  "listing_date": "2026.09.22",
+  "par_value": 100,
+  "total_shares": 7000000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "25,000~35,000",
+  "institutional_rate": 1270.51,
+  "deposit_rate": 1.0,
+  "broker_conditions": [
+   {
+    "broker": "한국투자증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "NH스팩34호",
+  "subscription_period": "2026.09.01~09.02",
+  "confirmed_price": 2000,
+  "band": "2,000~2,000",
+  "competition_rate": "356.99:1",
+  "underwriters": [
+   "NH투자증권"
+  ],
+  "detail_no": "2312",
+  "market": "코스닥",
+  "payment_date": "2026.09.04",
+  "refund_date": "2026.09.04",
+  "listing_date": "2026.09.10",
+  "par_value": 100,
+  "total_shares": 8500000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "210,000~255,000",
+  "institutional_rate": 1160.7,
+  "deposit_rate": 1.0,
+  "broker_conditions": [
+   {
+    "broker": "NH투자증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "스카이랩스",
+  "subscription_period": "2026.08.26~08.27",
+  "confirmed_price": 10000,
+  "band": "13,000~16,000",
+  "competition_rate": "2.85:1",
+  "underwriters": [
+   "한국투자증권"
+  ],
+  "detail_no": "2306",
+  "market": "코스닥",
+  "payment_date": "2026.08.31",
+  "refund_date": "2026.08.31",
+  "listing_date": "2026.09.04",
+  "par_value": 500,
+  "total_shares": 2000000,
+  "mandatory_holding": "0.17%",
+  "max_subscription": "8,000~10,000",
+  "institutional_rate": 63.41,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "한국투자증권",
+    "fee": 2000
+   }
+  ],
+  "min_shares": 10
+ },
+ {
+  "name": "해치텍",
+  "subscription_period": "2026.08.12~08.13",
+  "confirmed_price": 23000,
+  "band": "23,000~28,000",
+  "competition_rate": "25.73:1",
+  "underwriters": [
+   "DB증권"
+  ],
+  "detail_no": "2304",
+  "market": "코스닥",
+  "payment_date": "2026.08.18",
+  "refund_date": "2026.08.18",
+  "listing_date": "2026.08.25",
+  "par_value": 500,
+  "total_shares": 1000000,
+  "mandatory_holding": "15.08%",
+  "max_subscription": "25,000~30,000",
+  "institutional_rate": 101.91,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "DB증권",
+    "fee": 1500
+   }
+  ],
+  "min_shares": 20
+ },
+ {
+  "name": "니어스랩",
+  "subscription_period": "2026.08.12~08.13",
+  "confirmed_price": 41200,
+  "band": "30,000~41,200",
+  "competition_rate": "522.99:1",
+  "underwriters": [
+   "삼성증권"
+  ],
+  "detail_no": "2303",
+  "market": "코스닥",
+  "payment_date": "2026.08.18",
+  "refund_date": "2026.08.18",
+  "listing_date": "2026.08.24",
+  "par_value": 100,
+  "total_shares": 910000,
+  "mandatory_holding": "1.26%",
+  "max_subscription": "11,000~13,000",
+  "institutional_rate": 743.49,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "삼성증권",
+    "fee": 2000
+   }
+  ],
+  "min_shares": 20
+ },
+ {
+  "name": "기도산업",
+  "subscription_period": "2026.08.11~08.12",
+  "confirmed_price": 28400,
+  "band": "24,800~28,400",
+  "competition_rate": "5.53:1",
+  "underwriters": [
+   "미래에셋증권",
+   "삼성증권"
+  ],
+  "detail_no": "2305",
+  "market": "코스닥",
+  "payment_date": "2026.08.14",
+  "refund_date": "2026.08.14",
+  "listing_date": "2026.08.21",
+  "par_value": 500,
+  "total_shares": 1700000,
+  "mandatory_holding": "0.00%",
+  "institutional_rate": 213.31,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "미래에셋증권",
+    "allocation": 303750,
+    "limit": 22500,
+    "role": null,
+    "allocation_pct": 90.0,
+    "fee": 2000
+   },
+   {
+    "broker": "삼성증권",
+    "allocation": 33750,
+    "limit": 2500,
+    "role": "인수",
+    "allocation_pct": 10.0,
+    "fee": 2000
+   }
+  ],
+  "min_shares": 20
+ },
+ {
+  "name": "케이앤에스아이앤씨",
+  "subscription_period": "2026.08.04~08.05",
+  "confirmed_price": 11000,
+  "band": "9,000~11,000",
+  "competition_rate": "1079.55:1",
+  "underwriters": [
+   "IBK투자증권"
+  ],
+  "detail_no": "2299",
+  "market": "코스닥",
+  "payment_date": "2026.08.07",
+  "refund_date": "2026.08.07",
+  "listing_date": "2026.08.13",
+  "par_value": 100,
+  "total_shares": 2400000,
+  "mandatory_holding": "0.78%",
+  "max_subscription": "30,000~36,000",
+  "institutional_rate": 938.24,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "IBK투자증권",
+    "fee": 1500
+   }
+  ],
+  "min_shares": 10
+ },
+ {
+  "name": "딜리셔스",
+  "subscription_period": "2026.08.03~08.04",
+  "confirmed_price": 7000,
+  "band": "5,000~7,000",
+  "competition_rate": "10.29:1",
+  "underwriters": [
+   "한국투자증권"
+  ],
+  "detail_no": "2302",
+  "market": "코스닥",
+  "payment_date": "2026.08.06",
+  "refund_date": "2026.08.06",
+  "listing_date": "2026.08.12",
+  "par_value": 500,
+  "total_shares": 2200000,
+  "mandatory_holding": "0.10%",
+  "max_subscription": "9,000~11,000",
+  "institutional_rate": 184.06,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "한국투자증권",
+    "fee": 2000
+   }
+  ],
+  "min_shares": 20
+ },
+ {
+  "name": "인제니아테라퓨틱스",
+  "subscription_period": "2026.07.30~07.31",
+  "confirmed_price": 12000,
+  "band": "12,000~14,500",
+  "competition_rate": "3.09:1",
+  "underwriters": [
+   "삼성증권"
+  ],
+  "detail_no": "2298",
+  "market": "코스닥",
+  "payment_date": "2026.08.04",
+  "refund_date": "2026.08.04",
+  "listing_date": "2026.08.18",
+  "total_shares": 5000000,
+  "mandatory_holding": "2.23%",
+  "max_subscription": "60,000~75,000",
+  "institutional_rate": 50.4,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "삼성증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "에이치엘지노믹스",
+  "subscription_period": "2026.07.13~07.14",
+  "confirmed_price": 21500,
+  "band": "18,500~21,500",
+  "competition_rate": "666.78:1",
+  "underwriters": [
+   "KB증권",
+   "IBK투자증권"
+  ],
+  "detail_no": "2301",
+  "market": "코스닥",
+  "payment_date": "2026.07.16",
+  "refund_date": "2026.07.16",
+  "listing_date": "2026.07.24",
+  "par_value": 500,
+  "total_shares": 2565000,
+  "mandatory_holding": "1.91%",
+  "max_subscription": "19,000~22,500",
+  "institutional_rate": 714.52,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "KB증권",
+    "allocation": 461700,
+    "limit": null,
+    "role": "대표",
+    "allocation_pct": 90.0,
+    "fee": 1500
+   },
+   {
+    "broker": "IBK투자증권",
+    "allocation": 51300,
+    "limit": null,
+    "role": "공동",
+    "allocation_pct": 10.0,
+    "fee": 1500
+   }
+  ],
+  "min_shares": 10
+ },
+ {
+  "name": "레메디",
+  "subscription_period": "2026.07.01~07.02",
+  "confirmed_price": 20700,
+  "band": "17,800~20,700",
+  "competition_rate": "1706.71:1",
+  "underwriters": [
+   "KB증권"
+  ],
+  "detail_no": "2296",
+  "market": "코스닥",
+  "payment_date": "2026.07.06",
+  "refund_date": "2026.07.06",
+  "listing_date": "2026.07.13",
+  "par_value": 500,
+  "total_shares": 1200000,
+  "mandatory_holding": "17.93%",
+  "max_subscription": "10,000~12,000",
+  "institutional_rate": 1146.41,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "KB증권",
+    "fee": 1500
+   }
+  ]
+ },
+ {
+  "name": "레몬헬스케어",
+  "subscription_period": "2026.06.24~06.25",
+  "confirmed_price": 10000,
+  "band": "7,500~10,000",
+  "competition_rate": "1510.57:1",
+  "underwriters": [
+   "KB증권"
+  ],
+  "detail_no": "2293",
+  "market": "코스닥",
+  "payment_date": "2026.06.29",
+  "refund_date": "2026.06.29",
+  "listing_date": "2026.07.06",
+  "par_value": 500,
+  "total_shares": 2000000,
+  "mandatory_holding": "6.92%",
+  "max_subscription": "16,000~20,000",
+  "institutional_rate": 1238.0,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "KB증권",
+    "fee": 1500
+   }
+  ]
+ },
+ {
+  "name": "매드업",
+  "subscription_period": "2026.06.23~06.24",
+  "confirmed_price": 8000,
+  "band": "7,000~8,000",
+  "competition_rate": "3304.76:1",
+  "underwriters": [
+   "미래에셋증권"
+  ],
+  "detail_no": "2290",
+  "market": "코스닥",
+  "payment_date": "2026.06.26",
+  "refund_date": "2026.06.26",
+  "listing_date": "2026.07.01",
+  "par_value": 100,
+  "total_shares": 2000000,
+  "mandatory_holding": "27.39%",
+  "max_subscription": "25,000~30,000",
+  "institutional_rate": 1396.29,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "미래에셋증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "한국스팩16호",
+  "subscription_period": "2026.06.22~06.23",
+  "confirmed_price": 2000,
+  "band": "2,000~2,000",
+  "competition_rate": "1274.77:1",
+  "underwriters": [
+   "한국투자증권"
+  ],
+  "detail_no": "2297",
+  "market": "코스닥",
+  "payment_date": "2026.06.25",
+  "refund_date": "2026.06.25",
+  "listing_date": "2026.06.30",
+  "par_value": 100,
+  "total_shares": 5500000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "22,500~27,500",
+  "institutional_rate": 1364.09,
+  "deposit_rate": 1.0,
+  "broker_conditions": [
+   {
+    "broker": "한국투자증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "스트라드비젼",
+  "subscription_period": "2026.06.18~06.19",
+  "confirmed_price": 12000,
+  "band": "12,000~14,000",
+  "competition_rate": "45.83:1",
+  "underwriters": [
+   "KB증권"
+  ],
+  "detail_no": "2289",
+  "market": "코스닥",
+  "payment_date": "2026.06.23",
+  "refund_date": "2026.06.23",
+  "listing_date": "2026.06.30",
+  "par_value": 100,
+  "total_shares": 7000000,
+  "mandatory_holding": "2.77%",
+  "max_subscription": "55,000~70,000",
+  "institutional_rate": 381.3,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "KB증권",
+    "fee": 1500
+   }
+  ]
+ },
+ {
+  "name": "져스텍",
+  "subscription_period": "2026.06.18~06.19",
+  "confirmed_price": 12500,
+  "band": "10,500~12,500",
+  "competition_rate": "2,783.89:1",
+  "underwriters": [
+   "삼성증권"
+  ],
+  "detail_no": "2291",
+  "market": "코스닥",
+  "payment_date": "2026.06.23",
+  "refund_date": "2026.06.23",
+  "listing_date": "2026.06.29",
+  "par_value": 500,
+  "total_shares": 1600000,
+  "mandatory_holding": "47.20%",
+  "max_subscription": "20,000~24,000",
+  "institutional_rate": 1294.99,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "삼성증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "메리츠스팩2호",
+  "subscription_period": "2026.06.09~06.10",
+  "confirmed_price": 2000,
+  "band": "2,000~2,000",
+  "competition_rate": "1388.66:1",
+  "underwriters": [
+   "메리츠증권"
+  ],
+  "detail_no": "2295",
+  "market": "코스닥",
+  "payment_date": "2026.06.12",
+  "refund_date": "2026.06.12",
+  "listing_date": "2026.06.19",
+  "par_value": 100,
+  "total_shares": 7000000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "175,000~210,000",
+  "institutional_rate": 1087.58,
+  "deposit_rate": 1.0,
+  "broker_conditions": [
+   {
+    "broker": "메리츠증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "피스피스스튜디오",
+  "subscription_period": "2026.05.26~05.27",
+  "confirmed_price": 21500,
+  "band": "19,000~21,500",
+  "competition_rate": "1194.94:1",
+  "underwriters": [
+   "NH투자증권",
+   "미래에셋증권"
+  ],
+  "detail_no": "2287",
+  "market": "코스닥",
+  "payment_date": "2026.05.29",
+  "refund_date": "2026.05.29",
+  "listing_date": "2026.06.08",
+  "par_value": 100,
+  "total_shares": 2272637,
+  "mandatory_holding": "5.68%",
+  "institutional_rate": 847.76,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "NH투자증권",
+    "allocation": 262500,
+    "limit": 11000,
+    "role": null,
+    "allocation_pct": 50.0,
+    "fee": 2000
+   },
+   {
+    "broker": "미래에셋증권",
+    "allocation": 262500,
+    "limit": 17000,
+    "role": null,
+    "allocation_pct": 50.0,
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "대신밸런스스팩20호",
+  "subscription_period": "2026.05.22~05.26",
+  "confirmed_price": 2000,
+  "band": "2,000~2,000",
+  "competition_rate": "1468.88:1",
+  "underwriters": [
+   "대신증권"
+  ],
+  "detail_no": "2288",
+  "market": "코스닥",
+  "payment_date": "2026.05.28",
+  "refund_date": "2026.05.28",
+  "listing_date": "2026.06.05",
+  "par_value": 100,
+  "total_shares": 6500000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "162,500~195,000",
+  "institutional_rate": 1327.13,
+  "deposit_rate": 1.0,
+  "broker_conditions": [
+   {
+    "broker": "대신증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "마키나락스",
+  "subscription_period": "2026.05.11~05.12",
+  "confirmed_price": 15000,
+  "band": "12,500~15,000",
+  "competition_rate": "2807.8:1",
+  "underwriters": [
+   "미래에셋증권",
+   "현대차증권"
+  ],
+  "detail_no": "2285",
+  "market": "코스닥",
+  "payment_date": "2026.05.14",
+  "refund_date": "2026.05.14",
+  "listing_date": "2026.05.20",
+  "par_value": 500,
+  "total_shares": 2635000,
+  "mandatory_holding": "78.17%",
+  "institutional_rate": 1196.08,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "미래에셋증권",
+    "allocation": 671920,
+    "limit": 33500,
+    "role": null,
+    "allocation_pct": 85.0,
+    "fee": 2000
+   },
+   {
+    "broker": "현대차증권",
+    "allocation": 118580,
+    "limit": 5500,
+    "role": "인수",
+    "allocation_pct": 15.0,
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "폴레드",
+  "subscription_period": "2026.05.04~05.06",
+  "confirmed_price": 5000,
+  "band": "4,100~5,000",
+  "competition_rate": "3169.86:1",
+  "underwriters": [
+   "NH투자증권"
+  ],
+  "detail_no": "2286",
+  "market": "코스닥",
+  "payment_date": "2026.05.08",
+  "refund_date": "2026.05.08",
+  "listing_date": "2026.05.14",
+  "par_value": 100,
+  "total_shares": 2600000,
+  "mandatory_holding": "67.24%",
+  "max_subscription": "21,600~26,000",
+  "institutional_rate": 1486.66,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "NH투자증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "코스모로보틱스(구.엑소아틀레트아시아)",
+  "subscription_period": "2026.04.27~04.28",
+  "confirmed_price": 6000,
+  "band": "5,300~6,000",
+  "competition_rate": "2013:1",
+  "underwriters": [
+   "유진투자증권",
+   "NH투자증권",
+   "유안타증권"
+  ],
+  "detail_no": "2278",
+  "market": "코스닥",
+  "payment_date": "2026.04.30",
+  "refund_date": "2026.04.30",
+  "listing_date": "2026.05.11",
+  "par_value": 500,
+  "total_shares": 4170000,
+  "mandatory_holding": "73.03%",
+  "institutional_rate": 1140.11,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "유진투자증권",
+    "allocation": 417000,
+    "limit": 52000,
+    "role": null,
+    "allocation_pct": 40.0,
+    "fee": 2000
+   },
+   {
+    "broker": "NH투자증권",
+    "allocation": 417000,
+    "limit": 17000,
+    "role": null,
+    "allocation_pct": 40.0,
+    "fee": 2000
+   },
+   {
+    "broker": "유안타증권",
+    "allocation": 208500,
+    "limit": 10000,
+    "role": "인수",
+    "allocation_pct": 20.0,
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "채비(구.대영채비)",
+  "subscription_period": "2026.04.20~04.21",
+  "confirmed_price": 12300,
+  "band": "12,300~15,300",
+  "competition_rate": "302:1",
+  "underwriters": [
+   "KB증권",
+   "삼성증권",
+   "대신증권",
+   "하나증권"
+  ],
+  "detail_no": "2281",
+  "market": "코스닥",
+  "payment_date": "2026.04.23",
+  "refund_date": "2026.04.23",
+  "listing_date": "2026.04.29",
+  "par_value": 500,
+  "total_shares": 9000000,
+  "mandatory_holding": "6.49%",
+  "institutional_rate": 55.23,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "KB증권",
+    "allocation": 843750,
+    "limit": 35000,
+    "role": null,
+    "allocation_pct": 37.5,
+    "fee": 1500
+   },
+   {
+    "broker": "삼성증권",
+    "allocation": 843750,
+    "limit": 35000,
+    "role": null,
+    "allocation_pct": 37.5,
+    "fee": 2000
+   },
+   {
+    "broker": "대신증권",
+    "allocation": 281250,
+    "limit": 12000,
+    "role": null,
+    "allocation_pct": 12.5,
+    "fee": 2000
+   },
+   {
+    "broker": "하나증권",
+    "allocation": 281250,
+    "limit": 18000,
+    "role": null,
+    "allocation_pct": 12.5,
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "신한스팩18호",
+  "subscription_period": "2026.04.20~04.21",
+  "confirmed_price": 2000,
+  "band": "2,000~2,000",
+  "competition_rate": "1601.36:1",
+  "underwriters": [
+   "신한투자증권"
+  ],
+  "detail_no": "2284",
+  "market": "코스닥",
+  "payment_date": "2026.04.23",
+  "refund_date": "2026.04.23",
+  "listing_date": "2026.04.30",
+  "par_value": 100,
+  "total_shares": 5000000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "40,000~50,000",
+  "institutional_rate": 1388.6,
+  "deposit_rate": 1.0,
+  "broker_conditions": [
+   {
+    "broker": "신한투자증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "키움히어로스팩2호",
+  "subscription_period": "2026.04.14~04.15",
+  "confirmed_price": 2000,
+  "band": "2,000~2,000",
+  "competition_rate": "1727.59:1",
+  "underwriters": [
+   "키움증권"
+  ],
+  "detail_no": "2282",
+  "market": "코스닥",
+  "payment_date": "2026.04.17",
+  "refund_date": "2026.04.17",
+  "listing_date": "2026.04.23",
+  "par_value": 100,
+  "total_shares": 6000000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "100,000~120,000",
+  "institutional_rate": 1271.12,
+  "deposit_rate": 1.0,
+  "broker_conditions": [
+   {
+    "broker": "키움증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "인벤테라",
+  "subscription_period": "2026.03.23~03.24",
+  "confirmed_price": 16600,
+  "band": "12,100~16,600",
+  "competition_rate": "1913:1",
+  "underwriters": [
+   "NH투자증권",
+   "유진투자증권"
+  ],
+  "detail_no": "2275",
+  "market": "코스닥",
+  "payment_date": "2026.03.26",
+  "refund_date": "2026.03.26",
+  "listing_date": "2026.04.02",
+  "par_value": 500,
+  "total_shares": 1180000,
+  "mandatory_holding": "43.06%",
+  "institutional_rate": 1328.82,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "NH투자증권",
+    "allocation": 206500,
+    "limit": 8000,
+    "role": "대표",
+    "allocation_pct": 70.0,
+    "fee": 2000
+   },
+   {
+    "broker": "유진투자증권",
+    "allocation": 88500,
+    "limit": 10000,
+    "role": "공동",
+    "allocation_pct": 30.0,
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "교보스팩20호",
+  "subscription_period": "2026.03.23~03.24",
+  "confirmed_price": 2000,
+  "band": "2,000~2,000",
+  "competition_rate": "747:1",
+  "underwriters": [
+   "교보증권"
+  ],
+  "detail_no": "2279",
+  "market": "코스닥",
+  "payment_date": "2026.03.26",
+  "refund_date": "2026.03.26",
+  "listing_date": "2026.04.02",
+  "par_value": 100,
+  "total_shares": 5400000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "66,000~80,000",
+  "institutional_rate": 1196.99,
+  "deposit_rate": 1.0,
+  "broker_conditions": [
+   {
+    "broker": "교보증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "리센스메디컬",
+  "subscription_period": "2026.03.19~03.20",
+  "confirmed_price": 11000,
+  "band": "9,000~11,000",
+  "competition_rate": "2097.68:1",
+  "underwriters": [
+   "한국투자증권",
+   "KB증권"
+  ],
+  "detail_no": "2270",
+  "market": "코스닥",
+  "payment_date": "2026.03.24",
+  "refund_date": "2026.03.24",
+  "listing_date": "2026.03.31",
+  "par_value": 500,
+  "total_shares": 1400000,
+  "mandatory_holding": "63.92%",
+  "institutional_rate": 1352.63,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "한국투자증권",
+    "allocation": 175000,
+    "limit": 3500,
+    "role": null,
+    "allocation_pct": 50.0,
+    "fee": 2000
+   },
+   {
+    "broker": "KB증권",
+    "allocation": 175000,
+    "limit": 7000,
+    "role": null,
+    "allocation_pct": 50.0,
+    "fee": 1500
+   }
+  ]
+ },
+ {
+  "name": "신한스팩17호",
+  "subscription_period": "2026.03.19~03.20",
+  "confirmed_price": 2000,
+  "band": "2,000~2,000",
+  "competition_rate": "1403.74:1",
+  "underwriters": [
+   "신한투자증권"
+  ],
+  "detail_no": "2280",
+  "market": "코스닥",
+  "payment_date": "2026.03.24",
+  "refund_date": "2026.03.24",
+  "listing_date": "2026.04.01",
+  "par_value": 100,
+  "total_shares": 5000000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "40,000~50,000",
+  "institutional_rate": 1343.8,
+  "deposit_rate": 1.0,
+  "broker_conditions": [
+   {
+    "broker": "신한투자증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "NH스팩33호",
+  "subscription_period": "2026.03.17~03.18",
+  "confirmed_price": 2000,
+  "band": "2,000~2,000",
+  "competition_rate": "569.27:1",
+  "underwriters": [
+   "NH투자증권"
+  ],
+  "detail_no": "2277",
+  "market": "코스닥",
+  "payment_date": "2026.03.20",
+  "refund_date": "2026.03.20",
+  "listing_date": "2026.03.27",
+  "par_value": 100,
+  "total_shares": 6350000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "158,750~190,500",
+  "institutional_rate": 1228.71,
+  "deposit_rate": 1.0,
+  "broker_conditions": [
+   {
+    "broker": "NH투자증권",
+    "fee": 2000
+   }
+  ]
+ },
+ {
+  "name": "메쥬",
+  "subscription_period": "2026.03.16~03.17",
+  "confirmed_price": 21600,
+  "band": "16,700~21,600",
+  "competition_rate": "2428.25:1",
+  "underwriters": [
+   "신한투자증권"
+  ],
+  "detail_no": "2274",
+  "market": "코스닥",
+  "payment_date": "2026.03.19",
+  "refund_date": "2026.03.19",
+  "listing_date": "2026.03.26",
+  "par_value": 500,
+  "total_shares": 1345000,
+  "mandatory_holding": "75.40%",
+  "max_subscription": "11,000~13,000",
+  "institutional_rate": 1108.93,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "신한투자증권",
+    "fee": 2000
+   }
+  ]
+ }
+]

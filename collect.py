@@ -534,6 +534,28 @@ def save(name, obj):
     print(f"[저장] {path}")
 
 
+def _period_start(rec):
+    """'2026.11.05~11.06' → '2026.11.05' (정렬용)."""
+    return (rec.get("subscription_period") or "").split("~")[0].strip()
+
+
+def update_archive(schedule):
+    """지난 종목 보관: 38커뮤 일정은 최근 한 달 남짓만 보여 지나간 종목이 사라진다.
+    data/ipos_archive.json에 이름 기준으로 계속 쌓아(최신 수집이 덮어씀) 앱의 '지난 종목 기록'에 쓴다."""
+    path = os.path.join(OUT_DIR, "ipos_archive.json")
+    try:
+        with open(path, encoding="utf-8") as f:
+            archive = {r["name"]: r for r in json.load(f) if r.get("name")}
+    except Exception:
+        archive = {}
+    for rec in schedule:
+        if rec.get("name"):
+            archive[rec["name"]] = rec
+    rows = sorted(archive.values(), key=_period_start, reverse=True)
+    save("ipos_archive.json", rows)
+    print(f"[보관] 지난 종목 포함 {len(rows)}종목")
+
+
 def main():
     os.makedirs(OUT_DIR, exist_ok=True)
 
@@ -560,6 +582,8 @@ def main():
         sys.exit(1)
 
     save("ipos.json", schedule)
+    if schedule:
+        update_archive(schedule)
     save("listings.json", listings)
     save("news.json", news)
     save("meta.json", {
