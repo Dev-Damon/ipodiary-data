@@ -719,16 +719,6 @@
    "삼성증권"
   ],
   "detail_no": "2339",
-  "market": "코스닥",
-  "payment_date": "2026.11.05",
-  "refund_date": "2026.11.05",
-  "listing_date": "2026.11.10",
-  "par_value": 500,
-  "total_shares": 2030000,
-  "mandatory_holding": "16.61%",
-  "max_subscription": "12,500~15,000",
-  "institutional_rate": 840.86,
-  "deposit_rate": 0.5,
   "broker_conditions": [
    {
     "broker": "삼성증권",
