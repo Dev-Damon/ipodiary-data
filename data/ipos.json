@@ -436,44 +436,6 @@
   ]
  },
  {
-  "name": "아델",
-  "subscription_period": "2026.11.23~11.24",
-  "confirmed_price": null,
-  "band": "18,000~25,000",
-  "competition_rate": null,
-  "underwriters": [
-   "삼성증권",
-   "미래에셋증권"
-  ],
-  "detail_no": "2345",
-  "market": "코스닥",
-  "payment_date": "2026.11.26",
-  "refund_date": "2026.11.26",
-  "listing_date": "2026.12.02",
-  "par_value": 500,
-  "total_shares": 2170000,
-  "mandatory_holding": "0.00%",
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "삼성증권",
-    "allocation": 423150,
-    "limit": 10500,
-    "role": null,
-    "allocation_pct": 65.0,
-    "fee": 2000
-   },
-   {
-    "broker": "미래에셋증권",
-    "allocation": 227850,
-    "limit": 11000,
-    "role": null,
-    "allocation_pct": 35.0,
-    "fee": 2000
-   }
-  ]
- },
- {
   "name": "유캐스트",
   "subscription_period": "2026.11.18~11.19",
   "confirmed_price": 19000,
@@ -843,6 +805,34 @@
   "broker_conditions": [
    {
     "broker": "한국투자증권",
+    "fee": 2000
+   }
+  ],
+  "min_shares": 20
+ },
+ {
+  "name": "인텔리빅스",
+  "subscription_period": "2026.10.21~10.22",
+  "confirmed_price": 9000,
+  "band": "7,600~9,000",
+  "competition_rate": "1410.87:1",
+  "underwriters": [
+   "미래에셋증권"
+  ],
+  "detail_no": "2328",
+  "market": "코스닥",
+  "payment_date": "2026.10.26",
+  "refund_date": "2026.10.26",
+  "listing_date": "2026.10.30",
+  "par_value": 100,
+  "total_shares": 2500000,
+  "mandatory_holding": "6.14%",
+  "max_subscription": "31,000~37,000",
+  "institutional_rate": 1234.3,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "미래에셋증권",
     "fee": 2000
    }
   ],
