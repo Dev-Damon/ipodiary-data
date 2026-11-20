@@ -1,5 +1,42 @@
 [
  {
+  "name": "피지티",
+  "subscription_period": "2026.12.17~12.18",
+  "confirmed_price": null,
+  "band": "18,000~20,000",
+  "competition_rate": null,
+  "underwriters": [
+   "한국투자증권",
+   "유안타증권"
+  ],
+  "detail_no": "2363",
+  "market": "코스닥",
+  "payment_date": "2026.12.22",
+  "refund_date": "2026.12.22",
+  "par_value": 500,
+  "total_shares": 1400000,
+  "mandatory_holding": "0.00%",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "한국투자증권",
+    "allocation": 350000,
+    "limit": 5500,
+    "role": null,
+    "allocation_pct": 83.3,
+    "fee": 2000
+   },
+   {
+    "broker": "유안타증권",
+    "allocation": 70000,
+    "limit": 1500,
+    "role": null,
+    "allocation_pct": 16.7,
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "이나인페이",
   "subscription_period": "2026.12.16~12.17",
   "confirmed_price": null,
@@ -805,34 +842,6 @@
   "broker_conditions": [
    {
     "broker": "한국투자증권",
-    "fee": 2000
-   }
-  ],
-  "min_shares": 20
- },
- {
-  "name": "인텔리빅스",
-  "subscription_period": "2026.10.21~10.22",
-  "confirmed_price": 9000,
-  "band": "7,600~9,000",
-  "competition_rate": "1410.87:1",
-  "underwriters": [
-   "미래에셋증권"
-  ],
-  "detail_no": "2328",
-  "market": "코스닥",
-  "payment_date": "2026.10.26",
-  "refund_date": "2026.10.26",
-  "listing_date": "2026.10.30",
-  "par_value": 100,
-  "total_shares": 2500000,
-  "mandatory_holding": "6.14%",
-  "max_subscription": "31,000~37,000",
-  "institutional_rate": 1234.3,
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "미래에셋증권",
     "fee": 2000
    }
   ],
