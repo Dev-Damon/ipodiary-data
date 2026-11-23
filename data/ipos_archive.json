@@ -450,7 +450,7 @@
  {
   "name": "신영스팩12호",
   "subscription_period": "2026.11.24~11.25",
-  "confirmed_price": null,
+  "confirmed_price": 2000,
   "band": "2,000~2,000",
   "competition_rate": null,
   "underwriters": [
@@ -464,6 +464,7 @@
   "total_shares": 6250000,
   "mandatory_holding": "0.00%",
   "max_subscription": "52,000~62,000",
+  "institutional_rate": 1275.8,
   "deposit_rate": 1.0,
   "broker_conditions": [
    {
