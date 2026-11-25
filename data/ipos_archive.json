@@ -37,6 +37,52 @@
   ]
  },
  {
+  "name": "범한메카텍(구.두산메카텍)",
+  "subscription_period": "2026.12.17~12.18",
+  "confirmed_price": null,
+  "band": "22,800~28,000",
+  "competition_rate": null,
+  "underwriters": [
+   "NH투자증권",
+   "유진투자증권",
+   "BNK투자증권"
+  ],
+  "detail_no": "2364",
+  "market": "코스닥",
+  "payment_date": "2026.12.22",
+  "refund_date": "2026.12.22",
+  "par_value": 1000,
+  "total_shares": 8700000,
+  "mandatory_holding": "0.00%",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "NH투자증권",
+    "allocation": 669600,
+    "limit": null,
+    "role": null,
+    "allocation_pct": 46.5,
+    "fee": 2000
+   },
+   {
+    "broker": "유진투자증권",
+    "allocation": 669600,
+    "limit": null,
+    "role": null,
+    "allocation_pct": 46.5,
+    "fee": 2000
+   },
+   {
+    "broker": "BNK투자증권",
+    "allocation": 100800,
+    "limit": null,
+    "role": "인수",
+    "allocation_pct": 7.0,
+    "fee": 2000
+   }
+  ]
+ },
+ {
   "name": "이나인페이",
   "subscription_period": "2026.12.16~12.17",
   "confirmed_price": null,
@@ -452,7 +498,7 @@
   "subscription_period": "2026.11.24~11.25",
   "confirmed_price": 2000,
   "band": "2,000~2,000",
-  "competition_rate": null,
+  "competition_rate": "253:1",
   "underwriters": [
    "신영증권"
   ],
@@ -517,7 +563,7 @@
   "subscription_period": "2026.11.18~11.19",
   "confirmed_price": 19000,
   "band": "19,000~23,000",
-  "competition_rate": null,
+  "competition_rate": "0.49:1",
   "underwriters": [
    "유진투자증권",
    "신영증권"
