@@ -444,31 +444,6 @@
   ]
  },
  {
-  "name": "에이엔에이치스트럭쳐",
-  "subscription_period": "2026.11.27~11.30",
-  "confirmed_price": null,
-  "band": "11,200~13,600",
-  "competition_rate": null,
-  "underwriters": [
-   "NH투자증권"
-  ],
-  "detail_no": "2350",
-  "market": "코스닥",
-  "payment_date": "2026.12.02",
-  "refund_date": "2026.12.02",
-  "par_value": 500,
-  "total_shares": 2100000,
-  "mandatory_holding": "0.00%",
-  "max_subscription": "17,000~21,000",
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "NH투자증권",
-    "fee": 2000
-   }
-  ]
- },
- {
   "name": "신영스팩12호",
   "subscription_period": "2026.11.24~11.25",
   "confirmed_price": 2000,
@@ -865,6 +840,34 @@
   "broker_conditions": [
    {
     "broker": "한국투자증권",
+    "fee": 2000
+   }
+  ],
+  "min_shares": 20
+ },
+ {
+  "name": "인텔리빅스",
+  "subscription_period": "2026.10.21~10.22",
+  "confirmed_price": 9000,
+  "band": "7,600~9,000",
+  "competition_rate": "1410.87:1",
+  "underwriters": [
+   "미래에셋증권"
+  ],
+  "detail_no": "2328",
+  "market": "코스닥",
+  "payment_date": "2026.10.26",
+  "refund_date": "2026.10.26",
+  "listing_date": "2026.10.30",
+  "par_value": 100,
+  "total_shares": 2500000,
+  "mandatory_holding": "6.14%",
+  "max_subscription": "31,000~37,000",
+  "institutional_rate": 1234.3,
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "미래에셋증권",
     "fee": 2000
    }
   ],
