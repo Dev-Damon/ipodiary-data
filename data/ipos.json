@@ -1,5 +1,30 @@
 [
  {
+  "name": "씨아이에스케미칼",
+  "subscription_period": "2027.01.21~01.22",
+  "confirmed_price": null,
+  "band": "5,000~6,000",
+  "competition_rate": null,
+  "underwriters": [
+   "KB증권"
+  ],
+  "detail_no": "2348",
+  "market": "코스닥",
+  "payment_date": "2027.01.26",
+  "refund_date": "2027.01.26",
+  "par_value": 500,
+  "total_shares": 4000000,
+  "mandatory_holding": "0.00%",
+  "max_subscription": "33,000~40,000",
+  "deposit_rate": 0.5,
+  "broker_conditions": [
+   {
+    "broker": "KB증권",
+    "fee": 1500
+   }
+  ]
+ },
+ {
   "name": "범한메카텍(구.두산메카텍)",
   "subscription_period": "2026.12.17~12.18",
   "confirmed_price": null,
@@ -241,31 +266,6 @@
    {
     "broker": "한국투자증권",
     "fee": 2000
-   }
-  ]
- },
- {
-  "name": "씨아이에스케미칼",
-  "subscription_period": "2026.12.10~12.11",
-  "confirmed_price": null,
-  "band": "5,400~6,800",
-  "competition_rate": null,
-  "underwriters": [
-   "KB증권"
-  ],
-  "detail_no": "2348",
-  "market": "코스닥",
-  "payment_date": "2026.12.15",
-  "refund_date": "2026.12.15",
-  "par_value": 500,
-  "total_shares": 4000000,
-  "mandatory_holding": "0.00%",
-  "max_subscription": "33,000~40,000",
-  "deposit_rate": 0.5,
-  "broker_conditions": [
-   {
-    "broker": "KB증권",
-    "fee": 1500
    }
   ]
  },
